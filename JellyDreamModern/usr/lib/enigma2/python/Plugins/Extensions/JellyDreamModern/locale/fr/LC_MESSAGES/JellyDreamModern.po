@@ -1,0 +1,1612 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JellyDreamModern\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "%02d Minuten"
+msgstr "%02d minutes"
+
+msgid "%02d Uhr"
+msgstr "%02d h"
+
+msgid "%s - Staffel %s"
+msgstr "%s - Saison %s"
+
+msgid "%s Min"
+msgstr "%s min"
+
+msgid "%s: %s\n%s\nGenre: %s"
+msgstr "%s : %s\n%s\nGenre : %s"
+
+msgid "- Min"
+msgstr "- min"
+
+msgid "1 Worker (schwache oder ältere Box)"
+msgstr "1 worker (récepteur lent ou ancien)"
+
+msgid "1080p (Full-HD)"
+msgstr "1080p (Full HD)"
+
+msgid "12 Mbps (Hoch)"
+msgstr "12 Mbps (Élevé)"
+
+msgid "150 ms (Schnell)"
+msgstr "150 ms (Rapide)"
+
+msgid "16 Mbps (Sehr hoch)"
+msgstr "16 Mbps (Très élevé)"
+
+msgid "2 Mbps (Niedrig / VPN)"
+msgstr "2 Mbps (Faible / VPN)"
+
+msgid "2 Worker (Standard / schnellere Bildanzeige)"
+msgstr "2 workers (par défaut / images plus rapides)"
+
+msgid "200 ms"
+msgstr "200 ms"
+
+msgid "250 ms"
+msgstr "250 ms"
+
+msgid "300 ms (empfohlen für OpenPLi)"
+msgstr "300 ms (recommandé pour OpenPLi)"
+
+msgid "350 ms (langsame Receiver)"
+msgstr "350 ms (récepteurs lents)"
+
+msgid "4 Mbps (Mittel / WLAN)"
+msgstr "4 Mbps (Moyen / Wi-Fi)"
+
+msgid "4K (UHD)"
+msgstr "4K (UHD)"
+
+msgid "576p (Standard SD)"
+msgstr "576p (SD standard)"
+
+msgid "720p (HD)"
+msgstr "720p (HD)"
+
+msgid "8 Mbps (Standard)"
+msgstr "8 Mbps (Standard)"
+
+msgid "AAC (empfohlen)"
+msgstr "AAC (recommandé)"
+
+msgid "AC3"
+msgstr "AC3"
+
+msgid "AC3 direkt ausgeben:"
+msgstr "Sortir l'AC3 en direct :"
+
+msgid "Abenteuer"
+msgstr "Aventure"
+
+msgid "Abmelden"
+msgstr "Déconnexion"
+
+msgid "Abmeldung abgebrochen."
+msgstr "Déconnexion annulée."
+
+msgid "Abmeldung fehlgeschlagen."
+msgstr "Échec de la déconnexion."
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Action & Abenteuer"
+msgstr "Action & Aventure"
+
+msgid "Aktion konnte nicht ausgeführt werden: %s"
+msgstr "Action impossible : %s"
+
+msgid "Alle"
+msgstr "Tous"
+
+msgid "Als Nächstes"
+msgstr "À suivre"
+
+msgid "Als Nächstes: S%02dE%02d - %s"
+msgstr "À suivre : S%02dE%02d - %s"
+
+msgid "Angemeldet als %s"
+msgstr "Connecté en tant que %s"
+
+msgid "Animation"
+msgstr "Animation"
+
+msgid "Anime"
+msgstr "Anime"
+
+msgid "Anmeldung auf Serverplatz %s läuft ..."
+msgstr "Connexion au profil serveur %s ..."
+
+msgid "Asynchroner Ladevorgang konnte nicht gestartet werden: %s"
+msgstr "Le chargement asynchrone n'a pas pu démarrer : %s"
+
+msgid "Audio-Neustart konnte nicht angewendet werden: %s"
+msgstr "Le redémarrage audio n'a pas pu être appliqué : %s"
+
+msgid "Audio-Neustart konnte nicht vorbereitet werden."
+msgstr "Le redémarrage audio n'a pas pu être préparé."
+
+msgid "Biografie"
+msgstr "Biographie"
+
+msgid "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
+msgstr "Le pool d'arrière-plan est saturé. Le chargement n'a pas pu démarrer."
+
+msgid "Der neue Audio-Stream konnte nicht gestartet werden: %s"
+msgstr "Le nouveau flux audio n'a pas pu démarrer : %s"
+
+msgid "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
+msgstr "Le redémarrage audio préparé n'a pas pu être transmis à l'interface."
+
+msgid "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
+msgstr "L'URL de flux Jellyfin n'a pas pu être créée."
+
+msgid "Die Untertitelspur konnte nicht aktiviert werden."
+msgstr "La piste de sous-titres n'a pas pu être activée."
+
+msgid "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
+msgstr "La nouvelle URL de flux Jellyfin n'a pas pu être créée."
+
+msgid "Die nächste Episode konnte nicht ermittelt werden."
+msgstr "L'épisode suivant n'a pas pu être déterminé."
+
+msgid "Die nächste Episode konnte nicht gesucht werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "L'épisode suivant n'a pas pu être recherché, car le pool d'arrière-plan est saturé."
+
+msgid "Dokumentation"
+msgstr "Documentaire"
+
+msgid "Drama"
+msgstr "Drame"
+
+msgid "Familie"
+msgstr "Familial"
+
+msgid "Fantasy"
+msgstr "Fantastique"
+
+msgid "Fehler: Item-ID fehlt."
+msgstr "Erreur : identifiant d'élément manquant."
+
+msgid "Fehler: Sammlungs-ID fehlt"
+msgstr "Erreur : identifiant de collection manquant"
+
+msgid "Filme der Sammlung konnten nicht angezeigt werden."
+msgstr "Les films de la collection n'ont pas pu être affichés."
+
+msgid "Filme der Sammlung konnten nicht geladen werden: %s"
+msgstr "Les films de la collection n'ont pas pu être chargés : %s"
+
+msgid "Für Server %s ist keine vollständige Anmeldung gespeichert."
+msgstr "Aucune connexion complète n'est enregistrée pour le serveur %s."
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Sammlung %s / %s | OK = Öffnen"
+msgstr "Changer de genre : HAUT sur la première ligne | Collection %s / %s | OK = Ouvrir"
+
+msgid "Historie"
+msgstr "Histoire"
+
+msgid "Horror"
+msgstr "Horreur"
+
+msgid "Jellyfin-POST konnte nicht gestartet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "Le POST Jellyfin n'a pas pu démarrer, car le pool d'arrière-plan est saturé."
+
+msgid "Keine gültige Sammlung ausgewählt"
+msgstr "Aucune collection valide sélectionnée"
+
+msgid "Kinder"
+msgstr "Enfants"
+
+msgid "Komödie"
+msgstr "Comédie"
+
+msgid "Krieg"
+msgstr "Guerre"
+
+msgid "Krieg & Politik"
+msgstr "Guerre & Politique"
+
+msgid "Krimi"
+msgstr "Crime"
+
+msgid "Kritischer Fehler beim Starten des Players: %s"
+msgstr "Erreur critique au démarrage du lecteur : %s"
+
+msgid "Kurzfilm"
+msgstr "Court métrage"
+
+msgid "LINKS/RECHTS = Menü wechseln     OK = Auswählen"
+msgstr "GAUCHE/DROITE = Changer de menu     OK = Sélectionner"
+
+msgid "Liebesfilm"
+msgstr "Romance"
+
+msgid "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
+msgstr "Connexion réussie, mais le profil serveur n'a pas pu être enregistré"
+
+msgid "Login fehlgeschlagen: %s"
+msgstr "Échec de connexion : %s"
+
+msgid "Login ohne gültigen Token oder Benutzer-ID"
+msgstr "Connexion sans jeton valide ni identifiant utilisateur"
+
+msgid "Musical"
+msgstr "Musical"
+
+msgid "Musik"
+msgstr "Musique"
+
+msgid "Mystery"
+msgstr "Mystère"
+
+msgid "Nachrichten"
+msgstr "Actualité"
+
+msgid "Nicht bei Jellyfin angemeldet. GRÜN = Einstellungen speichern"
+msgstr "Non connecté à Jellyfin. VERT = Enregistrer"
+
+msgid "OK = Abspielen   Steuerkreuz = Navigieren   EXIT = Zurück"
+msgstr "OK = Lecture   Croix = Naviguer   EXIT = Retour"
+
+msgid "Anmeldung fehlgeschlagen oder abgebrochen."
+msgstr "Connexion échouée ou annulée."
+
+msgid "Anmeldung gespeichert"
+msgstr "Connexion enregistrée"
+
+msgid "Anmeldung läuft..."
+msgstr "Connexion en cours..."
+
+msgid "Anmeldung wird eingerichtet ..."
+msgstr "Préparation de la connexion ..."
+
+msgid "April"
+msgstr "Avril"
+
+msgid "Audiospur"
+msgstr "Piste audio"
+
+msgid "August"
+msgstr "Août"
+
+msgid "Automatisch"
+msgstr "Automatique"
+
+msgid "Benutzer: %s\nStatus: %s"
+msgstr "Utilisateur : %s\nÉtat : %s"
+
+msgid "Beschreibung"
+msgstr "Synopsis"
+
+msgid "Bestimmt, in welches Audioformat inkompatible Tonspuren umgewandelt werden. 'AAC' ist meist modern und kompatibel, 'MP2' funktioniert oft besonders gut mit älteren Enigma2-Boxen, 'AC3' nur wenn dein TV/AV-Receiver AC3 sicher unterstützt."
+msgstr "Format cible des pistes incompatibles. AAC est moderne, MP2 convient souvent aux anciens Enigma2, AC3 seulement si la TV/ampli le gère."
+
+msgid "Bestimmt, wie viele technische Meldungen ins Log geschrieben werden. 'INFO' ist für den normalen Betrieb empfohlen, 'DEBUG' nur zur Fehlersuche."
+msgstr "Quantité de messages techniques dans le journal. INFO pour l'usage normal, DEBUG pour le diagnostic."
+
+msgid "Bevorzugter Audio-Transcode-Codec:"
+msgstr "Codec audio de transcodage préféré :"
+
+msgid "Bibliothek automatisch aktualisieren:"
+msgstr "Actualiser la médiathèque automatiquement :"
+
+msgid "Bibliotheksaktualisierung Minute:"
+msgstr "Minute de mise à jour :"
+
+msgid "Bibliotheksaktualisierung Stunde:"
+msgstr "Heure de mise à jour :"
+
+msgid "Bitte eine IP-Adresse oder einen Servernamen eingeben."
+msgstr "Veuillez saisir une adresse IP ou un nom de serveur."
+
+msgid "Bitte melde dich mit deinen Jellyfin-Zugangsdaten an.\nDie Anmeldung wird nur auf dieser Box gespeichert."
+msgstr "Connectez-vous avec vos identifiants Jellyfin.\nLa connexion n'est enregistrée que sur ce récepteur."
+
+msgid "Bitte warten, die Filme werden noch geladen ..."
+msgstr "Veuillez patienter, les films se chargent encore ..."
+
+msgid "Bitte warten, die Filmliste wird noch geladen ..."
+msgstr "Veuillez patienter, la liste de films se charge encore ..."
+
+msgid "Bitte warten, die Sammlungen werden noch geladen ..."
+msgstr "Veuillez patienter, les collections se chargent encore ..."
+
+msgid "Bitte warten, die Serienliste wird noch geladen ..."
+msgstr "Veuillez patienter, la liste de séries se charge encore ..."
+
+msgid "Bitte warten, es werden bereits Daten geladen ..."
+msgstr "Veuillez patienter, des données sont déjà en cours de chargement ..."
+
+msgid "Bitte warten..."
+msgstr "Veuillez patienter..."
+
+msgid "Bitte zuerst bei Jellyfin anmelden."
+msgstr "Veuillez d'abord vous connecter à Jellyfin."
+
+msgid "Bitte zuerst einloggen"
+msgstr "Veuillez d'abord vous connecter"
+
+msgid "Bitte zuerst einloggen, um auf diese Inhalte zuzugreifen."
+msgstr "Connectez-vous d'abord pour accéder à ce contenu."
+
+msgid "Bitte zuerst einloggen."
+msgstr "Veuillez d'abord vous connecter."
+
+msgid "Cover-/Info-Refresh-Verzögerung:"
+msgstr "Délai d'actualisation jaquettes/infos :"
+
+msgid "DEBUG (Alles loggen)"
+msgstr "DEBUG (Tout journaliser)"
+
+msgid "DTS direkt ausgeben:"
+msgstr "Sortir le DTS en direct :"
+
+msgid "Das Netzwerk oder der Jellyfin-Server ist nicht erreichbar."
+msgstr "Le réseau ou le serveur Jellyfin est injoignable."
+
+msgid "Das SSL-Zertifikat des Jellyfin-Servers konnte nicht überprüft werden. Bitte die CA-Zertifikate der Box oder die Zertifikatskette des Servers prüfen."
+msgstr "Le certificat SSL du serveur Jellyfin n'a pas pu être vérifié. Vérifiez les certificats CA du récepteur ou la chaîne du serveur."
+
+msgid "Das SSL-Zertifikat des Jellyfin-Servers konnte nicht überprüft werden. Bitte die CA-Zertifikate der Box und die Zertifikatskette des Servers prüfen."
+msgstr "Le certificat SSL du serveur Jellyfin n'a pas pu être vérifié. Vérifiez les certificats CA du récepteur et la chaîne du serveur."
+
+msgid "Daten werden geladen ..."
+msgstr "Chargement des données ..."
+
+msgid "Datenbank"
+msgstr "Médiathèque"
+
+msgid "Datenbankinformationen werden geladen ..."
+msgstr "Chargement des informations de médiathèque ..."
+
+msgid "Der Jellyfin-Server antwortet nicht rechtzeitig."
+msgstr "Le serveur Jellyfin ne répond pas à temps."
+
+msgid "Der Jellyfin-Server hat die Verbindung unerwartet beendet."
+msgstr "Le serveur Jellyfin a fermé la connexion de façon inattendue."
+
+msgid "Der Servername konnte nicht aufgelöst werden. Bitte die Jellyfin-Adresse und die DNS-Einstellungen prüfen."
+msgstr "Le nom du serveur n'a pas pu être résolu. Vérifiez l'adresse Jellyfin et les DNS."
+
+msgid "Dezember"
+msgstr "Décembre"
+
+msgid "Die HTTPS-Verbindung konnte nicht aufgebaut werden. Bitte prüfen, ob HTTP und HTTPS korrekt konfiguriert sind."
+msgstr "La connexion HTTPS n'a pas pu être établie. Vérifiez HTTP et HTTPS."
+
+msgid "Die Verbindung zum Jellyfin-Server wurde abgelehnt oder unterbrochen."
+msgstr "La connexion au serveur Jellyfin a été refusée ou interrompue."
+
+msgid "Dienstag"
+msgstr "Mardi"
+
+msgid "Direktstream bevorzugen"
+msgstr "Privilégier le flux direct"
+
+msgid "Dolby TrueHD / Atmos direkt ausgeben:"
+msgstr "Sortir Dolby TrueHD / Atmos en direct :"
+
+msgid "Donnerstag"
+msgstr "Jeudi"
+
+msgid "Dynamische Hintergründe:"
+msgstr "Arrière-plans dynamiques :"
+
+msgid "EAC3 direkt ausgeben:"
+msgstr "Sortir l'EAC3 en direct :"
+
+msgid "ERROR (Nur Fehler)"
+msgstr "ERROR (Erreurs uniquement)"
+
+msgid "EXIT = Zurück"
+msgstr "EXIT = Retour"
+
+msgid "Einstellungen"
+msgstr "Réglages"
+
+msgid "Eintrag"
+msgstr "Entrée"
+
+msgid "Eintrag %s / %s | Steuerkreuz = Navigieren | HOCH am Anfang = Zum Verlauf"
+msgstr "Entrée %s / %s | Croix = Naviguer | HAUT au début = Historique"
+
+msgid "Enigma2 IPTV (4097)"
+msgstr "Enigma2 IPTV (4097)"
+
+msgid "Erfolgreich abgemeldet."
+msgstr "Déconnexion réussie."
+
+msgid "Erfolgreich angemeldet!"
+msgstr "Connexion réussie !"
+
+msgid "Erklärung"
+msgstr "Aide"
+
+msgid "Erzwungen"
+msgstr "Forcé"
+
+msgid "ExtePlayer3 (5002)"
+msgstr "ExtePlayer3 (5002)"
+
+msgid "Extern"
+msgstr "Externe"
+
+msgid "Februar"
+msgstr "Février"
+
+msgid "Fehler beim Speichern der Einstellungen"
+msgstr "Impossible d'enregistrer les réglages"
+
+msgid "Fehler beim Speichern: %s"
+msgstr "Erreur d'enregistrement : %s"
+
+msgid "Fehler beim Starten des Streams: %s"
+msgstr "Impossible de démarrer le flux : %s"
+
+msgid "Fehler: Episoden-ID fehlt"
+msgstr "Erreur : identifiant d'épisode manquant"
+
+msgid "Fehler: Film-ID der Sammlung fehlt"
+msgstr "Erreur : identifiant du film de collection manquant"
+
+msgid "Fehler: Film-ID fehlt"
+msgstr "Erreur : identifiant du film manquant"
+
+msgid "Fehler: Film-ID konnte nicht ermittelt werden"
+msgstr "Erreur : identifiant du film introuvable"
+
+msgid "Fehler: ID fehlt"
+msgstr "Erreur : identifiant manquant"
+
+msgid "Fehler: Resume-ID fehlt"
+msgstr "Erreur : identifiant de reprise manquant"
+
+msgid "Fehler: Serien-ID fehlt"
+msgstr "Erreur : identifiant de série manquant"
+
+msgid "Fehler: Treffer-ID fehlt"
+msgstr "Erreur : identifiant du résultat manquant"
+
+msgid "Film"
+msgstr "Film"
+
+msgid "Film %s / %s | Steuerkreuz = Navigieren | OK = Abspielen"
+msgstr "Film %s / %s | Croix = Naviguer | OK = Lire"
+
+msgid "Film: %s\nJahr: %s   Laufzeit: %s%s\nGenre: %s"
+msgstr "Film : %s\nAnnée : %s   Durée : %s%s\nGenre : %s"
+
+msgid "Filme"
+msgstr "Films"
+
+msgid "Filme / Serien suchen"
+msgstr "Rechercher films / séries"
+
+msgid "Filme der Sammlung werden geladen ..."
+msgstr "Chargement des films de la collection ..."
+
+msgid "Filme: %s   Sammlungen: %s\nSerien: %s   Episoden: %s"
+msgstr "Films : %s   Collections : %s\nSéries : %s   Épisodes : %s"
+
+msgid "Filme: -\nSerien: -\nEpisoden: -\nSammlungen: -"
+msgstr "Films : -\nSéries : -\nÉpisodes : -\nCollections : -"
+
+msgid "Filminformationen werden geladen ..."
+msgstr "Chargement des informations du film ..."
+
+msgid "Filmliste konnte nicht angezeigt werden."
+msgstr "Impossible d'afficher la liste de films."
+
+msgid "Filmliste konnte nicht geladen werden: %s"
+msgstr "Impossible de charger la liste de films : %s"
+
+msgid "Filmliste wird geladen ..."
+msgstr "Chargement de la liste de films ..."
+
+msgid "Filmliste wird von Jellyfin geladen ..."
+msgstr "Chargement de la liste de films depuis Jellyfin ..."
+
+msgid "Folge"
+msgstr "Épisode"
+
+msgid "Folge %s / %s | HOCH oben = Staffelauswahl | OK = Abspielen"
+msgstr "Épisode %s / %s | HAUT en haut = Saisons | OK = Lire"
+
+msgid "Folge: S%02dE%02d - %s\n%s"
+msgstr "Épisode : S%02dE%02d - %s\n%s"
+
+msgid "Folgen der Staffel %s werden geladen ..."
+msgstr "Chargement des épisodes de la saison %s ..."
+
+msgid "Fortsetzen"
+msgstr "Reprendre"
+
+msgid "Fortsetzungsdaten werden geladen ..."
+msgstr "Chargement de la reprise ..."
+
+msgid "Freitag"
+msgstr "Vendredi"
+
+msgid "GStreamer / gstplayer (5001)"
+msgstr "GStreamer / gstplayer (5001)"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Film %s / %s | OK = Abspielen"
+msgstr "Changer de genre : HAUT sur la première ligne | Film %s / %s | OK = Lire"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Filme vorhanden"
+msgstr "Changer de genre : HAUT sur la première ligne | Aucun film"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Serien in dieser Kategorie"
+msgstr "Changer de genre : HAUT sur la première ligne | Aucune série dans cette catégorie"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Serie %s / %s | OK = Staffeln anzeigen"
+msgstr "Changer de genre : HAUT sur la première ligne | Série %s / %s | OK = Saisons"
+
+msgid "Genre: %s"
+msgstr "Genre : %s"
+
+msgid "HLS (.m3u8)"
+msgstr "HLS (.m3u8)"
+
+msgid "Hier stellst du die maximale Datenrate für umgewandelte Streams ein. Niedrigere Werte sind besser für langsame Netzwerke, höhere Werte liefern bessere Bildqualität."
+msgstr "Définit le débit maximal des flux transcodés. Plus bas pour les réseaux lents, plus haut pour la qualité."
+
+msgid "Hörgeschädigte"
+msgstr "Malentendants"
+
+msgid "INFO (Standard)"
+msgstr "INFO (Par défaut)"
+
+msgid "Im Receiver-Hauptmenü anzeigen:"
+msgstr "Afficher dans le menu principal :"
+
+msgid "Image-Worker für Cover und Backdrops:"
+msgstr "Workers d'images pour jaquettes et fonds :"
+
+msgid "IMDb %s"
+msgstr "IMDb %s"
+
+msgid "Ja"
+msgstr "Oui"
+
+msgid "Jahr: %s"
+msgstr "Année : %s"
+
+msgid "Jahr: %s   Laufzeit: %s Min"
+msgstr "Année : %s   Durée : %s min"
+
+msgid "Januar"
+msgstr "Janvier"
+
+msgid "Jellyfin Benutzer"
+msgstr "Utilisateur Jellyfin"
+
+msgid "Jellyfin Client für Enigma2"
+msgstr "Client Jellyfin pour Enigma2"
+
+msgid "Jellyfin Passwort (wird verdeckt gespeichert)"
+msgstr "Mot de passe Jellyfin (stocké masqué)"
+
+msgid "Jellyfin Server %s von %s"
+msgstr "Serveur Jellyfin %s sur %s"
+
+msgid "Jellyfin Server Adresse"
+msgstr "Adresse du serveur Jellyfin"
+
+msgid "Jellyfin hat diese Anfrage nicht autorisiert (HTTP 401). Die gespeicherte Sitzung wurde nicht automatisch gelöscht."
+msgstr "Jellyfin n'a pas autorisé cette requête (HTTP 401). La session enregistrée n'a pas été supprimée."
+
+msgid "Jellyfin-Anfrage fehlgeschlagen (HTTP %s)."
+msgstr "La requête Jellyfin a échoué (HTTP %s)."
+
+msgid "Jellyfin-Endpunkt wurde nicht gefunden."
+msgstr "Le point de terminaison Jellyfin est introuvable."
+
+msgid "Jellyfin-Server antwortet nicht rechtzeitig."
+msgstr "Le serveur Jellyfin ne répond pas à temps."
+
+msgid "Jellyfin-Server ist nicht erreichbar."
+msgstr "Le serveur Jellyfin est injoignable."
+
+msgid "Jellyfin-Serverfehler (HTTP %s)."
+msgstr "Erreur serveur Jellyfin (HTTP %s)."
+
+msgid "Jellyfin-Verbindung wird geprüft ..."
+msgstr "Vérification de la connexion Jellyfin ..."
+
+msgid "Juli"
+msgstr "Juillet"
+
+msgid "Juni"
+msgstr "Juin"
+
+msgid "Kein Eintrag an dieser Position"
+msgstr "Aucune entrée à cette position"
+
+msgid "Kein gültiger Film an der aktuellen Position"
+msgstr "Aucun film valide à cette position"
+
+msgid "Kein gültiger Film in dieser Sammlung ausgewählt"
+msgstr "Aucun film valide dans cette collection"
+
+msgid "Kein gültiger Suchtreffer ausgewählt"
+msgstr "Aucun résultat de recherche valide"
+
+msgid "Kein gültiger Weiterschauen-Eintrag ausgewählt"
+msgstr "Aucune entrée « continuer à regarder » valide"
+
+msgid "Keine Beschreibung verfügbar."
+msgstr "Aucune description disponible."
+
+msgid "Keine Beschreibung vorhanden."
+msgstr "Aucune description disponible."
+
+msgid "Keine Folgen in dieser Staffel gefunden."
+msgstr "Aucun épisode trouvé dans cette saison."
+
+msgid "Keine Inhalte zur Auswahl vorhanden"
+msgstr "Aucun contenu à sélectionner"
+
+msgid "Keine Kurzbeschreibung vorhanden."
+msgstr "Aucun résumé disponible."
+
+msgid "Keine Sammlungen gefunden."
+msgstr "Aucune collection trouvée."
+
+msgid "Keine Sammlungen in dieser Kategorie."
+msgstr "Aucune collection dans cette catégorie."
+
+msgid "Keine Staffeln gefunden."
+msgstr "Aucune saison trouvée."
+
+msgid "Keine Ton- oder Untertitelspuren gefunden."
+msgstr "Aucune piste audio ou de sous-titres trouvée."
+
+msgid "Keine Treffer für '%s' | LINKS/RECHTS = Verlauf wechseln"
+msgstr "Aucun résultat pour « %s » | GAUCHE/DROITE = Historique"
+
+msgid "Keine gültige Folge ausgewählt"
+msgstr "Aucun épisode valide sélectionné"
+
+msgid "Keine gültige Serie ausgewählt"
+msgstr "Aucune série valide sélectionnée"
+
+msgid "Keine gültige Staffel ausgewählt"
+msgstr "Aucune saison valide sélectionnée"
+
+msgid "Keine passenden Einträge in deiner Mediathek gefunden."
+msgstr "Aucune entrée correspondante dans votre médiathèque."
+
+msgid "LINKS/RECHTS = Filme durchblättern\nHOCH = Zum Weiterschauen / Hauptmenü   OK = Film-Infos   BLAU = Bibliothek aktualisieren"
+msgstr "GAUCHE/DROITE = Parcourir les films\nHAUT = Reprise / menu   OK = Infos du film   BLEU = Actualiser"
+
+msgid "LINKS/RECHTS = Menü wechseln     BLAU = Bibliothek aktualisieren\nRUNTER = Weiterschauen / Neuerscheinungen     OK = Auswählen"
+msgstr "GAUCHE/DROITE = Changer de menu     BLEU = Actualiser la médiathèque\nBAS = Continuer / Nouveautés     OK = Sélectionner"
+
+msgid "LINKS/RECHTS = Serverplatz wechseln   GELB = Gespeicherten Server aktivieren   OK = Anmeldung erneuern"
+msgstr "GAUCHE/DROITE = Changer d'emplacement   JAUNE = Activer le serveur enregistré   OK = Renouveler la connexion"
+
+msgid "LINKS/RECHTS = Serverplatz wechseln   OK = Server einrichten   EXIT = Abbrechen"
+msgstr "GAUCHE/DROITE = Changer d'emplacement   OK = Configurer le serveur   EXIT = Annuler"
+
+msgid "LINKS/RECHTS = Verlauf blättern | RUNTER = In die Film-Auswahl wechseln"
+msgstr "GAUCHE/DROITE = Historique | BAS = Passer aux résultats"
+
+msgid "LINKS/RECHTS = Weiterschauen durchblättern\nHOCH = Zum Hauptmenü | RUNTER = Neuerscheinungen   OK = Fortsetzen   BLAU = Bibliothek aktualisieren"
+msgstr "GAUCHE/DROITE = Parcourir la reprise\nHAUT = Menu | BAS = Nouveautés   OK = Reprendre   BLEU = Actualiser"
+
+msgid "Laufzeit: %s"
+msgstr "Durée : %s"
+
+msgid "Laufzeit: %s   Erstausstrahlung: %s"
+msgstr "Durée : %s   Première diffusion : %s"
+
+msgid "Leer / nicht angemeldet"
+msgstr "Vide / non connecté"
+
+msgid "Legt die Minute der automatischen Bibliotheksaktualisierung fest."
+msgstr "Minute de la mise à jour automatique de la médiathèque."
+
+msgid "Legt die Stunde fest, zu der JellyDream die Film- und Serienlisten automatisch aktualisiert."
+msgstr "Heure à laquelle JellyDream actualise automatiquement les listes."
+
+msgid "Legt fest, in welcher maximalen Auflösung JellyDream Inhalte streamen darf. Höhere Auflösungen liefern bessere Bildqualität, benötigen aber mehr Bandbreite."
+msgstr "Définit la résolution maximale. Plus elle est élevée, meilleure est l'image, mais plus la bande passante est exigée."
+
+msgid "Legt fest, mit welchem Enigma2-Service-Typ JellyDream Filme und Serien abspielt. 'Enigma2 IPTV (4097)' ist der Standard. 'GStreamer / gstplayer (5001)' verwendet gstplayer. 'ExtePlayer3 (5002)' verwendet exteplayer3. Die zusätzlichen Auswahlmöglichkeiten erscheinen nur, wenn der jeweilige Player auf der Box installiert ist."
+msgstr "Type de service Enigma2. 4097 par défaut, 5001 gstplayer, 5002 exteplayer3. Les options n'apparaissent que si le lecteur est installé."
+
+msgid "Legt fest, ob AC3-Tonspuren ohne Umwandlung direkt an den Receiver bzw. Fernseher gesendet werden dürfen. Wenn dein TV bei AC3 'Audioformat nicht unterstützt' meldet, stelle hier 'Nein' ein."
+msgstr "Autoriser l'AC3 en direct. Si la TV signale un format audio non pris en charge, choisissez Non."
+
+msgid "Legt fest, ob DTS-Tonspuren ohne Umwandlung direkt ausgegeben werden dürfen. Wenn dein TV oder Receiver DTS nicht unterstützt, stelle hier 'Nein' ein, damit JellyDream die Tonspur in ein kompatibleres Format umwandelt."
+msgstr "Autoriser le DTS en direct. Mettez Non si la TV ou l'ampli ne le gère pas."
+
+msgid "Legt fest, ob Dolby TrueHD inklusive Dolby Atmos unverändert über HDMI ausgegeben werden darf. Dies benötigt einen AV-Receiver, einen HDMI-Passthrough-fähigen Receiver und einen Enigma2-Player, der TrueHD unterstützt. Falls kein Ton kommt, diese Einstellung deaktivieren."
+msgstr "Laisser Dolby TrueHD/Atmos inchangé via HDMI. Nécessite un ampli, le passthrough HDMI et un lecteur Enigma2 compatible. Désactivez s'il n'y a pas de son."
+
+msgid "Legt fest, ob EAC3-/Dolby-Digital-Plus-Tonspuren direkt ausgegeben werden dürfen. Falls dein Gerät damit Probleme hat, stelle hier 'Nein' ein, damit JellyDream in ein kompatibleres Format umwandelt."
+msgstr "Autoriser l'EAC3/Dolby Digital Plus en direct. Mettez Non en cas de problème pour forcer un format compatible."
+
+msgid "Legt fest, ob JellyDream zusätzlich direkt im Hauptmenü des Receivers angezeigt werden soll."
+msgstr "Afficher aussi JellyDream dans le menu principal du récepteur."
+
+msgid "Legt fest, ob beim Navigieren passende Jellyfin-Backdrops als Vollbild-Hintergrund geladen und angezeigt werden. Bei 'Nein' verwendet JellyDream immer den Standardhintergrund. Das reduziert auf älteren oder langsameren OpenPLi-Boxen CPU-, RAM-, Netzwerk- und Repaint-Belastung."
+msgstr "Charger les fonds Jellyfin en plein écran. Non conserve le fond par défaut et allège les récepteurs OpenPLi lents."
+
+msgid "Legt fest, ob die vollständigen Film- und Serienlisten einmal täglich automatisch vom Jellyfin-Server geladen und lokal gespeichert werden."
+msgstr "Télécharger une fois par jour les listes complètes de films et séries et les stocker localement."
+
+msgid "Legt fest, wie JellyDream Streams abspielt. 'Direktstream bevorzugen' nutzt die Originalformate des Servers und funktioniert oft am besten, wenn dein Receiver HEVC/H.265 und EAC3 direkt unterstützt. 'Stabilität bevorzugen' erzwingt eher kompatible Formate per Transcoding. 'Automatisch' mischt beide Verfahren, kann aber je nach Receiver bei einzelnen Codec-Kombinationen wie HEVC + EAC3 zu Problemen führen."
+msgstr "Contrôle la lecture. Le flux direct utilise les formats d'origine si le récepteur gère HEVC/H.265 et EAC3. Stabilité force un transcodage compatible. Automatique mélange les deux et peut poser problème (HEVC + EAC3)."
+
+msgid "Legt fest, wie umgewandelte oder neu verpackte Streams übertragen werden. 'TS' verwendet einen fortlaufenden MPEG-Transportstream und ist für Enigma2 meistens die kompatibelste Einstellung. 'HLS' verwendet eine M3U8-Playlist mit einzelnen TS-Segmenten und kann bei instabilen Netzwerkverbindungen oder bestimmten externen Playern besser funktionieren. Direct Play bleibt von dieser Einstellung unberührt."
+msgstr "Livraison des flux transcodés/remuxés. TS est le plus compatible sur Enigma2. HLS (M3U8) peut aider sur un réseau instable. Direct Play n'est pas affecté."
+
+msgid "Legt fest, wie viele Bilder JellyDream gleichzeitig im Hintergrund laden darf. Zwei Worker laden Poster schneller. Auf schwachen oder älteren Boxen reduziert ein Worker die gleichzeitige CPU-, RAM- und Netzwerkbelastung. Nach einer Änderung wird ein GUI-Neustart benötigt."
+msgstr "Nombre d'images chargées en arrière-plan. Deux workers sont plus rapides. Un worker soulage les anciens récepteurs. Un redémarrage de l'interface est requis."
+
+msgid "Login"
+msgstr "Connexion"
+
+msgid "MP2 (maximale Kompatibilität)"
+msgstr "MP2 (compatibilité maximale)"
+
+msgid "Mai"
+msgstr "Mai"
+
+msgid "Maximale Video-Auflösung:"
+msgstr "Résolution vidéo maximale :"
+
+msgid "Media für die ganze Familie\nPowered by Jellyfin"
+msgstr "Des médias pour toute la famille\nPropulsé par Jellyfin"
+
+msgid "Menüeintrag konnte nicht ermittelt werden"
+msgstr "L'entrée de menu n'a pas pu être déterminée"
+
+msgid "Mittwoch"
+msgstr "Mercredi"
+
+msgid "Montag"
+msgstr "Lundi"
+
+msgid "März"
+msgstr "Mars"
+
+msgid "Möchtest du dich vom aktuell aktiven Jellyfin-Server abmelden?\n\nNur dieses Serverprofil wird gelöscht. Andere gespeicherte Server bleiben erhalten."
+msgstr "Voulez-vous vous déconnecter du serveur Jellyfin actif ?\n\nSeul ce profil sera supprimé. Les autres serveurs restent."
+
+msgid "Möchtest du die nächste Folge abspielen?\n\n%s\n\n"
+msgstr "Voulez-vous lire l'épisode suivant ?\n\n%s\n\n"
+
+msgid "Nein"
+msgstr "Non"
+
+msgid "Neue Suche..."
+msgstr "Nouvelle recherche..."
+
+msgid "Neuerscheinungen"
+msgstr "Nouveautés"
+
+msgid "November"
+msgstr "Novembre"
+
+msgid "Nächste Folge konnte nicht gestartet werden."
+msgstr "L'épisode suivant n'a pas pu être lancé."
+
+msgid "OK = Auswählen   HOCH/RUNTER = Navigieren   EXIT = Schließen"
+msgstr "OK = Sélectionner   HAUT/BAS = Naviguer   EXIT = Fermer"
+
+msgid "OK = Neue Suche starten | LINKS/RECHTS = Alten Verlauf durchblättern"
+msgstr "OK = Nouvelle recherche | GAUCHE/DROITE = Historique"
+
+msgid "OK = Starten     EXIT = Zurück"
+msgstr "OK = Lire     EXIT = Retour"
+
+msgid "OK = Umschalten   EXIT = Schließen"
+msgstr "OK = Changer   EXIT = Fermer"
+
+msgid "OK = Öffnen / Übernehmen   GRÜN = Speichern   BLAU = Bibliothek aktualisieren   EXIT = Abbrechen"
+msgstr "OK = Ouvrir / Valider   VERT = Enregistrer   BLEU = Actualiser la bibliothèque   EXIT = Annuler"
+
+msgid "OK Auswählen    BACK Zurück"
+msgstr "OK Sélectionner    BACK Retour"
+
+msgid "OK Starten"
+msgstr "OK Lire"
+
+msgid "Ohne Titel"
+msgstr "Sans titre"
+
+msgid "Oktober"
+msgstr "Octobre"
+
+msgid "Player für Jellyfin-Streams:"
+msgstr "Lecteur pour les flux Jellyfin :"
+
+msgid "Plugin Log-Level (Debugging):"
+msgstr "Niveau de journal du plugin (debug) :"
+
+msgid "Reality"
+msgstr "Téléréalité"
+
+msgid "Regie: %s\nGenre: %s"
+msgstr "Réalisation : %s\nGenre : %s"
+
+msgid "Sammlung"
+msgstr "Collection"
+
+msgid "Sammlungen"
+msgstr "Collections"
+
+msgid "Sammlungen konnten nicht angezeigt werden."
+msgstr "Les collections n'ont pas pu être affichées."
+
+msgid "Sammlungen konnten nicht gefiltert werden."
+msgstr "Les collections n'ont pas pu être filtrées."
+
+msgid "Sammlungen konnten nicht geladen werden."
+msgstr "Les collections n'ont pas pu être chargées."
+
+msgid "Sammlungen konnten nicht geladen werden: %s"
+msgstr "Les collections n'ont pas pu être chargées : %s"
+
+msgid "Sammlungen werden geladen ..."
+msgstr "Chargement des collections ..."
+
+msgid "Sammlungen werden von Jellyfin geladen ..."
+msgstr "Chargement des collections depuis Jellyfin ..."
+
+msgid "Sammlungszuordnung wird geprüft ..."
+msgstr "Vérification de l'association de collection ..."
+
+msgid "Samstag"
+msgstr "Samedi"
+
+msgid "Science-Fiction"
+msgstr "Science-Fiction"
+
+msgid "Science-Fiction & Fantasy"
+msgstr "Science-Fiction & Fantastique"
+
+msgid "Screen '%s' konnte nicht geöffnet werden: %s"
+msgstr "L'écran « %s » n'a pas pu être ouvert : %s"
+
+msgid "Seifenoper"
+msgstr "Feuilleton"
+
+msgid "September"
+msgstr "Septembre"
+
+msgid "Serie"
+msgstr "Série"
+
+msgid "Serie: %s%s\nJahr: %s\nGenre: %s"
+msgstr "Série : %s%s\nAnnée : %s\nGenre : %s"
+
+msgid "Serien"
+msgstr "Séries"
+
+msgid "Serienliste konnte nicht angezeigt werden."
+msgstr "La liste des séries n'a pas pu être affichée."
+
+msgid "Serienliste konnte nicht geladen werden: %s"
+msgstr "La liste des séries n'a pas pu être chargée : %s"
+
+msgid "Serienliste wird geladen ..."
+msgstr "Chargement de la liste de séries ..."
+
+msgid "Serienliste wird von Jellyfin geladen ..."
+msgstr "Chargement de la liste de séries depuis Jellyfin ..."
+
+msgid "Server"
+msgstr "Serveur"
+
+msgid "Server %s von %s\n%s"
+msgstr "Serveur %s sur %s\n%s"
+
+msgid "Server %s wurde aktiviert."
+msgstr "Le serveur %s a été activé."
+
+msgid "Server bearbeiten/hinzufügen:"
+msgstr "Modifier/ajouter un serveur :"
+
+msgid "Server oder Benutzer fehlt"
+msgstr "Serveur ou utilisateur manquant"
+
+msgid "Server wechseln"
+msgstr "Changer de serveur"
+
+msgid "Serverplatz %s von %s\nStatus: %s\n\n1. Jellyfin Server\n%s\n\n2. Benutzername\n%s\n\n3. Passwort\n%s"
+msgstr "Emplacement %s sur %s\nÉtat : %s\n\n1. Serveur Jellyfin\n%s\n\n2. Nom d'utilisateur\n%s\n\n3. Mot de passe\n%s"
+
+msgid "Serverprofil konnte nicht aktiviert werden."
+msgstr "Le profil serveur n'a pas pu être activé."
+
+msgid "Serververwaltung geschlossen. GRÜN = Einstellungen speichern"
+msgstr "Gestion des serveurs fermée. VERT = Enregistrer"
+
+msgid "Serververwaltung konnte nicht geöffnet werden."
+msgstr "Impossible d'ouvrir la gestion des serveurs."
+
+msgid "Serververwaltung konnte nicht geöffnet werden: %s"
+msgstr "Impossible d'ouvrir la gestion des serveurs : %s"
+
+msgid "Sonntag"
+msgstr "Dimanche"
+
+msgid "Sport"
+msgstr "Sport"
+
+msgid "Stabilität bevorzugen"
+msgstr "Privilégier la stabilité"
+
+msgid "Staffel"
+msgstr "Saison"
+
+msgid "Staffel %s"
+msgstr "Saison %s"
+
+msgid "Staffel-Details: %s%s\nJahr: %s"
+msgstr "Détails de saison : %s%s\nAnnée : %s"
+
+msgid "Keine Beschreibung für diese Staffel hinterlegt."
+msgstr "Aucune description n'est enregistrée pour cette saison."
+
+msgid "Staffel %s / %s | Steuerkreuz = Navigieren / blättern | OK = Folgen anzeigen | EXIT = Zurück"
+msgstr "Saison %s / %s | Croix = Naviguer / pages | OK = Afficher les épisodes | EXIT = Retour"
+
+msgid "Staffeln konnten nicht geladen werden: %s"
+msgstr "Impossible de charger les saisons : %s"
+
+msgid "Folgen konnten nicht geladen werden: %s"
+msgstr "Impossible de charger les épisodes : %s"
+
+msgid "Staffel %s | LINKS/RECHTS = Staffel wechseln | RUNTER = Zur Folgenliste"
+msgstr "Saison %s | GAUCHE/DROITE = Changer de saison | BAS = Liste d'épisodes"
+
+msgid "Staffelauswahl"
+msgstr "Choix de saison"
+
+msgid "Staffeln werden geladen ..."
+msgstr "Chargement des saisons ..."
+
+msgid "Staffelnummer ist ungültig"
+msgstr "Le numéro de saison est invalide"
+
+msgid "Standard-Audiosprache:"
+msgstr "Langue audio par défaut :"
+
+msgid "Startseitendaten werden geladen ..."
+msgstr "Chargement de l'accueil ..."
+
+msgid "Steuert, wie schnell Poster, Backdrops und Detailinformationen beim Navigieren aktualisiert werden. Kleinere Werte reagieren schneller, können aber die Box stärker belasten."
+msgstr "Contrôle la vitesse d'actualisation des jaquettes, fonds et détails. Plus petit = plus réactif, plus de charge."
+
+msgid "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
+msgstr "L'URL du flux n'a pas pu être créée. Veuillez d'abord vous connecter."
+
+msgid "Streamdaten werden geladen ..."
+msgstr "Chargement des données de flux ..."
+
+msgid "Streaming-Modus:"
+msgstr "Mode de streaming :"
+
+msgid "Suche"
+msgstr "Recherche"
+
+msgid "Suche fehlgeschlagen: %s"
+msgstr "Recherche échouée : %s"
+
+msgid "Suche läuft ..."
+msgstr "Recherche en cours ..."
+
+msgid "TS (Standard / empfohlen)"
+msgstr "TS (Par défaut / recommandé)"
+
+msgid "TV-Film"
+msgstr "Téléfilm"
+
+msgid "Talk"
+msgstr "Talk-show"
+
+msgid "Tastaturfehler: %s"
+msgstr "Erreur clavier : %s"
+
+msgid "Thriller"
+msgstr "Thriller"
+
+msgid "Tippe ein Wort ein, um deine Jellyfin-Mediathek blitzschnell nach Filmen, Serien oder Sammlungen zu durchsuchen."
+msgstr "Saisissez un mot pour chercher films, séries ou collections dans Jellyfin."
+
+msgid "Ton & Untertitel"
+msgstr "Audio et sous-titres"
+
+msgid "Transcoding Video-Bitrate:"
+msgstr "Débit vidéo de transcodage :"
+
+msgid "Transcoding-/Remux-Ausgabe:"
+msgstr "Sortie transcodage/remux :"
+
+msgid "Unbekannte Menüaktion"
+msgstr "Action de menu inconnue"
+
+msgid "Unbekannter Status"
+msgstr "État inconnu"
+
+msgid "Unbekannter Treffertyp: %s"
+msgstr "Type de résultat inconnu : %s"
+
+msgid "Ungültige Login-Antwort"
+msgstr "Réponse de connexion invalide"
+
+msgid "Ungültiger Serverplatz."
+msgstr "Emplacement de serveur invalide."
+
+msgid "Untertitelspur"
+msgstr "Piste de sous-titres"
+
+msgid "Version %s"
+msgstr "Version %s"
+
+msgid "WARNING (Nur Warnungen)"
+msgstr "WARNING (Avertissements uniquement)"
+
+msgid "Weiterschauen"
+msgstr "Continuer à regarder"
+
+msgid "Wenn vorhanden, versucht JellyDream einen Film oder eine Folge direkt mit dieser Audiosprache zu starten. Wird keine passende Spur gefunden, bleibt automatisch die Standardspur der Datei bzw. des Servers aktiv."
+msgstr "Si disponible, lance le film ou l'épisode dans cette langue. Sinon la piste par défaut du fichier/serveur reste active."
+
+msgid "Western"
+msgstr "Western"
+
+msgid "Wiedergabe konnte nicht gestartet werden."
+msgstr "La lecture n'a pas pu démarrer."
+
+msgid "Wiedergabe konnte nicht gestartet werden: %s"
+msgstr "La lecture n'a pas pu démarrer : %s"
+
+msgid "Willkommen bei JellyDream"
+msgstr "Bienvenue dans JellyDream"
+
+msgid "Zugriff auf Jellyfin wurde verweigert."
+msgstr "L'accès à Jellyfin a été refusé."
+
+msgid "[Ton] %s"
+msgstr "[Audio] %s"
+
+msgid "[Untertitel] %s"
+msgstr "[Sous-titres] %s"
+
+msgid "[Untertitel] Aus"
+msgstr "[Sous-titres] Désactivés"
+
+msgid "nicht angemeldet"
+msgstr "non connecté"
+
+msgid "nicht erreichbar"
+msgstr "injoignable"
+
+msgid "nicht gesetzt"
+msgstr "non défini"
+
+msgid "unbekannt"
+msgstr "inconnu"
+
+msgid "verbunden"
+msgstr "connecté"
+
+msgid "von"
+msgstr "sur"
+
+msgid "wird geprüft"
+msgstr "vérification"
+
+msgid "Öffnet die Serververwaltung. Dort können bis zu drei Jellyfin-Server eingerichtet, vorhandene Server bearbeitet oder bereits gespeicherte Serverprofile aktiviert werden. Passwörter werden nicht gespeichert."
+msgstr "Ouvre la gestion des serveurs. Jusqu'à trois serveurs Jellyfin, édition ou activation d'un profil. Les mots de passe ne sont pas enregistrés."
+
+msgid "Plugin-Sprache:"
+msgstr "Langue du plugin :"
+
+msgid "Automatisch (Receiver, sonst English)"
+msgstr "Automatique (langue du récepteur, sinon English)"
+
+msgid "Legt die Sprache der JellyDream-Oberfläche fest. 'Automatisch' verwendet die Receiversprache, sofern Deutsch, English, Français, Italiano, Español, Polski, Nederlands, Türkçe, العربية oder Русский verfügbar ist. Andernfalls wird English verwendet."
+msgstr "Définit la langue de l'interface JellyDream. Automatique utilise la langue du récepteur si l'allemand, l'anglais, le français, l'italien, l'espagnol, le polonais, le néerlandais, le turc, l'arabe ou le russe est disponible. Sinon l'anglais est utilisé."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "%s Filme und %s Serien aktualisiert"
+msgstr "%s films et %s séries mis à jour"
+
+msgid "Bibliothek konnte nicht aktualisiert werden."
+msgstr "La bibliothèque n'a pas pu être mise à jour."
+
+msgid "Bibliotheksaktualisierung beendet"
+msgstr "Mise à jour de la bibliothèque terminée"
+
+msgid "Bibliotheksaktualisierung läuft bereits."
+msgstr "Une mise à jour de la bibliothèque est déjà en cours."
+
+msgid "Bibliotheksaktualisierung läuft bereits ..."
+msgstr "Une mise à jour de la bibliothèque est déjà en cours..."
+
+msgid "Film- und Serienbibliothek wird aktualisiert ..."
+msgstr "Mise à jour de la bibliothèque films et séries..."
+
+msgid "Film- und Serienlisten werden aktualisiert ..."
+msgstr "Mise à jour des listes de films et séries..."
+
+msgid "Die Aktualisierung lieferte kein gültiges Ergebnis."
+msgstr "La mise à jour n'a pas renvoyé de résultat valide."
+
+msgid "Aktualisierung beendet"
+msgstr "Mise à jour terminée"
+
+msgid "Aktualisierung läuft bereits"
+msgstr "Mise à jour déjà en cours"
+
+msgid "Nicht bei Jellyfin angemeldet"
+msgstr "Non connecté à Jellyfin"
+
+msgid "Film- und Serienlisten konnten nicht aktualisiert werden"
+msgstr "Les listes de films et de séries n'ont pas pu être mises à jour"
+
+msgid "Bibliothekscache konnte nicht gespeichert werden"
+msgstr "Le cache de la bibliothèque n'a pas pu être enregistré"
+
+msgid "Aktualisierung fehlgeschlagen: %s"
+msgstr "Échec de la mise à jour : %s"
+
+msgid "Aktualisierung konnte nicht gestartet werden: Der Hintergrund-Worker-Pool ist ausgelastet."
+msgstr "Impossible de démarrer la mise à jour : le pool de workers est occupé."
+
+msgid "Aktualisierung konnte nicht gestartet werden: %s"
+msgstr "Impossible de démarrer la mise à jour : %s"
+
+msgid "%s | GRÜN = Speichern"
+msgstr "%s | VERT = Enregistrer"
+
+msgid "Einstellungen konnten nicht geöffnet werden: %s"
+msgstr "Impossible d'ouvrir les réglages : %s"
+
+
+msgid "Damit die Änderung im Receiver-Hauptmenü wirksam wird, muss die Benutzeroberfläche (GUI) neu gestartet werden.\n\nJETZT neu starten?"
+msgstr "Pour que la modification du menu principal prenne effet, l'interface (GUI) doit être redémarrée.\n\nRedémarrer MAINTENANT ?"
+
+msgid "Damit die neue Anzahl der Image-Worker für Cover und Backdrops wirksam wird, muss die Benutzeroberfläche (GUI) neu gestartet werden.\n\nJETZT neu starten?"
+msgstr "Pour que le nouveau nombre de workers d'images pour les jaquettes et les fonds prenne effet, l'interface (GUI) doit être redémarrée.\n\nRedémarrer MAINTENANT ?"
+
+msgid "Unbekannter Fehler bei der Anmeldung."
+msgstr "Erreur inconnue lors de la connexion."
+
+msgid "Von vorn"
+msgstr "Depuis le début"
+
+msgid "Von vorn oder fortsetzen?"
+msgstr "Depuis le début ou reprendre ?"
+
+msgid "Neuerscheinungen Filme"
+msgstr "Nouveautés films"
+
+msgid "Neuerscheinungen Serien"
+msgstr "Nouveautés séries"
+
+msgid "LINKS/RECHTS = Serien durchblättern\nHOCH = Zum Weiterschauen / Hauptmenü   OK = Staffeln   BLAU = Bibliothek aktualisieren"
+msgstr "GAUCHE/DROITE = Parcourir les séries\nHAUT = Reprise / menu   OK = Saisons   BLEU = Actualiser"
+
+msgid "Wiedergabestatus"
+msgstr "Statut de lecture"
+
+msgid "Als gesehen markieren"
+msgstr "Marquer comme vu"
+
+msgid "Als ungesehen markieren"
+msgstr "Marquer comme non vu"
+
+msgid "Aus Weiterschauen entfernen"
+msgstr "Retirer de Reprendre"
+
+msgid "Der Status konnte nicht geändert werden."
+msgstr "Le statut n'a pas pu être modifié."
+
+msgid "Eintrag wurde als gesehen markiert."
+msgstr "L'élément a été marqué comme vu."
+
+msgid "Eintrag wurde als ungesehen markiert."
+msgstr "L'élément a été marqué comme non vu."
+
+msgid "Eintrag wurde aus Weiterschauen entfernt."
+msgstr "L'élément a été retiré de Reprendre."
+
+msgid "Status wird gespeichert ..."
+msgstr "Enregistrement du statut ..."
+
+msgid "GELB = Wiedergabestatus"
+msgstr "JAUNE = Statut de lecture"
+
+msgid "Zu Favoriten hinzufügen"
+msgstr "Ajouter aux favoris"
+
+msgid "Aus Favoriten entfernen"
+msgstr "Retirer des favoris"
+
+msgid "Eintrag wurde zu den Favoriten hinzugefügt."
+msgstr "L'élément a été ajouté aux favoris."
+
+msgid "Eintrag wurde aus den Favoriten entfernt."
+msgstr "L'élément a été retiré des favoris."
+
+msgid "Favoriten"
+msgstr "Favoris"
+
+msgid "Favorit"
+msgstr "Favori"
+
+msgid "Favoriten werden geladen ..."
+msgstr "Chargement des favoris ..."
+
+msgid "Favoriten konnten nicht geladen werden: %s"
+msgstr "Les favoris n'ont pas pu être chargés : %s"
+
+msgid "Favoriten konnten nicht angezeigt werden."
+msgstr "Les favoris n'ont pas pu être affichés."
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Favorit %s / %s | OK = Öffnen"
+msgstr "Changer de genre : appuyer sur HAUT dans la rangée du haut | Favori %s / %s | OK = Ouvrir"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Favoriten"
+msgstr "Changer de genre : appuyer sur HAUT dans la rangée du haut | Aucun favori"
+
+msgid "Kein gültiger Favorit an der aktuellen Position"
+msgstr "Aucun favori valide à la position actuelle"
+
+msgid "Fehler: Favoriten-ID fehlt"
+msgstr "Erreur : l'ID du favori est manquant"
+
+msgid "Sortierung"
+msgstr "Tri"
+
+msgid "Alphabetisch"
+msgstr "Alphabétique"
+
+msgid "Zuletzt hinzugefügt"
+msgstr "Ajoutés récemment"
+
+msgid "GRÜN = Sortierung"
+msgstr "VERT = Tri"
+
+msgid "Staffelfortschritt: %s von %s"
+msgstr "Progression de la saison : %s sur %s"
+
+msgid "Staffelfortschritt: %s %%"
+msgstr "Progression de la saison : %s %%"
+
+msgid "Ungesehene"
+msgstr "Non vus"
+
+msgid "Gesehene"
+msgstr "Vus"
+
+msgid "Ansicht"
+msgstr "Affichage"
+
+msgid "GRÜN = Ansicht"
+msgstr "VERT = Affichage"
+
+msgid "LINKS/RECHTS = Filme oder Serien\nHOCH = Zurück | RUNTER = Poster | OK = Zuletzt hinzugefügt"
+msgstr "GAUCHE/DROITE = Films ou séries\nHAUT = Retour | BAS = Affiches | OK = Ajoutés récemment"
+
+msgid "LINKS/RECHTS = Filme durchblättern\nHOCH = Neuerscheinungen Filme | OK = Film-Infos   BLAU = Bibliothek aktualisieren"
+msgstr "GAUCHE/DROITE = Parcourir les films\nHAUT = Nouveautés films | OK = Infos film   BLEU = Actualiser la bibliothèque"
+
+msgid "LINKS/RECHTS = Serien durchblättern\nHOCH = Neuerscheinungen Serien | OK = Staffeln   BLAU = Bibliothek aktualisieren"
+msgstr "GAUCHE/DROITE = Parcourir les séries\nHAUT = Nouveautés séries | OK = Saisons   BLEU = Actualiser la bibliothèque"
+
+msgid "Künstler"
+msgstr "Artiste"
+
+msgid "Gehörte"
+msgstr "Écoutés"
+
+msgid "Ungehörte"
+msgstr "Non écoutés"
+
+msgid "Musikliste wird von Jellyfin geladen ..."
+msgstr "Chargement de la musique depuis Jellyfin ..."
+
+msgid "Musikliste konnte nicht geladen werden: %s"
+msgstr "La liste musicale n'a pas pu être chargée : %s"
+
+msgid "Musikliste konnte nicht angezeigt werden."
+msgstr "La liste musicale n'a pas pu être affichée."
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Abspielen"
+msgstr "Changer de genre : HAUT dans la rangée du haut | Album %s / %s | OK = Lecture"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Alben vorhanden"
+msgstr "Changer de genre : HAUT dans la rangée du haut | Aucun album"
+
+msgid "Album: %s\nKünstler: %s\nJahr: %s   Laufzeit: %s\nGenre: %s"
+msgstr "Album : %s\nArtiste : %s\nAnnée : %s   Durée : %s\nGenre : %s"
+
+msgid "Bitte warten, die Musikliste wird noch geladen ..."
+msgstr "Veuillez patienter, la liste musicale est encore en cours de chargement ..."
+
+msgid "Kein gültiges Album an der aktuellen Position"
+msgstr "Aucun album valide à la position actuelle"
+
+msgid "Dieses Album enthält keine Titel."
+msgstr "Cet album ne contient aucun titre."
+
+msgid "Musik wird geladen ..."
+msgstr "Chargement de la musique ..."
+
+msgid "Elektronik"
+msgstr "Électronique"
+
+msgid "Hip-Hop"
+msgstr "Hip-hop"
+
+msgid "Klassik"
+msgstr "Classique"
+
+msgid "Metal"
+msgstr "Métal"
+
+msgid "Heavy Metal"
+msgstr "Heavy metal"
+
+msgid "Hard Rock"
+msgstr "Hard rock"
+
+msgid "Folk"
+msgstr "Folk"
+
+msgid "Blues"
+msgstr "Blues"
+
+msgid "Reggae"
+msgstr "Reggae"
+
+msgid "Soul"
+msgstr "Soul"
+
+msgid "R&B"
+msgstr "R&B"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "Punk"
+msgstr "Punk"
+
+msgid "Indie"
+msgstr "Indie"
+
+msgid "House"
+msgstr "House"
+
+msgid "Techno"
+msgstr "Techno"
+
+msgid "Ambient"
+msgstr "Ambient"
+
+msgid "Soundtrack"
+msgstr "Bande originale"
+
+msgid "Alternative"
+msgstr "Alternatif"
+
+msgid "Dance"
+msgstr "Dance"
+
+msgid "Disco"
+msgstr "Disco"
+
+msgid "Funk"
+msgstr "Funk"
+
+msgid "Latin"
+msgstr "Latino"
+
+msgid "Weltmusik"
+msgstr "Musique du monde"
+
+msgid "Oper"
+msgstr "Opéra"
+
+msgid "Rap"
+msgstr "Rap"
+
+msgid "Schlager"
+msgstr "Schlager"
+
+msgid "Volksmusik"
+msgstr "Musique populaire"
+
+msgid "Gospel"
+msgstr "Gospel"
+
+msgid "Liedermacher"
+msgstr "Auteur-compositeur"
+
+msgid "Instrumental"
+msgstr "Instrumental"
+
+msgid "Akustik"
+msgstr "Acoustique"
+
+msgid "New Age"
+msgstr "New age"
+
+msgid "Experimentell"
+msgstr "Expérimental"
+
+msgid "Industrial"
+msgstr "Industriel"
+
+msgid "Ska"
+msgstr "Ska"
+
+msgid "Grunge"
+msgstr "Grunge"
+
+msgid "Trance"
+msgstr "Trance"
+
+msgid "Dubstep"
+msgstr "Dubstep"
+
+msgid "Drum & Bass"
+msgstr "Drum & bass"
+
+msgid "EDM"
+msgstr "EDM"
+
+msgid "K-Pop"
+msgstr "K-pop"
+
+msgid "J-Pop"
+msgstr "J-pop"
+
+msgid "Progressive Rock"
+msgstr "Rock progressif"
+
+msgid "Synthpop"
+msgstr "Synthpop"
+
+msgid "Easy Listening"
+msgstr "Easy listening"
+
+msgid "Kindermusik"
+msgstr "Musique pour enfants"
+
+msgid "Feiertage"
+msgstr "Fêtes"
+
+msgid "Rock"
+msgstr "Rock"
+
+msgid "Pop"
+msgstr "Pop"
+
+msgid "Jazz"
+msgstr "Jazz"
+
+msgid "Alle abspielen"
+msgstr "Tout lire"
+
+msgid "Zufällig"
+msgstr "Aléatoire"
+
+msgid "Wiedergabe"
+msgstr "Lecture"
+
+msgid "Keine Titel vorhanden"
+msgstr "Aucun titre disponible"
+
+msgid "Kein Titel an der aktuellen Position"
+msgstr "Aucun titre à la position actuelle"
+
+msgid "Titel %s / %s | LINKS/RECHTS = Genre | OK = Abspielen | BLAU = Alle abspielen / Zufällig"
+msgstr "Titre %s / %s | GAUCHE/DROITE = Genre | OK = Lecture | BLEU = Tout lire / Aléatoire"
+
+msgid "LINKS/RECHTS = Genre | Keine Titel vorhanden"
+msgstr "GAUCHE/DROITE = Genre | Aucun titre disponible"
+
+msgid "Titel: %s\nKünstler: %s\nAlbum: %s\nJahr: %s   Laufzeit: %s\nGenre: %s"
+msgstr "Titre : %s\nArtiste : %s\nAlbum : %s\nAnnée : %s   Durée : %s\nGenre : %s"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Album öffnen"
+msgstr "Changer de genre : HAUT dans la première rangée | Album %s / %s | OK = Ouvrir l'album"
+
+msgid "Album wird geladen ..."
+msgstr "Chargement de l'album ..."
+
+msgid "Album konnte nicht geladen werden: %s"
+msgstr "L'album n'a pas pu être chargé : %s"
+
+msgid "Album konnte nicht geladen werden."
+msgstr "L'album n'a pas pu être chargé."
+
+msgid "Titel %s / %s | OK = Abspielen | BLAU = Alle abspielen / Zufällig"
+msgstr "Titre %s / %s | OK = Lecture | BLEU = Tout lire / Aléatoire"
+
+msgid "Bitte warten, das Album wird noch geladen ..."
+msgstr "Veuillez patienter, l'album est encore en cours de chargement ..."
+
+msgid "OK = Alle abspielen"
+msgstr "OK = Tout lire"
+
+msgid "OK = Zufällig"
+msgstr "OK = Aléatoire"
+
+msgid "Titel %s / %s | OK = Abspielen"
+msgstr "Titre %s / %s | OK = Lecture"
+
+msgid "Als gehört markieren"
+msgstr "Marquer comme écouté"
+
+msgid "Als ungehört markieren"
+msgstr "Marquer comme non écouté"
+
+msgid "Aus Weiterhören entfernen"
+msgstr "Retirer de la reprise d'écoute"
+
+msgid "Eintrag wurde als gehört markiert."
+msgstr "L'élément a été marqué comme écouté."
+
+msgid "Eintrag wurde als ungehört markiert."
+msgstr "L'élément a été marqué comme non écouté."
+
+msgid "Eintrag wurde aus Weiterhören entfernt."
+msgstr "L'élément a été retiré de la reprise d'écoute."
+
+msgid "Album: %s\nKünstler: %s"
+msgstr "Album : %s\nArtiste : %s"
+msgid "Nächste Folge automatisch abspielen:"
+msgstr "Lire l'épisode suivant automatiquement :"
+msgid "Spielt die nächste Folge ohne Nachfrage, sobald der Abspann bis zum Dateiende läuft oder die letzten 15 Sekunden erreicht sind. Bei 'Nein' bleibt die Frage."
+msgstr "Démarre l'épisode suivant sans demander lorsque le générique de fin va jusqu'à la fin du fichier, ou lorsque les 15 dernières secondes sont atteintes. Non conserve la question."
+msgid "Vorspann überspringen?"
+msgstr "Passer le générique de début ?"
+msgid "Der Abspann läuft.\n\nMöchtest du die nächste Folge abspielen?\n\n%s"
+msgstr "Le générique de fin est en cours.\n\nVeux-tu lire l'épisode suivant ?\n\n%s"
+msgid "Vorspann automatisch überspringen:"
+msgstr "Passer le générique de début automatiquement :"
+msgid "Überspringt den Vorspann ohne Nachfrage. Bei 'Nein' erscheint jedes Mal die Frage."
+msgstr "Passe le générique de début sans demander. Non affiche la question à chaque fois."
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Film %s / %s | OK = Abspielen | RUNTER = Buchstabe"
+msgstr "Changer de genre : HAUT sur la première ligne | Film %s / %s | OK = Lire | BAS = Lettre"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Filme vorhanden | RUNTER = Buchstabe"
+msgstr "Changer de genre : HAUT sur la première ligne | Aucun film | BAS = Lettre"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Serie %s / %s | OK = Staffeln anzeigen | RUNTER = Buchstabe"
+msgstr "Changer de genre : HAUT sur la première ligne | Série %s / %s | OK = Saisons | BAS = Lettre"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Serien in dieser Kategorie | RUNTER = Buchstabe"
+msgstr "Changer de genre : HAUT sur la première ligne | Aucune série dans cette catégorie | BAS = Lettre"
+msgid "Keine Sammlungen in dieser Kategorie. | RUNTER = Buchstabe"
+msgstr "Aucune collection dans cette catégorie. | BAS = Lettre"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Sammlung %s / %s | OK = Öffnen | RUNTER = Buchstabe"
+msgstr "Changer de genre : HAUT sur la première ligne | Collection %s / %s | OK = Ouvrir | BAS = Lettre"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Album öffnen | RUNTER = Buchstabe"
+msgstr "Changer de genre : HAUT dans la première rangée | Album %s / %s | OK = Ouvrir l'album | BAS = Lettre"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Alben vorhanden | RUNTER = Buchstabe"
+msgstr "Changer de genre : HAUT dans la rangée du haut | Aucun album | BAS = Lettre"
+msgid "Filter zurücksetzen"
+msgstr "Réinitialiser le filtre"
+msgid "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
+msgstr "GAUCHE/DROITE = Lettre | OK = Filtrer | HAUT = Retour"
+msgid "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."
+msgstr "Rien ici.\nAucun élément n'est disponible pour le moment."

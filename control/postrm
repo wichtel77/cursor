@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# During an upgrade the new package owns these paths.  Do not remove the
+# freshly installed files when the old package's postrm is called.
+case "$1" in
+	upgrade|failed-upgrade|abort-upgrade)
+		exit 0
+		;;
+esac
+
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/JellyDreamModern
+
+echo "JellyDream Modern was successfully removed from your receiver"
+
+exit 0

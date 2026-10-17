@@ -1,0 +1,1612 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JellyDreamModern\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%02d Minuten"
+msgstr "%02d Minuten"
+
+msgid "%02d Uhr"
+msgstr "%02d Uhr"
+
+msgid "%s - Staffel %s"
+msgstr "%s - Staffel %s"
+
+msgid "%s Min"
+msgstr "%s Min"
+
+msgid "%s: %s\n%s\nGenre: %s"
+msgstr "%s: %s\n%s\nGenre: %s"
+
+msgid "- Min"
+msgstr "- Min"
+
+msgid "1 Worker (schwache oder ältere Box)"
+msgstr "1 Worker (schwache oder ältere Box)"
+
+msgid "1080p (Full-HD)"
+msgstr "1080p (Full-HD)"
+
+msgid "12 Mbps (Hoch)"
+msgstr "12 Mbps (Hoch)"
+
+msgid "150 ms (Schnell)"
+msgstr "150 ms (Schnell)"
+
+msgid "16 Mbps (Sehr hoch)"
+msgstr "16 Mbps (Sehr hoch)"
+
+msgid "2 Mbps (Niedrig / VPN)"
+msgstr "2 Mbps (Niedrig / VPN)"
+
+msgid "2 Worker (Standard / schnellere Bildanzeige)"
+msgstr "2 Worker (Standard / schnellere Bildanzeige)"
+
+msgid "200 ms"
+msgstr "200 ms"
+
+msgid "250 ms"
+msgstr "250 ms"
+
+msgid "300 ms (empfohlen für OpenPLi)"
+msgstr "300 ms (empfohlen für OpenPLi)"
+
+msgid "350 ms (langsame Receiver)"
+msgstr "350 ms (langsame Receiver)"
+
+msgid "4 Mbps (Mittel / WLAN)"
+msgstr "4 Mbps (Mittel / WLAN)"
+
+msgid "4K (UHD)"
+msgstr "4K (UHD)"
+
+msgid "576p (Standard SD)"
+msgstr "576p (Standard SD)"
+
+msgid "720p (HD)"
+msgstr "720p (HD)"
+
+msgid "8 Mbps (Standard)"
+msgstr "8 Mbps (Standard)"
+
+msgid "AAC (empfohlen)"
+msgstr "AAC (empfohlen)"
+
+msgid "AC3"
+msgstr "AC3"
+
+msgid "AC3 direkt ausgeben:"
+msgstr "AC3 direkt ausgeben:"
+
+msgid "Abenteuer"
+msgstr "Abenteuer"
+
+msgid "Abmelden"
+msgstr "Abmelden"
+
+msgid "Abmeldung abgebrochen."
+msgstr "Abmeldung abgebrochen."
+
+msgid "Abmeldung fehlgeschlagen."
+msgstr "Abmeldung fehlgeschlagen."
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Action & Abenteuer"
+msgstr "Action & Abenteuer"
+
+msgid "Aktion konnte nicht ausgeführt werden: %s"
+msgstr "Aktion konnte nicht ausgeführt werden: %s"
+
+msgid "Alle"
+msgstr "Alle"
+
+msgid "Als Nächstes"
+msgstr "Als Nächstes"
+
+msgid "Als Nächstes: S%02dE%02d - %s"
+msgstr "Als Nächstes: S%02dE%02d - %s"
+
+msgid "Angemeldet als %s"
+msgstr "Angemeldet als %s"
+
+msgid "Animation"
+msgstr "Animation"
+
+msgid "Anime"
+msgstr "Anime"
+
+msgid "Anmeldung auf Serverplatz %s läuft ..."
+msgstr "Anmeldung auf Serverplatz %s läuft ..."
+
+msgid "Asynchroner Ladevorgang konnte nicht gestartet werden: %s"
+msgstr "Asynchroner Ladevorgang konnte nicht gestartet werden: %s"
+
+msgid "Audio-Neustart konnte nicht angewendet werden: %s"
+msgstr "Audio-Neustart konnte nicht angewendet werden: %s"
+
+msgid "Audio-Neustart konnte nicht vorbereitet werden."
+msgstr "Audio-Neustart konnte nicht vorbereitet werden."
+
+msgid "Biografie"
+msgstr "Biografie"
+
+msgid "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
+msgstr "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
+
+msgid "Der neue Audio-Stream konnte nicht gestartet werden: %s"
+msgstr "Der neue Audio-Stream konnte nicht gestartet werden: %s"
+
+msgid "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
+msgstr "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
+
+msgid "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
+msgstr "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
+
+msgid "Die Untertitelspur konnte nicht aktiviert werden."
+msgstr "Die Untertitelspur konnte nicht aktiviert werden."
+
+msgid "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
+msgstr "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
+
+msgid "Die nächste Episode konnte nicht ermittelt werden."
+msgstr "Die nächste Episode konnte nicht ermittelt werden."
+
+msgid "Die nächste Episode konnte nicht gesucht werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "Die nächste Episode konnte nicht gesucht werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+
+msgid "Dokumentation"
+msgstr "Dokumentation"
+
+msgid "Drama"
+msgstr "Drama"
+
+msgid "Familie"
+msgstr "Familie"
+
+msgid "Fantasy"
+msgstr "Fantasy"
+
+msgid "Fehler: Item-ID fehlt."
+msgstr "Fehler: Item-ID fehlt."
+
+msgid "Fehler: Sammlungs-ID fehlt"
+msgstr "Fehler: Sammlungs-ID fehlt"
+
+msgid "Filme der Sammlung konnten nicht angezeigt werden."
+msgstr "Filme der Sammlung konnten nicht angezeigt werden."
+
+msgid "Filme der Sammlung konnten nicht geladen werden: %s"
+msgstr "Filme der Sammlung konnten nicht geladen werden: %s"
+
+msgid "Für Server %s ist keine vollständige Anmeldung gespeichert."
+msgstr "Für Server %s ist keine vollständige Anmeldung gespeichert."
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Sammlung %s / %s | OK = Öffnen"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Sammlung %s / %s | OK = Öffnen"
+
+msgid "Historie"
+msgstr "Historie"
+
+msgid "Horror"
+msgstr "Horror"
+
+msgid "Jellyfin-POST konnte nicht gestartet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "Jellyfin-POST konnte nicht gestartet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+
+msgid "Keine gültige Sammlung ausgewählt"
+msgstr "Keine gültige Sammlung ausgewählt"
+
+msgid "Kinder"
+msgstr "Kinder"
+
+msgid "Komödie"
+msgstr "Komödie"
+
+msgid "Krieg"
+msgstr "Krieg"
+
+msgid "Krieg & Politik"
+msgstr "Krieg & Politik"
+
+msgid "Krimi"
+msgstr "Krimi"
+
+msgid "Kritischer Fehler beim Starten des Players: %s"
+msgstr "Kritischer Fehler beim Starten des Players: %s"
+
+msgid "Kurzfilm"
+msgstr "Kurzfilm"
+
+msgid "LINKS/RECHTS = Menü wechseln     OK = Auswählen"
+msgstr "LINKS/RECHTS = Menü wechseln     OK = Auswählen"
+
+msgid "Liebesfilm"
+msgstr "Liebesfilm"
+
+msgid "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
+msgstr "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
+
+msgid "Login fehlgeschlagen: %s"
+msgstr "Login fehlgeschlagen: %s"
+
+msgid "Login ohne gültigen Token oder Benutzer-ID"
+msgstr "Login ohne gültigen Token oder Benutzer-ID"
+
+msgid "Musical"
+msgstr "Musical"
+
+msgid "Musik"
+msgstr "Musik"
+
+msgid "Mystery"
+msgstr "Mystery"
+
+msgid "Nachrichten"
+msgstr "Nachrichten"
+
+msgid "Nicht bei Jellyfin angemeldet. GRÜN = Einstellungen speichern"
+msgstr "Nicht bei Jellyfin angemeldet. GRÜN = Einstellungen speichern"
+
+msgid "OK = Abspielen   Steuerkreuz = Navigieren   EXIT = Zurück"
+msgstr "OK = Abspielen   Steuerkreuz = Navigieren   EXIT = Zurück"
+
+msgid "Anmeldung fehlgeschlagen oder abgebrochen."
+msgstr "Anmeldung fehlgeschlagen oder abgebrochen."
+
+msgid "Anmeldung gespeichert"
+msgstr "Anmeldung gespeichert"
+
+msgid "Anmeldung läuft..."
+msgstr "Anmeldung läuft..."
+
+msgid "Anmeldung wird eingerichtet ..."
+msgstr "Anmeldung wird eingerichtet ..."
+
+msgid "April"
+msgstr "April"
+
+msgid "Audiospur"
+msgstr "Audiospur"
+
+msgid "August"
+msgstr "August"
+
+msgid "Automatisch"
+msgstr "Automatisch"
+
+msgid "Benutzer: %s\nStatus: %s"
+msgstr "Benutzer: %s\nStatus: %s"
+
+msgid "Beschreibung"
+msgstr "Beschreibung"
+
+msgid "Bestimmt, in welches Audioformat inkompatible Tonspuren umgewandelt werden. 'AAC' ist meist modern und kompatibel, 'MP2' funktioniert oft besonders gut mit älteren Enigma2-Boxen, 'AC3' nur wenn dein TV/AV-Receiver AC3 sicher unterstützt."
+msgstr "Bestimmt, in welches Audioformat inkompatible Tonspuren umgewandelt werden. 'AAC' ist meist modern und kompatibel, 'MP2' funktioniert oft besonders gut mit älteren Enigma2-Boxen, 'AC3' nur wenn dein TV/AV-Receiver AC3 sicher unterstützt."
+
+msgid "Bestimmt, wie viele technische Meldungen ins Log geschrieben werden. 'INFO' ist für den normalen Betrieb empfohlen, 'DEBUG' nur zur Fehlersuche."
+msgstr "Bestimmt, wie viele technische Meldungen ins Log geschrieben werden. 'INFO' ist für den normalen Betrieb empfohlen, 'DEBUG' nur zur Fehlersuche."
+
+msgid "Bevorzugter Audio-Transcode-Codec:"
+msgstr "Bevorzugter Audio-Transcode-Codec:"
+
+msgid "Bibliothek automatisch aktualisieren:"
+msgstr "Bibliothek automatisch aktualisieren:"
+
+msgid "Bibliotheksaktualisierung Minute:"
+msgstr "Bibliotheksaktualisierung Minute:"
+
+msgid "Bibliotheksaktualisierung Stunde:"
+msgstr "Bibliotheksaktualisierung Stunde:"
+
+msgid "Bitte eine IP-Adresse oder einen Servernamen eingeben."
+msgstr "Bitte eine IP-Adresse oder einen Servernamen eingeben."
+
+msgid "Bitte melde dich mit deinen Jellyfin-Zugangsdaten an.\nDie Anmeldung wird nur auf dieser Box gespeichert."
+msgstr "Bitte melde dich mit deinen Jellyfin-Zugangsdaten an.\nDie Anmeldung wird nur auf dieser Box gespeichert."
+
+msgid "Bitte warten, die Filme werden noch geladen ..."
+msgstr "Bitte warten, die Filme werden noch geladen ..."
+
+msgid "Bitte warten, die Filmliste wird noch geladen ..."
+msgstr "Bitte warten, die Filmliste wird noch geladen ..."
+
+msgid "Bitte warten, die Sammlungen werden noch geladen ..."
+msgstr "Bitte warten, die Sammlungen werden noch geladen ..."
+
+msgid "Bitte warten, die Serienliste wird noch geladen ..."
+msgstr "Bitte warten, die Serienliste wird noch geladen ..."
+
+msgid "Bitte warten, es werden bereits Daten geladen ..."
+msgstr "Bitte warten, es werden bereits Daten geladen ..."
+
+msgid "Bitte warten..."
+msgstr "Bitte warten..."
+
+msgid "Bitte zuerst bei Jellyfin anmelden."
+msgstr "Bitte zuerst bei Jellyfin anmelden."
+
+msgid "Bitte zuerst einloggen"
+msgstr "Bitte zuerst einloggen"
+
+msgid "Bitte zuerst einloggen, um auf diese Inhalte zuzugreifen."
+msgstr "Bitte zuerst einloggen, um auf diese Inhalte zuzugreifen."
+
+msgid "Bitte zuerst einloggen."
+msgstr "Bitte zuerst einloggen."
+
+msgid "Cover-/Info-Refresh-Verzögerung:"
+msgstr "Cover-/Info-Refresh-Verzögerung:"
+
+msgid "DEBUG (Alles loggen)"
+msgstr "DEBUG (Alles loggen)"
+
+msgid "DTS direkt ausgeben:"
+msgstr "DTS direkt ausgeben:"
+
+msgid "Das Netzwerk oder der Jellyfin-Server ist nicht erreichbar."
+msgstr "Das Netzwerk oder der Jellyfin-Server ist nicht erreichbar."
+
+msgid "Das SSL-Zertifikat des Jellyfin-Servers konnte nicht überprüft werden. Bitte die CA-Zertifikate der Box oder die Zertifikatskette des Servers prüfen."
+msgstr "Das SSL-Zertifikat des Jellyfin-Servers konnte nicht überprüft werden. Bitte die CA-Zertifikate der Box oder die Zertifikatskette des Servers prüfen."
+
+msgid "Das SSL-Zertifikat des Jellyfin-Servers konnte nicht überprüft werden. Bitte die CA-Zertifikate der Box und die Zertifikatskette des Servers prüfen."
+msgstr "Das SSL-Zertifikat des Jellyfin-Servers konnte nicht überprüft werden. Bitte die CA-Zertifikate der Box und die Zertifikatskette des Servers prüfen."
+
+msgid "Daten werden geladen ..."
+msgstr "Daten werden geladen ..."
+
+msgid "Datenbank"
+msgstr "Datenbank"
+
+msgid "Datenbankinformationen werden geladen ..."
+msgstr "Datenbankinformationen werden geladen ..."
+
+msgid "Der Jellyfin-Server antwortet nicht rechtzeitig."
+msgstr "Der Jellyfin-Server antwortet nicht rechtzeitig."
+
+msgid "Der Jellyfin-Server hat die Verbindung unerwartet beendet."
+msgstr "Der Jellyfin-Server hat die Verbindung unerwartet beendet."
+
+msgid "Der Servername konnte nicht aufgelöst werden. Bitte die Jellyfin-Adresse und die DNS-Einstellungen prüfen."
+msgstr "Der Servername konnte nicht aufgelöst werden. Bitte die Jellyfin-Adresse und die DNS-Einstellungen prüfen."
+
+msgid "Dezember"
+msgstr "Dezember"
+
+msgid "Die HTTPS-Verbindung konnte nicht aufgebaut werden. Bitte prüfen, ob HTTP und HTTPS korrekt konfiguriert sind."
+msgstr "Die HTTPS-Verbindung konnte nicht aufgebaut werden. Bitte prüfen, ob HTTP und HTTPS korrekt konfiguriert sind."
+
+msgid "Die Verbindung zum Jellyfin-Server wurde abgelehnt oder unterbrochen."
+msgstr "Die Verbindung zum Jellyfin-Server wurde abgelehnt oder unterbrochen."
+
+msgid "Dienstag"
+msgstr "Dienstag"
+
+msgid "Direktstream bevorzugen"
+msgstr "Direktstream bevorzugen"
+
+msgid "Dolby TrueHD / Atmos direkt ausgeben:"
+msgstr "Dolby TrueHD / Atmos direkt ausgeben:"
+
+msgid "Donnerstag"
+msgstr "Donnerstag"
+
+msgid "Dynamische Hintergründe:"
+msgstr "Dynamische Hintergründe:"
+
+msgid "EAC3 direkt ausgeben:"
+msgstr "EAC3 direkt ausgeben:"
+
+msgid "ERROR (Nur Fehler)"
+msgstr "ERROR (Nur Fehler)"
+
+msgid "EXIT = Zurück"
+msgstr "EXIT = Zurück"
+
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+msgid "Eintrag"
+msgstr "Eintrag"
+
+msgid "Eintrag %s / %s | Steuerkreuz = Navigieren | HOCH am Anfang = Zum Verlauf"
+msgstr "Eintrag %s / %s | Steuerkreuz = Navigieren | HOCH am Anfang = Zum Verlauf"
+
+msgid "Enigma2 IPTV (4097)"
+msgstr "Enigma2 IPTV (4097)"
+
+msgid "Erfolgreich abgemeldet."
+msgstr "Erfolgreich abgemeldet."
+
+msgid "Erfolgreich angemeldet!"
+msgstr "Erfolgreich angemeldet!"
+
+msgid "Erklärung"
+msgstr "Erklärung"
+
+msgid "Erzwungen"
+msgstr "Erzwungen"
+
+msgid "ExtePlayer3 (5002)"
+msgstr "ExtePlayer3 (5002)"
+
+msgid "Extern"
+msgstr "Extern"
+
+msgid "Februar"
+msgstr "Februar"
+
+msgid "Fehler beim Speichern der Einstellungen"
+msgstr "Fehler beim Speichern der Einstellungen"
+
+msgid "Fehler beim Speichern: %s"
+msgstr "Fehler beim Speichern: %s"
+
+msgid "Fehler beim Starten des Streams: %s"
+msgstr "Fehler beim Starten des Streams: %s"
+
+msgid "Fehler: Episoden-ID fehlt"
+msgstr "Fehler: Episoden-ID fehlt"
+
+msgid "Fehler: Film-ID der Sammlung fehlt"
+msgstr "Fehler: Film-ID der Sammlung fehlt"
+
+msgid "Fehler: Film-ID fehlt"
+msgstr "Fehler: Film-ID fehlt"
+
+msgid "Fehler: Film-ID konnte nicht ermittelt werden"
+msgstr "Fehler: Film-ID konnte nicht ermittelt werden"
+
+msgid "Fehler: ID fehlt"
+msgstr "Fehler: ID fehlt"
+
+msgid "Fehler: Resume-ID fehlt"
+msgstr "Fehler: Resume-ID fehlt"
+
+msgid "Fehler: Serien-ID fehlt"
+msgstr "Fehler: Serien-ID fehlt"
+
+msgid "Fehler: Treffer-ID fehlt"
+msgstr "Fehler: Treffer-ID fehlt"
+
+msgid "Film"
+msgstr "Film"
+
+msgid "Film %s / %s | Steuerkreuz = Navigieren | OK = Abspielen"
+msgstr "Film %s / %s | Steuerkreuz = Navigieren | OK = Abspielen"
+
+msgid "Film: %s\nJahr: %s   Laufzeit: %s%s\nGenre: %s"
+msgstr "Film: %s\nJahr: %s   Laufzeit: %s%s\nGenre: %s"
+
+msgid "Filme"
+msgstr "Filme"
+
+msgid "Filme / Serien suchen"
+msgstr "Filme / Serien suchen"
+
+msgid "Filme der Sammlung werden geladen ..."
+msgstr "Filme der Sammlung werden geladen ..."
+
+msgid "Filme: %s   Sammlungen: %s\nSerien: %s   Episoden: %s"
+msgstr "Filme: %s   Sammlungen: %s\nSerien: %s   Episoden: %s"
+
+msgid "Filme: -\nSerien: -\nEpisoden: -\nSammlungen: -"
+msgstr "Filme: -\nSerien: -\nEpisoden: -\nSammlungen: -"
+
+msgid "Filminformationen werden geladen ..."
+msgstr "Filminformationen werden geladen ..."
+
+msgid "Filmliste konnte nicht angezeigt werden."
+msgstr "Filmliste konnte nicht angezeigt werden."
+
+msgid "Filmliste konnte nicht geladen werden: %s"
+msgstr "Filmliste konnte nicht geladen werden: %s"
+
+msgid "Filmliste wird geladen ..."
+msgstr "Filmliste wird geladen ..."
+
+msgid "Filmliste wird von Jellyfin geladen ..."
+msgstr "Filmliste wird von Jellyfin geladen ..."
+
+msgid "Folge"
+msgstr "Folge"
+
+msgid "Folge %s / %s | HOCH oben = Staffelauswahl | OK = Abspielen"
+msgstr "Folge %s / %s | HOCH oben = Staffelauswahl | OK = Abspielen"
+
+msgid "Folge: S%02dE%02d - %s\n%s"
+msgstr "Folge: S%02dE%02d - %s\n%s"
+
+msgid "Folgen der Staffel %s werden geladen ..."
+msgstr "Folgen der Staffel %s werden geladen ..."
+
+msgid "Fortsetzen"
+msgstr "Fortsetzen"
+
+msgid "Fortsetzungsdaten werden geladen ..."
+msgstr "Fortsetzungsdaten werden geladen ..."
+
+msgid "Freitag"
+msgstr "Freitag"
+
+msgid "GStreamer / gstplayer (5001)"
+msgstr "GStreamer / gstplayer (5001)"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Film %s / %s | OK = Abspielen"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Film %s / %s | OK = Abspielen"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Filme vorhanden"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Filme vorhanden"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Serien in dieser Kategorie"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Serien in dieser Kategorie"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Serie %s / %s | OK = Staffeln anzeigen"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Serie %s / %s | OK = Staffeln anzeigen"
+
+msgid "Genre: %s"
+msgstr "Genre: %s"
+
+msgid "HLS (.m3u8)"
+msgstr "HLS (.m3u8)"
+
+msgid "Hier stellst du die maximale Datenrate für umgewandelte Streams ein. Niedrigere Werte sind besser für langsame Netzwerke, höhere Werte liefern bessere Bildqualität."
+msgstr "Hier stellst du die maximale Datenrate für umgewandelte Streams ein. Niedrigere Werte sind besser für langsame Netzwerke, höhere Werte liefern bessere Bildqualität."
+
+msgid "Hörgeschädigte"
+msgstr "Hörgeschädigte"
+
+msgid "INFO (Standard)"
+msgstr "INFO (Standard)"
+
+msgid "Im Receiver-Hauptmenü anzeigen:"
+msgstr "Im Receiver-Hauptmenü anzeigen:"
+
+msgid "Image-Worker für Cover und Backdrops:"
+msgstr "Image-Worker für Cover und Backdrops:"
+
+msgid "IMDb %s"
+msgstr "IMDb %s"
+
+msgid "Ja"
+msgstr "Ja"
+
+msgid "Jahr: %s"
+msgstr "Jahr: %s"
+
+msgid "Jahr: %s   Laufzeit: %s Min"
+msgstr "Jahr: %s   Laufzeit: %s Min"
+
+msgid "Januar"
+msgstr "Januar"
+
+msgid "Jellyfin Benutzer"
+msgstr "Jellyfin Benutzer"
+
+msgid "Jellyfin Client für Enigma2"
+msgstr "Jellyfin Client für Enigma2"
+
+msgid "Jellyfin Passwort (wird verdeckt gespeichert)"
+msgstr "Jellyfin Passwort (wird verdeckt gespeichert)"
+
+msgid "Jellyfin Server %s von %s"
+msgstr "Jellyfin Server %s von %s"
+
+msgid "Jellyfin Server Adresse"
+msgstr "Jellyfin Server Adresse"
+
+msgid "Jellyfin hat diese Anfrage nicht autorisiert (HTTP 401). Die gespeicherte Sitzung wurde nicht automatisch gelöscht."
+msgstr "Jellyfin hat diese Anfrage nicht autorisiert (HTTP 401). Die gespeicherte Sitzung wurde nicht automatisch gelöscht."
+
+msgid "Jellyfin-Anfrage fehlgeschlagen (HTTP %s)."
+msgstr "Jellyfin-Anfrage fehlgeschlagen (HTTP %s)."
+
+msgid "Jellyfin-Endpunkt wurde nicht gefunden."
+msgstr "Jellyfin-Endpunkt wurde nicht gefunden."
+
+msgid "Jellyfin-Server antwortet nicht rechtzeitig."
+msgstr "Jellyfin-Server antwortet nicht rechtzeitig."
+
+msgid "Jellyfin-Server ist nicht erreichbar."
+msgstr "Jellyfin-Server ist nicht erreichbar."
+
+msgid "Jellyfin-Serverfehler (HTTP %s)."
+msgstr "Jellyfin-Serverfehler (HTTP %s)."
+
+msgid "Jellyfin-Verbindung wird geprüft ..."
+msgstr "Jellyfin-Verbindung wird geprüft ..."
+
+msgid "Juli"
+msgstr "Juli"
+
+msgid "Juni"
+msgstr "Juni"
+
+msgid "Kein Eintrag an dieser Position"
+msgstr "Kein Eintrag an dieser Position"
+
+msgid "Kein gültiger Film an der aktuellen Position"
+msgstr "Kein gültiger Film an der aktuellen Position"
+
+msgid "Kein gültiger Film in dieser Sammlung ausgewählt"
+msgstr "Kein gültiger Film in dieser Sammlung ausgewählt"
+
+msgid "Kein gültiger Suchtreffer ausgewählt"
+msgstr "Kein gültiger Suchtreffer ausgewählt"
+
+msgid "Kein gültiger Weiterschauen-Eintrag ausgewählt"
+msgstr "Kein gültiger Weiterschauen-Eintrag ausgewählt"
+
+msgid "Keine Beschreibung verfügbar."
+msgstr "Keine Beschreibung verfügbar."
+
+msgid "Keine Beschreibung vorhanden."
+msgstr "Keine Beschreibung vorhanden."
+
+msgid "Keine Folgen in dieser Staffel gefunden."
+msgstr "Keine Folgen in dieser Staffel gefunden."
+
+msgid "Keine Inhalte zur Auswahl vorhanden"
+msgstr "Keine Inhalte zur Auswahl vorhanden"
+
+msgid "Keine Kurzbeschreibung vorhanden."
+msgstr "Keine Kurzbeschreibung vorhanden."
+
+msgid "Keine Sammlungen gefunden."
+msgstr "Keine Sammlungen gefunden."
+
+msgid "Keine Sammlungen in dieser Kategorie."
+msgstr "Keine Sammlungen in dieser Kategorie."
+
+msgid "Keine Staffeln gefunden."
+msgstr "Keine Staffeln gefunden."
+
+msgid "Keine Ton- oder Untertitelspuren gefunden."
+msgstr "Keine Ton- oder Untertitelspuren gefunden."
+
+msgid "Keine Treffer für '%s' | LINKS/RECHTS = Verlauf wechseln"
+msgstr "Keine Treffer für '%s' | LINKS/RECHTS = Verlauf wechseln"
+
+msgid "Keine gültige Folge ausgewählt"
+msgstr "Keine gültige Folge ausgewählt"
+
+msgid "Keine gültige Serie ausgewählt"
+msgstr "Keine gültige Serie ausgewählt"
+
+msgid "Keine gültige Staffel ausgewählt"
+msgstr "Keine gültige Staffel ausgewählt"
+
+msgid "Keine passenden Einträge in deiner Mediathek gefunden."
+msgstr "Keine passenden Einträge in deiner Mediathek gefunden."
+
+msgid "LINKS/RECHTS = Filme durchblättern\nHOCH = Zum Weiterschauen / Hauptmenü   OK = Film-Infos   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Filme durchblättern\nHOCH = Zum Weiterschauen / Hauptmenü   OK = Film-Infos   BLAU = Bibliothek aktualisieren"
+
+msgid "LINKS/RECHTS = Menü wechseln     BLAU = Bibliothek aktualisieren\nRUNTER = Weiterschauen / Neuerscheinungen     OK = Auswählen"
+msgstr "LINKS/RECHTS = Menü wechseln     BLAU = Bibliothek aktualisieren\nRUNTER = Weiterschauen / Neuerscheinungen     OK = Auswählen"
+
+msgid "LINKS/RECHTS = Serverplatz wechseln   GELB = Gespeicherten Server aktivieren   OK = Anmeldung erneuern"
+msgstr "LINKS/RECHTS = Serverplatz wechseln   GELB = Gespeicherten Server aktivieren   OK = Anmeldung erneuern"
+
+msgid "LINKS/RECHTS = Serverplatz wechseln   OK = Server einrichten   EXIT = Abbrechen"
+msgstr "LINKS/RECHTS = Serverplatz wechseln   OK = Server einrichten   EXIT = Abbrechen"
+
+msgid "LINKS/RECHTS = Verlauf blättern | RUNTER = In die Film-Auswahl wechseln"
+msgstr "LINKS/RECHTS = Verlauf blättern | RUNTER = In die Film-Auswahl wechseln"
+
+msgid "LINKS/RECHTS = Weiterschauen durchblättern\nHOCH = Zum Hauptmenü | RUNTER = Neuerscheinungen   OK = Fortsetzen   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Weiterschauen durchblättern\nHOCH = Zum Hauptmenü | RUNTER = Neuerscheinungen   OK = Fortsetzen   BLAU = Bibliothek aktualisieren"
+
+msgid "Laufzeit: %s"
+msgstr "Laufzeit: %s"
+
+msgid "Laufzeit: %s   Erstausstrahlung: %s"
+msgstr "Laufzeit: %s   Erstausstrahlung: %s"
+
+msgid "Leer / nicht angemeldet"
+msgstr "Leer / nicht angemeldet"
+
+msgid "Legt die Minute der automatischen Bibliotheksaktualisierung fest."
+msgstr "Legt die Minute der automatischen Bibliotheksaktualisierung fest."
+
+msgid "Legt die Stunde fest, zu der JellyDream die Film- und Serienlisten automatisch aktualisiert."
+msgstr "Legt die Stunde fest, zu der JellyDream die Film- und Serienlisten automatisch aktualisiert."
+
+msgid "Legt fest, in welcher maximalen Auflösung JellyDream Inhalte streamen darf. Höhere Auflösungen liefern bessere Bildqualität, benötigen aber mehr Bandbreite."
+msgstr "Legt fest, in welcher maximalen Auflösung JellyDream Inhalte streamen darf. Höhere Auflösungen liefern bessere Bildqualität, benötigen aber mehr Bandbreite."
+
+msgid "Legt fest, mit welchem Enigma2-Service-Typ JellyDream Filme und Serien abspielt. 'Enigma2 IPTV (4097)' ist der Standard. 'GStreamer / gstplayer (5001)' verwendet gstplayer. 'ExtePlayer3 (5002)' verwendet exteplayer3. Die zusätzlichen Auswahlmöglichkeiten erscheinen nur, wenn der jeweilige Player auf der Box installiert ist."
+msgstr "Legt fest, mit welchem Enigma2-Service-Typ JellyDream Filme und Serien abspielt. 'Enigma2 IPTV (4097)' ist der Standard. 'GStreamer / gstplayer (5001)' verwendet gstplayer. 'ExtePlayer3 (5002)' verwendet exteplayer3. Die zusätzlichen Auswahlmöglichkeiten erscheinen nur, wenn der jeweilige Player auf der Box installiert ist."
+
+msgid "Legt fest, ob AC3-Tonspuren ohne Umwandlung direkt an den Receiver bzw. Fernseher gesendet werden dürfen. Wenn dein TV bei AC3 'Audioformat nicht unterstützt' meldet, stelle hier 'Nein' ein."
+msgstr "Legt fest, ob AC3-Tonspuren ohne Umwandlung direkt an den Receiver bzw. Fernseher gesendet werden dürfen. Wenn dein TV bei AC3 'Audioformat nicht unterstützt' meldet, stelle hier 'Nein' ein."
+
+msgid "Legt fest, ob DTS-Tonspuren ohne Umwandlung direkt ausgegeben werden dürfen. Wenn dein TV oder Receiver DTS nicht unterstützt, stelle hier 'Nein' ein, damit JellyDream die Tonspur in ein kompatibleres Format umwandelt."
+msgstr "Legt fest, ob DTS-Tonspuren ohne Umwandlung direkt ausgegeben werden dürfen. Wenn dein TV oder Receiver DTS nicht unterstützt, stelle hier 'Nein' ein, damit JellyDream die Tonspur in ein kompatibleres Format umwandelt."
+
+msgid "Legt fest, ob Dolby TrueHD inklusive Dolby Atmos unverändert über HDMI ausgegeben werden darf. Dies benötigt einen AV-Receiver, einen HDMI-Passthrough-fähigen Receiver und einen Enigma2-Player, der TrueHD unterstützt. Falls kein Ton kommt, diese Einstellung deaktivieren."
+msgstr "Legt fest, ob Dolby TrueHD inklusive Dolby Atmos unverändert über HDMI ausgegeben werden darf. Dies benötigt einen AV-Receiver, einen HDMI-Passthrough-fähigen Receiver und einen Enigma2-Player, der TrueHD unterstützt. Falls kein Ton kommt, diese Einstellung deaktivieren."
+
+msgid "Legt fest, ob EAC3-/Dolby-Digital-Plus-Tonspuren direkt ausgegeben werden dürfen. Falls dein Gerät damit Probleme hat, stelle hier 'Nein' ein, damit JellyDream in ein kompatibleres Format umwandelt."
+msgstr "Legt fest, ob EAC3-/Dolby-Digital-Plus-Tonspuren direkt ausgegeben werden dürfen. Falls dein Gerät damit Probleme hat, stelle hier 'Nein' ein, damit JellyDream in ein kompatibleres Format umwandelt."
+
+msgid "Legt fest, ob JellyDream zusätzlich direkt im Hauptmenü des Receivers angezeigt werden soll."
+msgstr "Legt fest, ob JellyDream zusätzlich direkt im Hauptmenü des Receivers angezeigt werden soll."
+
+msgid "Legt fest, ob beim Navigieren passende Jellyfin-Backdrops als Vollbild-Hintergrund geladen und angezeigt werden. Bei 'Nein' verwendet JellyDream immer den Standardhintergrund. Das reduziert auf älteren oder langsameren OpenPLi-Boxen CPU-, RAM-, Netzwerk- und Repaint-Belastung."
+msgstr "Legt fest, ob beim Navigieren passende Jellyfin-Backdrops als Vollbild-Hintergrund geladen und angezeigt werden. Bei 'Nein' verwendet JellyDream immer den Standardhintergrund. Das reduziert auf älteren oder langsameren OpenPLi-Boxen CPU-, RAM-, Netzwerk- und Repaint-Belastung."
+
+msgid "Legt fest, ob die vollständigen Film- und Serienlisten einmal täglich automatisch vom Jellyfin-Server geladen und lokal gespeichert werden."
+msgstr "Legt fest, ob die vollständigen Film- und Serienlisten einmal täglich automatisch vom Jellyfin-Server geladen und lokal gespeichert werden."
+
+msgid "Legt fest, wie JellyDream Streams abspielt. 'Direktstream bevorzugen' nutzt die Originalformate des Servers und funktioniert oft am besten, wenn dein Receiver HEVC/H.265 und EAC3 direkt unterstützt. 'Stabilität bevorzugen' erzwingt eher kompatible Formate per Transcoding. 'Automatisch' mischt beide Verfahren, kann aber je nach Receiver bei einzelnen Codec-Kombinationen wie HEVC + EAC3 zu Problemen führen."
+msgstr "Legt fest, wie JellyDream Streams abspielt. 'Direktstream bevorzugen' nutzt die Originalformate des Servers und funktioniert oft am besten, wenn dein Receiver HEVC/H.265 und EAC3 direkt unterstützt. 'Stabilität bevorzugen' erzwingt eher kompatible Formate per Transcoding. 'Automatisch' mischt beide Verfahren, kann aber je nach Receiver bei einzelnen Codec-Kombinationen wie HEVC + EAC3 zu Problemen führen."
+
+msgid "Legt fest, wie umgewandelte oder neu verpackte Streams übertragen werden. 'TS' verwendet einen fortlaufenden MPEG-Transportstream und ist für Enigma2 meistens die kompatibelste Einstellung. 'HLS' verwendet eine M3U8-Playlist mit einzelnen TS-Segmenten und kann bei instabilen Netzwerkverbindungen oder bestimmten externen Playern besser funktionieren. Direct Play bleibt von dieser Einstellung unberührt."
+msgstr "Legt fest, wie umgewandelte oder neu verpackte Streams übertragen werden. 'TS' verwendet einen fortlaufenden MPEG-Transportstream und ist für Enigma2 meistens die kompatibelste Einstellung. 'HLS' verwendet eine M3U8-Playlist mit einzelnen TS-Segmenten und kann bei instabilen Netzwerkverbindungen oder bestimmten externen Playern besser funktionieren. Direct Play bleibt von dieser Einstellung unberührt."
+
+msgid "Legt fest, wie viele Bilder JellyDream gleichzeitig im Hintergrund laden darf. Zwei Worker laden Poster schneller. Auf schwachen oder älteren Boxen reduziert ein Worker die gleichzeitige CPU-, RAM- und Netzwerkbelastung. Nach einer Änderung wird ein GUI-Neustart benötigt."
+msgstr "Legt fest, wie viele Bilder JellyDream gleichzeitig im Hintergrund laden darf. Zwei Worker laden Poster schneller. Auf schwachen oder älteren Boxen reduziert ein Worker die gleichzeitige CPU-, RAM- und Netzwerkbelastung. Nach einer Änderung wird ein GUI-Neustart benötigt."
+
+msgid "Login"
+msgstr "Login"
+
+msgid "MP2 (maximale Kompatibilität)"
+msgstr "MP2 (maximale Kompatibilität)"
+
+msgid "Mai"
+msgstr "Mai"
+
+msgid "Maximale Video-Auflösung:"
+msgstr "Maximale Video-Auflösung:"
+
+msgid "Media für die ganze Familie\nPowered by Jellyfin"
+msgstr "Media für die ganze Familie\nPowered by Jellyfin"
+
+msgid "Menüeintrag konnte nicht ermittelt werden"
+msgstr "Menüeintrag konnte nicht ermittelt werden"
+
+msgid "Mittwoch"
+msgstr "Mittwoch"
+
+msgid "Montag"
+msgstr "Montag"
+
+msgid "März"
+msgstr "März"
+
+msgid "Möchtest du dich vom aktuell aktiven Jellyfin-Server abmelden?\n\nNur dieses Serverprofil wird gelöscht. Andere gespeicherte Server bleiben erhalten."
+msgstr "Möchtest du dich vom aktuell aktiven Jellyfin-Server abmelden?\n\nNur dieses Serverprofil wird gelöscht. Andere gespeicherte Server bleiben erhalten."
+
+msgid "Möchtest du die nächste Folge abspielen?\n\n%s\n\n"
+msgstr "Möchtest du die nächste Folge abspielen?\n\n%s\n\n"
+
+msgid "Nein"
+msgstr "Nein"
+
+msgid "Neue Suche..."
+msgstr "Neue Suche..."
+
+msgid "Neuerscheinungen"
+msgstr "Neuerscheinungen"
+
+msgid "November"
+msgstr "November"
+
+msgid "Nächste Folge konnte nicht gestartet werden."
+msgstr "Nächste Folge konnte nicht gestartet werden."
+
+msgid "OK = Auswählen   HOCH/RUNTER = Navigieren   EXIT = Schließen"
+msgstr "OK = Auswählen   HOCH/RUNTER = Navigieren   EXIT = Schließen"
+
+msgid "OK = Neue Suche starten | LINKS/RECHTS = Alten Verlauf durchblättern"
+msgstr "OK = Neue Suche starten | LINKS/RECHTS = Alten Verlauf durchblättern"
+
+msgid "OK = Starten     EXIT = Zurück"
+msgstr "OK = Starten     EXIT = Zurück"
+
+msgid "OK = Umschalten   EXIT = Schließen"
+msgstr "OK = Umschalten   EXIT = Schließen"
+
+msgid "OK = Öffnen / Übernehmen   GRÜN = Speichern   BLAU = Bibliothek aktualisieren   EXIT = Abbrechen"
+msgstr "OK = Öffnen / Übernehmen   GRÜN = Speichern   BLAU = Bibliothek aktualisieren   EXIT = Abbrechen"
+
+msgid "OK Auswählen    BACK Zurück"
+msgstr "OK Auswählen    BACK Zurück"
+
+msgid "OK Starten"
+msgstr "OK Starten"
+
+msgid "Ohne Titel"
+msgstr "Ohne Titel"
+
+msgid "Oktober"
+msgstr "Oktober"
+
+msgid "Player für Jellyfin-Streams:"
+msgstr "Player für Jellyfin-Streams:"
+
+msgid "Plugin Log-Level (Debugging):"
+msgstr "Plugin Log-Level (Debugging):"
+
+msgid "Reality"
+msgstr "Reality"
+
+msgid "Regie: %s\nGenre: %s"
+msgstr "Regie: %s\nGenre: %s"
+
+msgid "Sammlung"
+msgstr "Sammlung"
+
+msgid "Sammlungen"
+msgstr "Sammlungen"
+
+msgid "Sammlungen konnten nicht angezeigt werden."
+msgstr "Sammlungen konnten nicht angezeigt werden."
+
+msgid "Sammlungen konnten nicht gefiltert werden."
+msgstr "Sammlungen konnten nicht gefiltert werden."
+
+msgid "Sammlungen konnten nicht geladen werden."
+msgstr "Sammlungen konnten nicht geladen werden."
+
+msgid "Sammlungen konnten nicht geladen werden: %s"
+msgstr "Sammlungen konnten nicht geladen werden: %s"
+
+msgid "Sammlungen werden geladen ..."
+msgstr "Sammlungen werden geladen ..."
+
+msgid "Sammlungen werden von Jellyfin geladen ..."
+msgstr "Sammlungen werden von Jellyfin geladen ..."
+
+msgid "Sammlungszuordnung wird geprüft ..."
+msgstr "Sammlungszuordnung wird geprüft ..."
+
+msgid "Samstag"
+msgstr "Samstag"
+
+msgid "Science-Fiction"
+msgstr "Science-Fiction"
+
+msgid "Science-Fiction & Fantasy"
+msgstr "Science-Fiction & Fantasy"
+
+msgid "Screen '%s' konnte nicht geöffnet werden: %s"
+msgstr "Screen '%s' konnte nicht geöffnet werden: %s"
+
+msgid "Seifenoper"
+msgstr "Seifenoper"
+
+msgid "September"
+msgstr "September"
+
+msgid "Serie"
+msgstr "Serie"
+
+msgid "Serie: %s%s\nJahr: %s\nGenre: %s"
+msgstr "Serie: %s%s\nJahr: %s\nGenre: %s"
+
+msgid "Serien"
+msgstr "Serien"
+
+msgid "Serienliste konnte nicht angezeigt werden."
+msgstr "Serienliste konnte nicht angezeigt werden."
+
+msgid "Serienliste konnte nicht geladen werden: %s"
+msgstr "Serienliste konnte nicht geladen werden: %s"
+
+msgid "Serienliste wird geladen ..."
+msgstr "Serienliste wird geladen ..."
+
+msgid "Serienliste wird von Jellyfin geladen ..."
+msgstr "Serienliste wird von Jellyfin geladen ..."
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Server %s von %s\n%s"
+msgstr "Server %s von %s\n%s"
+
+msgid "Server %s wurde aktiviert."
+msgstr "Server %s wurde aktiviert."
+
+msgid "Server bearbeiten/hinzufügen:"
+msgstr "Server bearbeiten/hinzufügen:"
+
+msgid "Server oder Benutzer fehlt"
+msgstr "Server oder Benutzer fehlt"
+
+msgid "Server wechseln"
+msgstr "Server wechseln"
+
+msgid "Serverplatz %s von %s\nStatus: %s\n\n1. Jellyfin Server\n%s\n\n2. Benutzername\n%s\n\n3. Passwort\n%s"
+msgstr "Serverplatz %s von %s\nStatus: %s\n\n1. Jellyfin Server\n%s\n\n2. Benutzername\n%s\n\n3. Passwort\n%s"
+
+msgid "Serverprofil konnte nicht aktiviert werden."
+msgstr "Serverprofil konnte nicht aktiviert werden."
+
+msgid "Serververwaltung geschlossen. GRÜN = Einstellungen speichern"
+msgstr "Serververwaltung geschlossen. GRÜN = Einstellungen speichern"
+
+msgid "Serververwaltung konnte nicht geöffnet werden."
+msgstr "Serververwaltung konnte nicht geöffnet werden."
+
+msgid "Serververwaltung konnte nicht geöffnet werden: %s"
+msgstr "Serververwaltung konnte nicht geöffnet werden: %s"
+
+msgid "Sonntag"
+msgstr "Sonntag"
+
+msgid "Sport"
+msgstr "Sport"
+
+msgid "Stabilität bevorzugen"
+msgstr "Stabilität bevorzugen"
+
+msgid "Staffel"
+msgstr "Staffel"
+
+msgid "Staffel %s"
+msgstr "Staffel %s"
+
+msgid "Staffel-Details: %s%s\nJahr: %s"
+msgstr "Staffel-Details: %s%s\nJahr: %s"
+
+msgid "Keine Beschreibung für diese Staffel hinterlegt."
+msgstr "Keine Beschreibung für diese Staffel hinterlegt."
+
+msgid "Staffel %s / %s | Steuerkreuz = Navigieren / blättern | OK = Folgen anzeigen | EXIT = Zurück"
+msgstr "Staffel %s / %s | Steuerkreuz = Navigieren / blättern | OK = Folgen anzeigen | EXIT = Zurück"
+
+msgid "Staffeln konnten nicht geladen werden: %s"
+msgstr "Staffeln konnten nicht geladen werden: %s"
+
+msgid "Folgen konnten nicht geladen werden: %s"
+msgstr "Folgen konnten nicht geladen werden: %s"
+
+msgid "Staffel %s | LINKS/RECHTS = Staffel wechseln | RUNTER = Zur Folgenliste"
+msgstr "Staffel %s | LINKS/RECHTS = Staffel wechseln | RUNTER = Zur Folgenliste"
+
+msgid "Staffelauswahl"
+msgstr "Staffelauswahl"
+
+msgid "Staffeln werden geladen ..."
+msgstr "Staffeln werden geladen ..."
+
+msgid "Staffelnummer ist ungültig"
+msgstr "Staffelnummer ist ungültig"
+
+msgid "Standard-Audiosprache:"
+msgstr "Standard-Audiosprache:"
+
+msgid "Startseitendaten werden geladen ..."
+msgstr "Startseitendaten werden geladen ..."
+
+msgid "Steuert, wie schnell Poster, Backdrops und Detailinformationen beim Navigieren aktualisiert werden. Kleinere Werte reagieren schneller, können aber die Box stärker belasten."
+msgstr "Steuert, wie schnell Poster, Backdrops und Detailinformationen beim Navigieren aktualisiert werden. Kleinere Werte reagieren schneller, können aber die Box stärker belasten."
+
+msgid "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
+msgstr "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
+
+msgid "Streamdaten werden geladen ..."
+msgstr "Streamdaten werden geladen ..."
+
+msgid "Streaming-Modus:"
+msgstr "Streaming-Modus:"
+
+msgid "Suche"
+msgstr "Suche"
+
+msgid "Suche fehlgeschlagen: %s"
+msgstr "Suche fehlgeschlagen: %s"
+
+msgid "Suche läuft ..."
+msgstr "Suche läuft ..."
+
+msgid "TS (Standard / empfohlen)"
+msgstr "TS (Standard / empfohlen)"
+
+msgid "TV-Film"
+msgstr "TV-Film"
+
+msgid "Talk"
+msgstr "Talk"
+
+msgid "Tastaturfehler: %s"
+msgstr "Tastaturfehler: %s"
+
+msgid "Thriller"
+msgstr "Thriller"
+
+msgid "Tippe ein Wort ein, um deine Jellyfin-Mediathek blitzschnell nach Filmen, Serien oder Sammlungen zu durchsuchen."
+msgstr "Tippe ein Wort ein, um deine Jellyfin-Mediathek blitzschnell nach Filmen, Serien oder Sammlungen zu durchsuchen."
+
+msgid "Ton & Untertitel"
+msgstr "Ton & Untertitel"
+
+msgid "Transcoding Video-Bitrate:"
+msgstr "Transcoding Video-Bitrate:"
+
+msgid "Transcoding-/Remux-Ausgabe:"
+msgstr "Transcoding-/Remux-Ausgabe:"
+
+msgid "Unbekannte Menüaktion"
+msgstr "Unbekannte Menüaktion"
+
+msgid "Unbekannter Status"
+msgstr "Unbekannter Status"
+
+msgid "Unbekannter Treffertyp: %s"
+msgstr "Unbekannter Treffertyp: %s"
+
+msgid "Ungültige Login-Antwort"
+msgstr "Ungültige Login-Antwort"
+
+msgid "Ungültiger Serverplatz."
+msgstr "Ungültiger Serverplatz."
+
+msgid "Untertitelspur"
+msgstr "Untertitelspur"
+
+msgid "Version %s"
+msgstr "Version %s"
+
+msgid "WARNING (Nur Warnungen)"
+msgstr "WARNING (Nur Warnungen)"
+
+msgid "Weiterschauen"
+msgstr "Weiterschauen"
+
+msgid "Wenn vorhanden, versucht JellyDream einen Film oder eine Folge direkt mit dieser Audiosprache zu starten. Wird keine passende Spur gefunden, bleibt automatisch die Standardspur der Datei bzw. des Servers aktiv."
+msgstr "Wenn vorhanden, versucht JellyDream einen Film oder eine Folge direkt mit dieser Audiosprache zu starten. Wird keine passende Spur gefunden, bleibt automatisch die Standardspur der Datei bzw. des Servers aktiv."
+
+msgid "Western"
+msgstr "Western"
+
+msgid "Wiedergabe konnte nicht gestartet werden."
+msgstr "Wiedergabe konnte nicht gestartet werden."
+
+msgid "Wiedergabe konnte nicht gestartet werden: %s"
+msgstr "Wiedergabe konnte nicht gestartet werden: %s"
+
+msgid "Willkommen bei JellyDream"
+msgstr "Willkommen bei JellyDream"
+
+msgid "Zugriff auf Jellyfin wurde verweigert."
+msgstr "Zugriff auf Jellyfin wurde verweigert."
+
+msgid "[Ton] %s"
+msgstr "[Ton] %s"
+
+msgid "[Untertitel] %s"
+msgstr "[Untertitel] %s"
+
+msgid "[Untertitel] Aus"
+msgstr "[Untertitel] Aus"
+
+msgid "nicht angemeldet"
+msgstr "nicht angemeldet"
+
+msgid "nicht erreichbar"
+msgstr "nicht erreichbar"
+
+msgid "nicht gesetzt"
+msgstr "nicht gesetzt"
+
+msgid "unbekannt"
+msgstr "unbekannt"
+
+msgid "verbunden"
+msgstr "verbunden"
+
+msgid "von"
+msgstr "von"
+
+msgid "wird geprüft"
+msgstr "wird geprüft"
+
+msgid "Öffnet die Serververwaltung. Dort können bis zu drei Jellyfin-Server eingerichtet, vorhandene Server bearbeitet oder bereits gespeicherte Serverprofile aktiviert werden. Passwörter werden nicht gespeichert."
+msgstr "Öffnet die Serververwaltung. Dort können bis zu drei Jellyfin-Server eingerichtet, vorhandene Server bearbeitet oder bereits gespeicherte Serverprofile aktiviert werden. Passwörter werden nicht gespeichert."
+
+msgid "Plugin-Sprache:"
+msgstr "Plugin-Sprache:"
+
+msgid "Automatisch (Receiver, sonst English)"
+msgstr "Automatisch (Receiver, sonst English)"
+
+msgid "Legt die Sprache der JellyDream-Oberfläche fest. 'Automatisch' verwendet die Receiversprache, sofern Deutsch, English, Français, Italiano, Español, Polski, Nederlands, Türkçe, العربية oder Русский verfügbar ist. Andernfalls wird English verwendet."
+msgstr "Legt die Sprache der JellyDream-Oberfläche fest. 'Automatisch' verwendet die Receiversprache, sofern Deutsch, English, Français, Italiano, Español, Polski, Nederlands, Türkçe, العربية oder Русский verfügbar ist. Andernfalls wird English verwendet."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "%s Filme und %s Serien aktualisiert"
+msgstr "%s Filme und %s Serien aktualisiert"
+
+msgid "Bibliothek konnte nicht aktualisiert werden."
+msgstr "Bibliothek konnte nicht aktualisiert werden."
+
+msgid "Bibliotheksaktualisierung beendet"
+msgstr "Bibliotheksaktualisierung beendet"
+
+msgid "Bibliotheksaktualisierung läuft bereits."
+msgstr "Bibliotheksaktualisierung läuft bereits."
+
+msgid "Bibliotheksaktualisierung läuft bereits ..."
+msgstr "Bibliotheksaktualisierung läuft bereits ..."
+
+msgid "Film- und Serienbibliothek wird aktualisiert ..."
+msgstr "Film- und Serienbibliothek wird aktualisiert ..."
+
+msgid "Film- und Serienlisten werden aktualisiert ..."
+msgstr "Film- und Serienlisten werden aktualisiert ..."
+
+msgid "Die Aktualisierung lieferte kein gültiges Ergebnis."
+msgstr "Die Aktualisierung lieferte kein gültiges Ergebnis."
+
+msgid "Aktualisierung beendet"
+msgstr "Aktualisierung beendet"
+
+msgid "Aktualisierung läuft bereits"
+msgstr "Aktualisierung läuft bereits"
+
+msgid "Nicht bei Jellyfin angemeldet"
+msgstr "Nicht bei Jellyfin angemeldet"
+
+msgid "Film- und Serienlisten konnten nicht aktualisiert werden"
+msgstr "Film- und Serienlisten konnten nicht aktualisiert werden"
+
+msgid "Bibliothekscache konnte nicht gespeichert werden"
+msgstr "Bibliothekscache konnte nicht gespeichert werden"
+
+msgid "Aktualisierung fehlgeschlagen: %s"
+msgstr "Aktualisierung fehlgeschlagen: %s"
+
+msgid "Aktualisierung konnte nicht gestartet werden: Der Hintergrund-Worker-Pool ist ausgelastet."
+msgstr "Aktualisierung konnte nicht gestartet werden: Der Hintergrund-Worker-Pool ist ausgelastet."
+
+msgid "Aktualisierung konnte nicht gestartet werden: %s"
+msgstr "Aktualisierung konnte nicht gestartet werden: %s"
+
+msgid "%s | GRÜN = Speichern"
+msgstr "%s | GRÜN = Speichern"
+
+msgid "Einstellungen konnten nicht geöffnet werden: %s"
+msgstr "Einstellungen konnten nicht geöffnet werden: %s"
+
+
+msgid "Damit die Änderung im Receiver-Hauptmenü wirksam wird, muss die Benutzeroberfläche (GUI) neu gestartet werden.\n\nJETZT neu starten?"
+msgstr "Damit die Änderung im Receiver-Hauptmenü wirksam wird, muss die Benutzeroberfläche (GUI) neu gestartet werden.\n\nJETZT neu starten?"
+
+msgid "Damit die neue Anzahl der Image-Worker für Cover und Backdrops wirksam wird, muss die Benutzeroberfläche (GUI) neu gestartet werden.\n\nJETZT neu starten?"
+msgstr "Damit die neue Anzahl der Image-Worker für Cover und Backdrops wirksam wird, muss die Benutzeroberfläche (GUI) neu gestartet werden.\n\nJETZT neu starten?"
+
+msgid "Unbekannter Fehler bei der Anmeldung."
+msgstr "Unbekannter Fehler bei der Anmeldung."
+
+msgid "Von vorn"
+msgstr "Von vorn"
+
+msgid "Von vorn oder fortsetzen?"
+msgstr "Von vorn oder fortsetzen?"
+
+msgid "Neuerscheinungen Filme"
+msgstr "Neuerscheinungen Filme"
+
+msgid "Neuerscheinungen Serien"
+msgstr "Neuerscheinungen Serien"
+
+msgid "LINKS/RECHTS = Serien durchblättern\nHOCH = Zum Weiterschauen / Hauptmenü   OK = Staffeln   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Serien durchblättern\nHOCH = Zum Weiterschauen / Hauptmenü   OK = Staffeln   BLAU = Bibliothek aktualisieren"
+
+msgid "Wiedergabestatus"
+msgstr "Wiedergabestatus"
+
+msgid "Als gesehen markieren"
+msgstr "Als gesehen markieren"
+
+msgid "Als ungesehen markieren"
+msgstr "Als ungesehen markieren"
+
+msgid "Aus Weiterschauen entfernen"
+msgstr "Aus Weiterschauen entfernen"
+
+msgid "Der Status konnte nicht geändert werden."
+msgstr "Der Status konnte nicht geändert werden."
+
+msgid "Eintrag wurde als gesehen markiert."
+msgstr "Eintrag wurde als gesehen markiert."
+
+msgid "Eintrag wurde als ungesehen markiert."
+msgstr "Eintrag wurde als ungesehen markiert."
+
+msgid "Eintrag wurde aus Weiterschauen entfernt."
+msgstr "Eintrag wurde aus Weiterschauen entfernt."
+
+msgid "Status wird gespeichert ..."
+msgstr "Status wird gespeichert ..."
+
+msgid "GELB = Wiedergabestatus"
+msgstr "GELB = Wiedergabestatus"
+
+msgid "Zu Favoriten hinzufügen"
+msgstr "Zu Favoriten hinzufügen"
+
+msgid "Aus Favoriten entfernen"
+msgstr "Aus Favoriten entfernen"
+
+msgid "Eintrag wurde zu den Favoriten hinzugefügt."
+msgstr "Eintrag wurde zu den Favoriten hinzugefügt."
+
+msgid "Eintrag wurde aus den Favoriten entfernt."
+msgstr "Eintrag wurde aus den Favoriten entfernt."
+
+msgid "Favoriten"
+msgstr "Favoriten"
+
+msgid "Favorit"
+msgstr "Favorit"
+
+msgid "Favoriten werden geladen ..."
+msgstr "Favoriten werden geladen ..."
+
+msgid "Favoriten konnten nicht geladen werden: %s"
+msgstr "Favoriten konnten nicht geladen werden: %s"
+
+msgid "Favoriten konnten nicht angezeigt werden."
+msgstr "Favoriten konnten nicht angezeigt werden."
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Favorit %s / %s | OK = Öffnen"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Favorit %s / %s | OK = Öffnen"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Favoriten"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Favoriten"
+
+msgid "Kein gültiger Favorit an der aktuellen Position"
+msgstr "Kein gültiger Favorit an der aktuellen Position"
+
+msgid "Fehler: Favoriten-ID fehlt"
+msgstr "Fehler: Favoriten-ID fehlt"
+
+msgid "Sortierung"
+msgstr "Sortierung"
+
+msgid "Alphabetisch"
+msgstr "Alphabetisch"
+
+msgid "Zuletzt hinzugefügt"
+msgstr "Zuletzt hinzugefügt"
+
+msgid "GRÜN = Sortierung"
+msgstr "GRÜN = Sortierung"
+
+msgid "Staffelfortschritt: %s von %s"
+msgstr "Staffelfortschritt: %s von %s"
+
+msgid "Staffelfortschritt: %s %%"
+msgstr "Staffelfortschritt: %s %%"
+
+msgid "Ungesehene"
+msgstr "Ungesehene"
+
+msgid "Gesehene"
+msgstr "Gesehene"
+
+msgid "Ansicht"
+msgstr "Ansicht"
+
+msgid "GRÜN = Ansicht"
+msgstr "GRÜN = Ansicht"
+
+msgid "LINKS/RECHTS = Filme oder Serien\nHOCH = Zurück | RUNTER = Poster | OK = Zuletzt hinzugefügt"
+msgstr "LINKS/RECHTS = Filme oder Serien\nHOCH = Zurück | RUNTER = Poster | OK = Zuletzt hinzugefügt"
+
+msgid "LINKS/RECHTS = Filme durchblättern\nHOCH = Neuerscheinungen Filme | OK = Film-Infos   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Filme durchblättern\nHOCH = Neuerscheinungen Filme | OK = Film-Infos   BLAU = Bibliothek aktualisieren"
+
+msgid "LINKS/RECHTS = Serien durchblättern\nHOCH = Neuerscheinungen Serien | OK = Staffeln   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Serien durchblättern\nHOCH = Neuerscheinungen Serien | OK = Staffeln   BLAU = Bibliothek aktualisieren"
+
+msgid "Künstler"
+msgstr "Künstler"
+
+msgid "Gehörte"
+msgstr "Gehörte"
+
+msgid "Ungehörte"
+msgstr "Ungehörte"
+
+msgid "Musikliste wird von Jellyfin geladen ..."
+msgstr "Musikliste wird von Jellyfin geladen ..."
+
+msgid "Musikliste konnte nicht geladen werden: %s"
+msgstr "Musikliste konnte nicht geladen werden: %s"
+
+msgid "Musikliste konnte nicht angezeigt werden."
+msgstr "Musikliste konnte nicht angezeigt werden."
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Abspielen"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Abspielen"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Alben vorhanden"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Alben vorhanden"
+
+msgid "Album: %s\nKünstler: %s\nJahr: %s   Laufzeit: %s\nGenre: %s"
+msgstr "Album: %s\nKünstler: %s\nJahr: %s   Laufzeit: %s\nGenre: %s"
+
+msgid "Bitte warten, die Musikliste wird noch geladen ..."
+msgstr "Bitte warten, die Musikliste wird noch geladen ..."
+
+msgid "Kein gültiges Album an der aktuellen Position"
+msgstr "Kein gültiges Album an der aktuellen Position"
+
+msgid "Dieses Album enthält keine Titel."
+msgstr "Dieses Album enthält keine Titel."
+
+msgid "Musik wird geladen ..."
+msgstr "Musik wird geladen ..."
+
+msgid "Elektronik"
+msgstr "Elektronik"
+
+msgid "Hip-Hop"
+msgstr "Hip-Hop"
+
+msgid "Klassik"
+msgstr "Klassik"
+
+msgid "Metal"
+msgstr "Metal"
+
+msgid "Heavy Metal"
+msgstr "Heavy Metal"
+
+msgid "Hard Rock"
+msgstr "Hard Rock"
+
+msgid "Folk"
+msgstr "Folk"
+
+msgid "Blues"
+msgstr "Blues"
+
+msgid "Reggae"
+msgstr "Reggae"
+
+msgid "Soul"
+msgstr "Soul"
+
+msgid "R&B"
+msgstr "R&B"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "Punk"
+msgstr "Punk"
+
+msgid "Indie"
+msgstr "Indie"
+
+msgid "House"
+msgstr "House"
+
+msgid "Techno"
+msgstr "Techno"
+
+msgid "Ambient"
+msgstr "Ambient"
+
+msgid "Soundtrack"
+msgstr "Soundtrack"
+
+msgid "Alternative"
+msgstr "Alternative"
+
+msgid "Dance"
+msgstr "Dance"
+
+msgid "Disco"
+msgstr "Disco"
+
+msgid "Funk"
+msgstr "Funk"
+
+msgid "Latin"
+msgstr "Latin"
+
+msgid "Weltmusik"
+msgstr "Weltmusik"
+
+msgid "Oper"
+msgstr "Oper"
+
+msgid "Rap"
+msgstr "Rap"
+
+msgid "Schlager"
+msgstr "Schlager"
+
+msgid "Volksmusik"
+msgstr "Volksmusik"
+
+msgid "Gospel"
+msgstr "Gospel"
+
+msgid "Liedermacher"
+msgstr "Liedermacher"
+
+msgid "Instrumental"
+msgstr "Instrumental"
+
+msgid "Akustik"
+msgstr "Akustik"
+
+msgid "New Age"
+msgstr "New Age"
+
+msgid "Experimentell"
+msgstr "Experimentell"
+
+msgid "Industrial"
+msgstr "Industrial"
+
+msgid "Ska"
+msgstr "Ska"
+
+msgid "Grunge"
+msgstr "Grunge"
+
+msgid "Trance"
+msgstr "Trance"
+
+msgid "Dubstep"
+msgstr "Dubstep"
+
+msgid "Drum & Bass"
+msgstr "Drum & Bass"
+
+msgid "EDM"
+msgstr "EDM"
+
+msgid "K-Pop"
+msgstr "K-Pop"
+
+msgid "J-Pop"
+msgstr "J-Pop"
+
+msgid "Progressive Rock"
+msgstr "Progressive Rock"
+
+msgid "Synthpop"
+msgstr "Synthpop"
+
+msgid "Easy Listening"
+msgstr "Easy Listening"
+
+msgid "Kindermusik"
+msgstr "Kindermusik"
+
+msgid "Feiertage"
+msgstr "Feiertage"
+
+msgid "Rock"
+msgstr "Rock"
+
+msgid "Pop"
+msgstr "Pop"
+
+msgid "Jazz"
+msgstr "Jazz"
+
+msgid "Alle abspielen"
+msgstr "Alle abspielen"
+
+msgid "Zufällig"
+msgstr "Zufällig"
+
+msgid "Wiedergabe"
+msgstr "Wiedergabe"
+
+msgid "Keine Titel vorhanden"
+msgstr "Keine Titel vorhanden"
+
+msgid "Kein Titel an der aktuellen Position"
+msgstr "Kein Titel an der aktuellen Position"
+
+msgid "Titel %s / %s | LINKS/RECHTS = Genre | OK = Abspielen | BLAU = Alle abspielen / Zufällig"
+msgstr "Titel %s / %s | LINKS/RECHTS = Genre | OK = Abspielen | BLAU = Alle abspielen / Zufällig"
+
+msgid "LINKS/RECHTS = Genre | Keine Titel vorhanden"
+msgstr "LINKS/RECHTS = Genre | Keine Titel vorhanden"
+
+msgid "Titel: %s\nKünstler: %s\nAlbum: %s\nJahr: %s   Laufzeit: %s\nGenre: %s"
+msgstr "Titel: %s\nKünstler: %s\nAlbum: %s\nJahr: %s   Laufzeit: %s\nGenre: %s"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Album öffnen"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Album öffnen"
+
+msgid "Album wird geladen ..."
+msgstr "Album wird geladen ..."
+
+msgid "Album konnte nicht geladen werden: %s"
+msgstr "Album konnte nicht geladen werden: %s"
+
+msgid "Album konnte nicht geladen werden."
+msgstr "Album konnte nicht geladen werden."
+
+msgid "Titel %s / %s | OK = Abspielen | BLAU = Alle abspielen / Zufällig"
+msgstr "Titel %s / %s | OK = Abspielen | BLAU = Alle abspielen / Zufällig"
+
+msgid "Bitte warten, das Album wird noch geladen ..."
+msgstr "Bitte warten, das Album wird noch geladen ..."
+
+msgid "OK = Alle abspielen"
+msgstr "OK = Alle abspielen"
+
+msgid "OK = Zufällig"
+msgstr "OK = Zufällig"
+
+msgid "Titel %s / %s | OK = Abspielen"
+msgstr "Titel %s / %s | OK = Abspielen"
+
+msgid "Als gehört markieren"
+msgstr "Als gehört markieren"
+
+msgid "Als ungehört markieren"
+msgstr "Als ungehört markieren"
+
+msgid "Aus Weiterhören entfernen"
+msgstr "Aus Weiterhören entfernen"
+
+msgid "Eintrag wurde als gehört markiert."
+msgstr "Eintrag wurde als gehört markiert."
+
+msgid "Eintrag wurde als ungehört markiert."
+msgstr "Eintrag wurde als ungehört markiert."
+
+msgid "Eintrag wurde aus Weiterhören entfernt."
+msgstr "Eintrag wurde aus Weiterhören entfernt."
+
+msgid "Album: %s\nKünstler: %s"
+msgstr "Album: %s\nKünstler: %s"
+msgid "Nächste Folge automatisch abspielen:"
+msgstr "Nächste Folge automatisch abspielen:"
+msgid "Spielt die nächste Folge ohne Nachfrage, sobald der Abspann bis zum Dateiende läuft oder die letzten 15 Sekunden erreicht sind. Bei 'Nein' bleibt die Frage."
+msgstr "Spielt die nächste Folge ohne Nachfrage, sobald der Abspann bis zum Dateiende läuft oder die letzten 15 Sekunden erreicht sind. Bei 'Nein' bleibt die Frage."
+msgid "Vorspann überspringen?"
+msgstr "Vorspann überspringen?"
+msgid "Der Abspann läuft.\n\nMöchtest du die nächste Folge abspielen?\n\n%s"
+msgstr "Der Abspann läuft.\n\nMöchtest du die nächste Folge abspielen?\n\n%s"
+msgid "Vorspann automatisch überspringen:"
+msgstr "Vorspann automatisch überspringen:"
+msgid "Überspringt den Vorspann ohne Nachfrage. Bei 'Nein' erscheint jedes Mal die Frage."
+msgstr "Überspringt den Vorspann ohne Nachfrage. Bei 'Nein' erscheint jedes Mal die Frage."
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Film %s / %s | OK = Abspielen | RUNTER = Buchstabe"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Film %s / %s | OK = Abspielen | RUNTER = Buchstabe"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Filme vorhanden | RUNTER = Buchstabe"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Filme vorhanden | RUNTER = Buchstabe"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Serie %s / %s | OK = Staffeln anzeigen | RUNTER = Buchstabe"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Serie %s / %s | OK = Staffeln anzeigen | RUNTER = Buchstabe"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Serien in dieser Kategorie | RUNTER = Buchstabe"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Serien in dieser Kategorie | RUNTER = Buchstabe"
+msgid "Keine Sammlungen in dieser Kategorie. | RUNTER = Buchstabe"
+msgstr "Keine Sammlungen in dieser Kategorie. | RUNTER = Buchstabe"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Sammlung %s / %s | OK = Öffnen | RUNTER = Buchstabe"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Sammlung %s / %s | OK = Öffnen | RUNTER = Buchstabe"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Album öffnen | RUNTER = Buchstabe"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Album öffnen | RUNTER = Buchstabe"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Alben vorhanden | RUNTER = Buchstabe"
+msgstr "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Alben vorhanden | RUNTER = Buchstabe"
+msgid "Filter zurücksetzen"
+msgstr "Filter zurücksetzen"
+msgid "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
+msgstr "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
+msgid "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."
+msgstr "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."

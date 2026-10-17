@@ -1,0 +1,1611 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JellyDreamModern\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%02d Minuten"
+msgstr "%02d minuten"
+
+msgid "%02d Uhr"
+msgstr "%02d u"
+
+msgid "%s - Staffel %s"
+msgstr "%s - Seizoen %s"
+
+msgid "%s Filme und %s Serien aktualisiert"
+msgstr "%s films en %s series bijgewerkt"
+
+msgid "%s Min"
+msgstr "%s min"
+
+msgid "%s | GRÜN = Speichern"
+msgstr "%s | GROEN = Opslaan"
+
+msgid "%s: %s\n%s\nGenre: %s"
+msgstr "%s: %s\n%s\nGenre: %s"
+
+msgid "- Min"
+msgstr "- min"
+
+msgid "1 Worker (schwache oder ältere Box)"
+msgstr "1 worker (trage of oudere box)"
+
+msgid "1080p (Full-HD)"
+msgstr "1080p (Full HD)"
+
+msgid "12 Mbps (Hoch)"
+msgstr "12 Mbps (Hoog)"
+
+msgid "150 ms (Schnell)"
+msgstr "150 ms (Snel)"
+
+msgid "16 Mbps (Sehr hoch)"
+msgstr "16 Mbps (Zeer hoog)"
+
+msgid "2 Mbps (Niedrig / VPN)"
+msgstr "2 Mbps (Laag / VPN)"
+
+msgid "2 Worker (Standard / schnellere Bildanzeige)"
+msgstr "2 workers (standaard / snellere afbeeldingen)"
+
+msgid "200 ms"
+msgstr "200 ms"
+
+msgid "250 ms"
+msgstr "250 ms"
+
+msgid "300 ms (empfohlen für OpenPLi)"
+msgstr "300 ms (aanbevolen voor OpenPLi)"
+
+msgid "350 ms (langsame Receiver)"
+msgstr "350 ms (trage ontvangers)"
+
+msgid "4 Mbps (Mittel / WLAN)"
+msgstr "4 Mbps (Middel / wifi)"
+
+msgid "4K (UHD)"
+msgstr "4K (UHD)"
+
+msgid "576p (Standard SD)"
+msgstr "576p (Standaard SD)"
+
+msgid "720p (HD)"
+msgstr "720p (HD)"
+
+msgid "8 Mbps (Standard)"
+msgstr "8 Mbps (Standaard)"
+
+msgid "AAC (empfohlen)"
+msgstr "AAC (aanbevolen)"
+
+msgid "AC3"
+msgstr "AC3"
+
+msgid "AC3 direkt ausgeben:"
+msgstr "AC3 direct uitvoeren:"
+
+msgid "Abenteuer"
+msgstr "Avontuur"
+
+msgid "Abmelden"
+msgstr "Afmelden"
+
+msgid "Abmeldung abgebrochen."
+msgstr "Afmelden geannuleerd."
+
+msgid "Abmeldung fehlgeschlagen."
+msgstr "Afmelden mislukt."
+
+msgid "Action"
+msgstr "Actie"
+
+msgid "Action & Abenteuer"
+msgstr "Actie en avontuur"
+
+msgid "Aktion konnte nicht ausgeführt werden: %s"
+msgstr "De actie kon niet worden uitgevoerd: %s"
+
+msgid "Aktualisierung beendet"
+msgstr "Update voltooid"
+
+msgid "Aktualisierung fehlgeschlagen: %s"
+msgstr "Update mislukt: %s"
+
+msgid "Aktualisierung konnte nicht gestartet werden: %s"
+msgstr "De update kon niet worden gestart: %s"
+
+msgid "Aktualisierung konnte nicht gestartet werden: Der Hintergrund-Worker-Pool ist ausgelastet."
+msgstr "De update kon niet worden gestart: de achtergrondworkers zijn bezet."
+
+msgid "Aktualisierung läuft bereits"
+msgstr "Update wordt al uitgevoerd"
+
+msgid "Alle"
+msgstr "Alles"
+
+msgid "Als Nächstes"
+msgstr "Hierna"
+
+msgid "Als Nächstes: S%02dE%02d - %s"
+msgstr "Hierna: S%02dE%02d - %s"
+
+msgid "Angemeldet als %s"
+msgstr "Aangemeld als %s"
+
+msgid "Animation"
+msgstr "Animatie"
+
+msgid "Anime"
+msgstr "Anime"
+
+msgid "Anmeldung auf Serverplatz %s läuft ..."
+msgstr "Aanmelden bij serverplek %s ..."
+
+msgid "Anmeldung fehlgeschlagen oder abgebrochen."
+msgstr "Aanmelden mislukt of geannuleerd."
+
+msgid "Anmeldung gespeichert"
+msgstr "Aanmelding opgeslagen"
+
+msgid "Anmeldung läuft..."
+msgstr "Bezig met aanmelden..."
+
+msgid "Anmeldung wird eingerichtet ..."
+msgstr "Aanmelden voorbereiden ..."
+
+msgid "April"
+msgstr "April"
+
+msgid "Asynchroner Ladevorgang konnte nicht gestartet werden: %s"
+msgstr "Het asynchrone laden kon niet worden gestart: %s"
+
+msgid "Audio-Neustart konnte nicht angewendet werden: %s"
+msgstr "De audioherstart kon niet worden toegepast: %s"
+
+msgid "Audio-Neustart konnte nicht vorbereitet werden."
+msgstr "De audioherstart kon niet worden voorbereid."
+
+msgid "Audiospur"
+msgstr "Audiospoor"
+
+msgid "August"
+msgstr "Augustus"
+
+msgid "Automatisch"
+msgstr "Automatisch"
+
+msgid "Automatisch (Receiver, sonst English)"
+msgstr "Automatisch (taal van de ontvanger, anders English)"
+
+msgid "Benutzer: %s\nStatus: %s"
+msgstr "Gebruiker: %s\nStatus: %s"
+
+msgid "Beschreibung"
+msgstr "Beschrijving"
+
+msgid "Bestimmt, in welches Audioformat inkompatible Tonspuren umgewandelt werden. 'AAC' ist meist modern und kompatibel, 'MP2' funktioniert oft besonders gut mit älteren Enigma2-Boxen, 'AC3' nur wenn dein TV/AV-Receiver AC3 sicher unterstützt."
+msgstr "Doelformaat voor incompatibele audio. AAC is meestal modern en compatibel, MP2 werkt vaak het best op oudere Enigma2-boxen, AC3 alleen als de tv of receiver het ondersteunt."
+
+msgid "Bestimmt, wie viele technische Meldungen ins Log geschrieben werden. 'INFO' ist für den normalen Betrieb empfohlen, 'DEBUG' nur zur Fehlersuche."
+msgstr "Hoeveel technische meldingen in het log worden geschreven. INFO is aanbevolen voor dagelijks gebruik; DEBUG alleen voor foutzoeken."
+
+msgid "Bevorzugter Audio-Transcode-Codec:"
+msgstr "Voorkeurscodec voor audiotranscodering:"
+
+msgid "Bibliothek automatisch aktualisieren:"
+msgstr "Bibliotheek automatisch bijwerken:"
+
+msgid "Bibliothek konnte nicht aktualisiert werden."
+msgstr "De bibliotheek kon niet worden bijgewerkt."
+
+msgid "Bibliotheksaktualisierung Minute:"
+msgstr "Minuut van bibliotheekupdate:"
+
+msgid "Bibliotheksaktualisierung Stunde:"
+msgstr "Uur van bibliotheekupdate:"
+
+msgid "Bibliotheksaktualisierung beendet"
+msgstr "Bibliotheekupdate voltooid"
+
+msgid "Bibliotheksaktualisierung läuft bereits ..."
+msgstr "Er wordt al een bibliotheekupdate uitgevoerd ..."
+
+msgid "Bibliotheksaktualisierung läuft bereits."
+msgstr "Er wordt al een bibliotheekupdate uitgevoerd."
+
+msgid "Bibliothekscache konnte nicht gespeichert werden"
+msgstr "De bibliotheekcache kon niet worden opgeslagen"
+
+msgid "Biografie"
+msgstr "Biografie"
+
+msgid "Bitte eine IP-Adresse oder einen Servernamen eingeben."
+msgstr "Voer een IP-adres of een servernaam in."
+
+msgid "Bitte melde dich mit deinen Jellyfin-Zugangsdaten an.\nDie Anmeldung wird nur auf dieser Box gespeichert."
+msgstr "Meld je aan met je Jellyfin-gegevens.\nDe aanmelding wordt alleen op deze box opgeslagen."
+
+msgid "Bitte warten, die Filme werden noch geladen ..."
+msgstr "Even geduld, de films worden nog geladen ..."
+
+msgid "Bitte warten, die Filmliste wird noch geladen ..."
+msgstr "Even geduld, de filmlijst wordt nog geladen ..."
+
+msgid "Bitte warten, die Sammlungen werden noch geladen ..."
+msgstr "Even geduld, de collecties worden nog geladen ..."
+
+msgid "Bitte warten, die Serienliste wird noch geladen ..."
+msgstr "Even geduld, de serielijst wordt nog geladen ..."
+
+msgid "Bitte warten, es werden bereits Daten geladen ..."
+msgstr "Even geduld, er worden al gegevens geladen ..."
+
+msgid "Bitte warten..."
+msgstr "Even geduld..."
+
+msgid "Bitte zuerst bei Jellyfin anmelden."
+msgstr "Meld je eerst aan bij Jellyfin."
+
+msgid "Bitte zuerst einloggen"
+msgstr "Meld je eerst aan"
+
+msgid "Bitte zuerst einloggen, um auf diese Inhalte zuzugreifen."
+msgstr "Meld je eerst aan om deze inhoud te openen."
+
+msgid "Bitte zuerst einloggen."
+msgstr "Meld je eerst aan."
+
+msgid "Cover-/Info-Refresh-Verzögerung:"
+msgstr "Vertraging voor vernieuwen van covers/info:"
+
+msgid "DEBUG (Alles loggen)"
+msgstr "DEBUG (Alles loggen)"
+
+msgid "DTS direkt ausgeben:"
+msgstr "DTS direct uitvoeren:"
+
+msgid "Das Netzwerk oder der Jellyfin-Server ist nicht erreichbar."
+msgstr "Het netwerk of de Jellyfin-server is niet bereikbaar."
+
+msgid "Das SSL-Zertifikat des Jellyfin-Servers konnte nicht überprüft werden. Bitte die CA-Zertifikate der Box oder die Zertifikatskette des Servers prüfen."
+msgstr "Het SSL-certificaat van de Jellyfin-server kon niet worden gecontroleerd. Controleer de CA-certificaten van de box of de certificaatketen van de server."
+
+msgid "Das SSL-Zertifikat des Jellyfin-Servers konnte nicht überprüft werden. Bitte die CA-Zertifikate der Box und die Zertifikatskette des Servers prüfen."
+msgstr "Het SSL-certificaat van de Jellyfin-server kon niet worden gecontroleerd. Controleer de CA-certificaten van de box en de certificaatketen van de server."
+
+msgid "Daten werden geladen ..."
+msgstr "Gegevens laden ..."
+
+msgid "Datenbank"
+msgstr "Bibliotheek"
+
+msgid "Datenbankinformationen werden geladen ..."
+msgstr "Bibliotheekinformatie laden ..."
+
+msgid "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
+msgstr "De achtergrondworkers zijn bezet. Het laden kon niet worden gestart."
+
+msgid "Der Jellyfin-Server antwortet nicht rechtzeitig."
+msgstr "De Jellyfin-server reageert niet op tijd."
+
+msgid "Der Jellyfin-Server hat die Verbindung unerwartet beendet."
+msgstr "De Jellyfin-server heeft de verbinding onverwacht verbroken."
+
+msgid "Der Servername konnte nicht aufgelöst werden. Bitte die Jellyfin-Adresse und die DNS-Einstellungen prüfen."
+msgstr "De servernaam kon niet worden omgezet. Controleer het Jellyfin-adres en de DNS-instellingen."
+
+msgid "Der neue Audio-Stream konnte nicht gestartet werden: %s"
+msgstr "De nieuwe audiostream kon niet worden gestart: %s"
+
+msgid "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
+msgstr "De voorbereide audioherstart kon niet aan de interface worden doorgegeven."
+
+msgid "Dezember"
+msgstr "December"
+
+msgid "Die Aktualisierung lieferte kein gültiges Ergebnis."
+msgstr "De update leverde geen geldig resultaat op."
+
+msgid "Die HTTPS-Verbindung konnte nicht aufgebaut werden. Bitte prüfen, ob HTTP und HTTPS korrekt konfiguriert sind."
+msgstr "De HTTPS-verbinding kon niet worden gemaakt. Controleer de HTTP- en HTTPS-configuratie."
+
+msgid "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
+msgstr "De Jellyfin-stream-URL kon niet worden gemaakt."
+
+msgid "Die Untertitelspur konnte nicht aktiviert werden."
+msgstr "Het ondertitelspoor kon niet worden ingeschakeld."
+
+msgid "Die Verbindung zum Jellyfin-Server wurde abgelehnt oder unterbrochen."
+msgstr "De verbinding met de Jellyfin-server is geweigerd of onderbroken."
+
+msgid "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
+msgstr "De nieuwe Jellyfin-stream-URL kon niet worden gemaakt."
+
+msgid "Die nächste Episode konnte nicht ermittelt werden."
+msgstr "De volgende aflevering kon niet worden bepaald."
+
+msgid "Die nächste Episode konnte nicht gesucht werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "De volgende aflevering kon niet worden gezocht omdat de achtergrondworkers bezet zijn."
+
+msgid "Dienstag"
+msgstr "Dinsdag"
+
+msgid "Direktstream bevorzugen"
+msgstr "Direct stream verkiezen"
+
+msgid "Dokumentation"
+msgstr "Documentaire"
+
+msgid "Dolby TrueHD / Atmos direkt ausgeben:"
+msgstr "Dolby TrueHD / Atmos direct uitvoeren:"
+
+msgid "Donnerstag"
+msgstr "Donderdag"
+
+msgid "Drama"
+msgstr "Drama"
+
+msgid "Dynamische Hintergründe:"
+msgstr "Dynamische achtergronden:"
+
+msgid "EAC3 direkt ausgeben:"
+msgstr "EAC3 direct uitvoeren:"
+
+msgid "ERROR (Nur Fehler)"
+msgstr "ERROR (Alleen fouten)"
+
+msgid "EXIT = Zurück"
+msgstr "EXIT = Terug"
+
+msgid "Einstellungen"
+msgstr "Instellingen"
+
+msgid "Einstellungen konnten nicht geöffnet werden: %s"
+msgstr "Instellingen konden niet worden geopend: %s"
+
+msgid "Eintrag"
+msgstr "Item"
+
+msgid "Eintrag %s / %s | Steuerkreuz = Navigieren | HOCH am Anfang = Zum Verlauf"
+msgstr "Item %s / %s | Pijltjes = Navigeren | OMHOOG aan het begin = Geschiedenis"
+
+msgid "Enigma2 IPTV (4097)"
+msgstr "Enigma2 IPTV (4097)"
+
+msgid "Erfolgreich abgemeldet."
+msgstr "Succesvol afgemeld."
+
+msgid "Erfolgreich angemeldet!"
+msgstr "Succesvol aangemeld."
+
+msgid "Erklärung"
+msgstr "Uitleg"
+
+msgid "Erzwungen"
+msgstr "Geforceerd"
+
+msgid "ExtePlayer3 (5002)"
+msgstr "ExtePlayer3 (5002)"
+
+msgid "Extern"
+msgstr "Extern"
+
+msgid "Familie"
+msgstr "Familie"
+
+msgid "Fantasy"
+msgstr "Fantasy"
+
+msgid "Februar"
+msgstr "Februari"
+
+msgid "Fehler beim Speichern der Einstellungen"
+msgstr "Instellingen konden niet worden opgeslagen"
+
+msgid "Fehler beim Speichern: %s"
+msgstr "Fout bij opslaan: %s"
+
+msgid "Fehler beim Starten des Streams: %s"
+msgstr "Stream kon niet worden gestart: %s"
+
+msgid "Fehler: Episoden-ID fehlt"
+msgstr "Fout: aflevering-ID ontbreekt"
+
+msgid "Fehler: Film-ID der Sammlung fehlt"
+msgstr "Fout: film-ID van de collectie ontbreekt"
+
+msgid "Fehler: Film-ID fehlt"
+msgstr "Fout: film-ID ontbreekt"
+
+msgid "Fehler: Film-ID konnte nicht ermittelt werden"
+msgstr "Fout: film-ID kon niet worden bepaald"
+
+msgid "Fehler: ID fehlt"
+msgstr "Fout: ID ontbreekt"
+
+msgid "Fehler: Item-ID fehlt."
+msgstr "Fout: item-ID ontbreekt."
+
+msgid "Fehler: Resume-ID fehlt"
+msgstr "Fout: hervat-ID ontbreekt"
+
+msgid "Fehler: Sammlungs-ID fehlt"
+msgstr "Fout: collectie-ID ontbreekt"
+
+msgid "Fehler: Serien-ID fehlt"
+msgstr "Fout: serie-ID ontbreekt"
+
+msgid "Fehler: Treffer-ID fehlt"
+msgstr "Fout: resultaat-ID ontbreekt"
+
+msgid "Film"
+msgstr "Film"
+
+msgid "Film %s / %s | Steuerkreuz = Navigieren | OK = Abspielen"
+msgstr "Film %s / %s | Pijltjes = Navigeren | OK = Afspelen"
+
+msgid "Film- und Serienbibliothek wird aktualisiert ..."
+msgstr "Film- en seriebibliotheek bijwerken ..."
+
+msgid "Film- und Serienlisten konnten nicht aktualisiert werden"
+msgstr "Film- en serielijsten konden niet worden bijgewerkt"
+
+msgid "Film- und Serienlisten werden aktualisiert ..."
+msgstr "Film- en serielijsten bijwerken ..."
+
+msgid "Film: %s\nJahr: %s   Laufzeit: %s%s\nGenre: %s"
+msgstr "Film: %s\nJaar: %s   Duur: %s%s\nGenre: %s"
+
+msgid "Filme"
+msgstr "Films"
+
+msgid "Filme / Serien suchen"
+msgstr "Films / series zoeken"
+
+msgid "Filme der Sammlung konnten nicht angezeigt werden."
+msgstr "De films van de collectie konden niet worden getoond."
+
+msgid "Filme der Sammlung konnten nicht geladen werden: %s"
+msgstr "De films van de collectie konden niet worden geladen: %s"
+
+msgid "Filme der Sammlung werden geladen ..."
+msgstr "Films van de collectie laden ..."
+
+msgid "Filme: %s   Sammlungen: %s\nSerien: %s   Episoden: %s"
+msgstr "Films: %s   Collecties: %s\nSeries: %s   Afleveringen: %s"
+
+msgid "Filme: -\nSerien: -\nEpisoden: -\nSammlungen: -"
+msgstr "Films: -\nSeries: -\nAfleveringen: -\nCollecties: -"
+
+msgid "Filminformationen werden geladen ..."
+msgstr "Filmdetails laden ..."
+
+msgid "Filmliste konnte nicht angezeigt werden."
+msgstr "De filmlijst kon niet worden getoond."
+
+msgid "Filmliste konnte nicht geladen werden: %s"
+msgstr "De filmlijst kon niet worden geladen: %s"
+
+msgid "Filmliste wird geladen ..."
+msgstr "Filmlijst laden ..."
+
+msgid "Filmliste wird von Jellyfin geladen ..."
+msgstr "Filmlijst laden van Jellyfin ..."
+
+msgid "Folge"
+msgstr "Aflevering"
+
+msgid "Folge %s / %s | HOCH oben = Staffelauswahl | OK = Abspielen"
+msgstr "Aflevering %s / %s | OMHOOG bovenaan = Seizoen kiezen | OK = Afspelen"
+
+msgid "Folge: S%02dE%02d - %s\n%s"
+msgstr "Aflevering: S%02dE%02d - %s\n%s"
+
+msgid "Folgen der Staffel %s werden geladen ..."
+msgstr "Afleveringen van seizoen %s laden ..."
+
+msgid "Folgen konnten nicht geladen werden: %s"
+msgstr "Afleveringen konden niet worden geladen: %s"
+
+msgid "Fortsetzen"
+msgstr "Hervatten"
+
+msgid "Fortsetzungsdaten werden geladen ..."
+msgstr "Hervatgegevens laden ..."
+
+msgid "Freitag"
+msgstr "Vrijdag"
+
+msgid "Für Server %s ist keine vollständige Anmeldung gespeichert."
+msgstr "Voor server %s is geen volledige aanmelding opgeslagen."
+
+msgid "GStreamer / gstplayer (5001)"
+msgstr "GStreamer / gstplayer (5001)"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Film %s / %s | OK = Abspielen"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Film %s / %s | OK = Afspelen"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Filme vorhanden"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Geen films beschikbaar"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Serien in dieser Kategorie"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Geen series in deze categorie"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Sammlung %s / %s | OK = Öffnen"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Collectie %s / %s | OK = Openen"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Serie %s / %s | OK = Staffeln anzeigen"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Serie %s / %s | OK = Seizoenen tonen"
+
+msgid "Genre: %s"
+msgstr "Genre: %s"
+
+msgid "HLS (.m3u8)"
+msgstr "HLS (.m3u8)"
+
+msgid "Hier stellst du die maximale Datenrate für umgewandelte Streams ein. Niedrigere Werte sind besser für langsame Netzwerke, höhere Werte liefern bessere Bildqualität."
+msgstr "Stelt de maximale bitsnelheid voor getranscodeerde streams in. Lagere waarden passen bij trage netwerken; hogere waarden zien er beter uit."
+
+msgid "Historie"
+msgstr "Historie"
+
+msgid "Horror"
+msgstr "Horror"
+
+msgid "Hörgeschädigte"
+msgstr "Slechthorenden"
+
+msgid "IMDb %s"
+msgstr "IMDb %s"
+
+msgid "INFO (Standard)"
+msgstr "INFO (Standaard)"
+
+msgid "Im Receiver-Hauptmenü anzeigen:"
+msgstr "Tonen in het hoofdmenu van de ontvanger:"
+
+msgid "Image-Worker für Cover und Backdrops:"
+msgstr "Afbeeldingsworkers voor covers en achtergronden:"
+
+msgid "Ja"
+msgstr "Ja"
+
+msgid "Jahr: %s"
+msgstr "Jaar: %s"
+
+msgid "Jahr: %s   Laufzeit: %s Min"
+msgstr "Jaar: %s   Duur: %s min"
+
+msgid "Januar"
+msgstr "Januari"
+
+msgid "Jellyfin Benutzer"
+msgstr "Jellyfin-gebruikersnaam"
+
+msgid "Jellyfin Client für Enigma2"
+msgstr "Jellyfin-client voor Enigma2"
+
+msgid "Jellyfin Passwort (wird verdeckt gespeichert)"
+msgstr "Jellyfin-wachtwoord (verborgen opgeslagen)"
+
+msgid "Jellyfin Server %s von %s"
+msgstr "Jellyfin-server %s van %s"
+
+msgid "Jellyfin Server Adresse"
+msgstr "Adres van de Jellyfin-server"
+
+msgid "Jellyfin hat diese Anfrage nicht autorisiert (HTTP 401). Die gespeicherte Sitzung wurde nicht automatisch gelöscht."
+msgstr "Jellyfin heeft dit verzoek niet geautoriseerd (HTTP 401). De opgeslagen sessie is niet automatisch verwijderd."
+
+msgid "Jellyfin-Anfrage fehlgeschlagen (HTTP %s)."
+msgstr "Jellyfin-verzoek mislukt (HTTP %s)."
+
+msgid "Jellyfin-Endpunkt wurde nicht gefunden."
+msgstr "Jellyfin-endpoint niet gevonden."
+
+msgid "Jellyfin-POST konnte nicht gestartet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "De Jellyfin-POST kon niet worden gestart omdat de achtergrondworkers bezet zijn."
+
+msgid "Jellyfin-Server antwortet nicht rechtzeitig."
+msgstr "De Jellyfin-server reageert niet op tijd."
+
+msgid "Jellyfin-Server ist nicht erreichbar."
+msgstr "De Jellyfin-server is niet bereikbaar."
+
+msgid "Jellyfin-Serverfehler (HTTP %s)."
+msgstr "Jellyfin-serverfout (HTTP %s)."
+
+msgid "Jellyfin-Verbindung wird geprüft ..."
+msgstr "Jellyfin-verbinding controleren ..."
+
+msgid "Juli"
+msgstr "Juli"
+
+msgid "Juni"
+msgstr "Juni"
+
+msgid "Kein Eintrag an dieser Position"
+msgstr "Geen item op deze positie"
+
+msgid "Kein gültiger Film an der aktuellen Position"
+msgstr "Geen geldige film op de huidige positie"
+
+msgid "Kein gültiger Film in dieser Sammlung ausgewählt"
+msgstr "Geen geldige film geselecteerd in deze collectie"
+
+msgid "Kein gültiger Suchtreffer ausgewählt"
+msgstr "Geen geldig zoekresultaat geselecteerd"
+
+msgid "Kein gültiger Weiterschauen-Eintrag ausgewählt"
+msgstr "Geen geldig item van Verder kijken geselecteerd"
+
+msgid "Keine Beschreibung für diese Staffel hinterlegt."
+msgstr "Voor dit seizoen is geen beschrijving opgeslagen."
+
+msgid "Keine Beschreibung verfügbar."
+msgstr "Geen beschrijving beschikbaar."
+
+msgid "Keine Beschreibung vorhanden."
+msgstr "Geen beschrijving beschikbaar."
+
+msgid "Keine Folgen in dieser Staffel gefunden."
+msgstr "Geen afleveringen gevonden in dit seizoen."
+
+msgid "Keine Inhalte zur Auswahl vorhanden"
+msgstr "Geen items om te selecteren"
+
+msgid "Keine Kurzbeschreibung vorhanden."
+msgstr "Geen korte beschrijving beschikbaar."
+
+msgid "Keine Sammlungen gefunden."
+msgstr "Geen collecties gevonden."
+
+msgid "Keine Sammlungen in dieser Kategorie."
+msgstr "Geen collecties in deze categorie."
+
+msgid "Keine Staffeln gefunden."
+msgstr "Geen seizoenen gevonden."
+
+msgid "Keine Ton- oder Untertitelspuren gefunden."
+msgstr "Geen audio- of ondertitelsporen gevonden."
+
+msgid "Keine Treffer für '%s' | LINKS/RECHTS = Verlauf wechseln"
+msgstr "Geen resultaten voor '%s' | LINKS/RECHTS = Geschiedenis wisselen"
+
+msgid "Keine gültige Folge ausgewählt"
+msgstr "Geen geldige aflevering geselecteerd"
+
+msgid "Keine gültige Sammlung ausgewählt"
+msgstr "Geen geldige collectie geselecteerd"
+
+msgid "Keine gültige Serie ausgewählt"
+msgstr "Geen geldige serie geselecteerd"
+
+msgid "Keine gültige Staffel ausgewählt"
+msgstr "Geen geldig seizoen geselecteerd"
+
+msgid "Keine passenden Einträge in deiner Mediathek gefunden."
+msgstr "Geen overeenkomende items in je bibliotheek gevonden."
+
+msgid "Kinder"
+msgstr "Kinderen"
+
+msgid "Komödie"
+msgstr "Komedie"
+
+msgid "Krieg"
+msgstr "Oorlog"
+
+msgid "Krieg & Politik"
+msgstr "Oorlog en politiek"
+
+msgid "Krimi"
+msgstr "Misdaad"
+
+msgid "Kritischer Fehler beim Starten des Players: %s"
+msgstr "Kritieke fout bij het starten van de speler: %s"
+
+msgid "Kurzfilm"
+msgstr "Korte film"
+
+msgid "LINKS/RECHTS = Filme durchblättern\nHOCH = Zum Weiterschauen / Hauptmenü   OK = Film-Infos   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Door films bladeren\nOMHOOG = Verder kijken / hoofdmenu   OK = Filminfo   BLAUW = Bibliotheek vernieuwen"
+
+msgid "LINKS/RECHTS = Menü wechseln     BLAU = Bibliothek aktualisieren\nRUNTER = Weiterschauen / Neuerscheinungen     OK = Auswählen"
+msgstr "LINKS/RECHTS = Menu wisselen     BLAUW = Bibliotheek vernieuwen\nOMLAAG = Verder kijken / Nieuw     OK = Selecteren"
+
+msgid "LINKS/RECHTS = Menü wechseln     OK = Auswählen"
+msgstr "LINKS/RECHTS = Menu wisselen     OK = Selecteren"
+
+msgid "LINKS/RECHTS = Serverplatz wechseln   GELB = Gespeicherten Server aktivieren   OK = Anmeldung erneuern"
+msgstr "LINKS/RECHTS = Serverplek wisselen   GEEL = Opgeslagen server activeren   OK = Aanmelding vernieuwen"
+
+msgid "LINKS/RECHTS = Serverplatz wechseln   OK = Server einrichten   EXIT = Abbrechen"
+msgstr "LINKS/RECHTS = Serverplek wisselen   OK = Server instellen   EXIT = Annuleren"
+
+msgid "LINKS/RECHTS = Verlauf blättern | RUNTER = In die Film-Auswahl wechseln"
+msgstr "LINKS/RECHTS = Door geschiedenis bladeren | OMLAAG = Naar de resultaten"
+
+msgid "LINKS/RECHTS = Weiterschauen durchblättern\nHOCH = Zum Hauptmenü | RUNTER = Neuerscheinungen   OK = Fortsetzen   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Door Verder kijken bladeren\nOMHOOG = Hoofdmenu | OMLAAG = Nieuw   OK = Hervatten   BLAUW = Bibliotheek vernieuwen"
+
+msgid "Laufzeit: %s"
+msgstr "Duur: %s"
+
+msgid "Laufzeit: %s   Erstausstrahlung: %s"
+msgstr "Duur: %s   Eerste uitzending: %s"
+
+msgid "Leer / nicht angemeldet"
+msgstr "Leeg / niet aangemeld"
+
+msgid "Legt die Minute der automatischen Bibliotheksaktualisierung fest."
+msgstr "Minuut van de automatische bibliotheekupdate."
+
+msgid "Legt die Sprache der JellyDream-Oberfläche fest. 'Automatisch' verwendet die Receiversprache, sofern Deutsch, English, Français, Italiano, Español, Polski, Nederlands, Türkçe, العربية oder Русский verfügbar ist. Andernfalls wird English verwendet."
+msgstr "Stelt de interfacetaal van JellyDream in. Automatisch gebruikt de taal van de ontvanger als Deutsch, English, Français, Italiano, Español, Polski, Nederlands, Türkçe, العربية of Русский beschikbaar is. Anders wordt English gebruikt."
+
+msgid "Legt die Stunde fest, zu der JellyDream die Film- und Serienlisten automatisch aktualisiert."
+msgstr "Uur waarop JellyDream de film- en serielijsten automatisch vernieuwt."
+
+msgid "Legt fest, in welcher maximalen Auflösung JellyDream Inhalte streamen darf. Höhere Auflösungen liefern bessere Bildqualität, benötigen aber mehr Bandbreite."
+msgstr "Stelt de maximale resolutie in waarmee JellyDream mag streamen. Hogere waarden zien er beter uit, maar vragen meer bandbreedte."
+
+msgid "Legt fest, mit welchem Enigma2-Service-Typ JellyDream Filme und Serien abspielt. 'Enigma2 IPTV (4097)' ist der Standard. 'GStreamer / gstplayer (5001)' verwendet gstplayer. 'ExtePlayer3 (5002)' verwendet exteplayer3. Die zusätzlichen Auswahlmöglichkeiten erscheinen nur, wenn der jeweilige Player auf der Box installiert ist."
+msgstr "Met welk Enigma2-servicetype JellyDream afspeelt. 4097 is standaard, 5001 is gstplayer, 5002 is exteplayer3. Extra keuzes verschijnen alleen als die speler is geïnstalleerd."
+
+msgid "Legt fest, ob AC3-Tonspuren ohne Umwandlung direkt an den Receiver bzw. Fernseher gesendet werden dürfen. Wenn dein TV bei AC3 'Audioformat nicht unterstützt' meldet, stelle hier 'Nein' ein."
+msgstr "Of AC3-sporen zonder omzetting direct mogen worden gestuurd. Zet dit op Nee als de tv een niet-ondersteund audioformaat meldt."
+
+msgid "Legt fest, ob DTS-Tonspuren ohne Umwandlung direkt ausgegeben werden dürfen. Wenn dein TV oder Receiver DTS nicht unterstützt, stelle hier 'Nein' ein, damit JellyDream die Tonspur in ein kompatibleres Format umwandelt."
+msgstr "Of DTS-sporen direct mogen worden uitgevoerd. Zet dit op Nee als de tv of receiver geen DTS ondersteunt, zodat JellyDream het spoor omzet."
+
+msgid "Legt fest, ob Dolby TrueHD inklusive Dolby Atmos unverändert über HDMI ausgegeben werden darf. Dies benötigt einen AV-Receiver, einen HDMI-Passthrough-fähigen Receiver und einen Enigma2-Player, der TrueHD unterstützt. Falls kein Ton kommt, diese Einstellung deaktivieren."
+msgstr "Of Dolby TrueHD inclusief Atmos ongewijzigd via HDMI mag worden uitgevoerd. Daarvoor zijn een AV-receiver, HDMI-passthrough en een Enigma2-speler met TrueHD nodig. Zet dit uit als er geen geluid is."
+
+msgid "Legt fest, ob EAC3-/Dolby-Digital-Plus-Tonspuren direkt ausgegeben werden dürfen. Falls dein Gerät damit Probleme hat, stelle hier 'Nein' ein, damit JellyDream in ein kompatibleres Format umwandelt."
+msgstr "Of EAC3/Dolby Digital Plus direct mag worden uitgevoerd. Zet dit op Nee als je apparaat problemen heeft, zodat JellyDream naar een compatibel formaat omzet."
+
+msgid "Legt fest, ob JellyDream zusätzlich direkt im Hauptmenü des Receivers angezeigt werden soll."
+msgstr "Of JellyDream ook in het hoofdmenu van de ontvanger moet verschijnen."
+
+msgid "Legt fest, ob beim Navigieren passende Jellyfin-Backdrops als Vollbild-Hintergrund geladen und angezeigt werden. Bei 'Nein' verwendet JellyDream immer den Standardhintergrund. Das reduziert auf älteren oder langsameren OpenPLi-Boxen CPU-, RAM-, Netzwerk- und Repaint-Belastung."
+msgstr "Of passende Jellyfin-achtergronden tijdens het navigeren als volledig scherm worden geladen. Nee houdt de standaardachtergrond en ontlast tragere OpenPLi-boxen."
+
+msgid "Legt fest, ob die vollständigen Film- und Serienlisten einmal täglich automatisch vom Jellyfin-Server geladen und lokal gespeichert werden."
+msgstr "Of de volledige film- en serielijsten eenmaal per dag van Jellyfin worden geladen en lokaal worden opgeslagen."
+
+msgid "Legt fest, wie JellyDream Streams abspielt. 'Direktstream bevorzugen' nutzt die Originalformate des Servers und funktioniert oft am besten, wenn dein Receiver HEVC/H.265 und EAC3 direkt unterstützt. 'Stabilität bevorzugen' erzwingt eher kompatible Formate per Transcoding. 'Automatisch' mischt beide Verfahren, kann aber je nach Receiver bei einzelnen Codec-Kombinationen wie HEVC + EAC3 zu Problemen führen."
+msgstr "Bepaalt hoe streams worden afgespeeld. Direct stream gebruikt de originele serverformaten als de ontvanger HEVC/H.265 en EAC3 ondersteunt. Stabiliteit dwingt compatibele formaten af via transcodering. Automatisch mengt beide en kan bij sommige codeccombinaties, zoals HEVC + EAC3, problemen geven."
+
+msgid "Legt fest, wie umgewandelte oder neu verpackte Streams übertragen werden. 'TS' verwendet einen fortlaufenden MPEG-Transportstream und ist für Enigma2 meistens die kompatibelste Einstellung. 'HLS' verwendet eine M3U8-Playlist mit einzelnen TS-Segmenten und kann bei instabilen Netzwerkverbindungen oder bestimmten externen Playern besser funktionieren. Direct Play bleibt von dieser Einstellung unberührt."
+msgstr "Hoe getranscodeerde of opnieuw verpakte streams worden verzonden. TS gebruikt een doorlopende MPEG-transportstream en is op Enigma2 meestal het meest compatibel. HLS gebruikt een M3U8-afspeellijst met TS-segmenten en kan helpen bij onstabiele netwerken. Direct Play blijft ongewijzigd."
+
+msgid "Legt fest, wie viele Bilder JellyDream gleichzeitig im Hintergrund laden darf. Zwei Worker laden Poster schneller. Auf schwachen oder älteren Boxen reduziert ein Worker die gleichzeitige CPU-, RAM- und Netzwerkbelastung. Nach einer Änderung wird ein GUI-Neustart benötigt."
+msgstr "Hoeveel afbeeldingen JellyDream tegelijk op de achtergrond mag laden. Twee workers tonen posters sneller. Eén worker ontlast oudere boxen. Na een wijziging is een herstart van de interface nodig."
+
+msgid "Liebesfilm"
+msgstr "Romantiek"
+
+msgid "Login"
+msgstr "Aanmelden"
+
+msgid "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
+msgstr "Aanmelden gelukt, maar het serverprofiel kon niet worden opgeslagen"
+
+msgid "Login fehlgeschlagen: %s"
+msgstr "Aanmelden mislukt: %s"
+
+msgid "Login ohne gültigen Token oder Benutzer-ID"
+msgstr "Aanmelden zonder geldig token of gebruikers-ID"
+
+msgid "MP2 (maximale Kompatibilität)"
+msgstr "MP2 (maximale compatibiliteit)"
+
+msgid "Mai"
+msgstr "Mei"
+
+msgid "Maximale Video-Auflösung:"
+msgstr "Maximale videoresolutie:"
+
+msgid "Media für die ganze Familie\nPowered by Jellyfin"
+msgstr "Media voor het hele gezin\nPowered by Jellyfin"
+
+msgid "Menüeintrag konnte nicht ermittelt werden"
+msgstr "Menu-item kon niet worden bepaald"
+
+msgid "Mittwoch"
+msgstr "Woensdag"
+
+msgid "Montag"
+msgstr "Maandag"
+
+msgid "Musical"
+msgstr "Musical"
+
+msgid "Musik"
+msgstr "Muziek"
+
+msgid "Mystery"
+msgstr "Mysterie"
+
+msgid "März"
+msgstr "Maart"
+
+msgid "Möchtest du dich vom aktuell aktiven Jellyfin-Server abmelden?\n\nNur dieses Serverprofil wird gelöscht. Andere gespeicherte Server bleiben erhalten."
+msgstr "Wil je je afmelden bij de actieve Jellyfin-server?\n\nAlleen dit serverprofiel wordt verwijderd. Andere opgeslagen servers blijven behouden."
+
+msgid "Möchtest du die nächste Folge abspielen?\n\n%s\n\n"
+msgstr "Wil je de volgende aflevering afspelen?\n\n%s\n\n"
+
+msgid "Nachrichten"
+msgstr "Nieuws"
+
+msgid "Nein"
+msgstr "Nee"
+
+msgid "Neue Suche..."
+msgstr "Nieuwe zoekopdracht..."
+
+msgid "Neuerscheinungen"
+msgstr "Nieuw"
+
+msgid "Nicht bei Jellyfin angemeldet"
+msgstr "Niet aangemeld bij Jellyfin"
+
+msgid "Nicht bei Jellyfin angemeldet. GRÜN = Einstellungen speichern"
+msgstr "Niet aangemeld bij Jellyfin. GROEN = Instellingen opslaan"
+
+msgid "November"
+msgstr "November"
+
+msgid "Nächste Folge konnte nicht gestartet werden."
+msgstr "De volgende aflevering kon niet worden gestart."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "OK = Abspielen   Steuerkreuz = Navigieren   EXIT = Zurück"
+msgstr "OK = Afspelen   Pijltjes = Navigeren   EXIT = Terug"
+
+msgid "OK = Auswählen   HOCH/RUNTER = Navigieren   EXIT = Schließen"
+msgstr "OK = Selecteren   OMHOOG/OMLAAG = Navigeren   EXIT = Sluiten"
+
+msgid "OK = Neue Suche starten | LINKS/RECHTS = Alten Verlauf durchblättern"
+msgstr "OK = Nieuwe zoekopdracht | LINKS/RECHTS = Door geschiedenis bladeren"
+
+msgid "OK = Starten     EXIT = Zurück"
+msgstr "OK = Starten     EXIT = Terug"
+
+msgid "OK = Umschalten   EXIT = Schließen"
+msgstr "OK = Omschakelen   EXIT = Sluiten"
+
+msgid "OK = Öffnen / Übernehmen   GRÜN = Speichern   BLAU = Bibliothek aktualisieren   EXIT = Abbrechen"
+msgstr "OK = Openen / Toepassen   GROEN = Opslaan   BLAUW = Bibliotheek vernieuwen   EXIT = Annuleren"
+
+msgid "OK Auswählen    BACK Zurück"
+msgstr "OK Selecteren    BACK Terug"
+
+msgid "OK Starten"
+msgstr "OK Afspelen"
+
+msgid "Ohne Titel"
+msgstr "Zonder titel"
+
+msgid "Oktober"
+msgstr "Oktober"
+
+msgid "Player für Jellyfin-Streams:"
+msgstr "Speler voor Jellyfin-streams:"
+
+msgid "Plugin Log-Level (Debugging):"
+msgstr "Logniveau van de plugin (foutzoeken):"
+
+msgid "Plugin-Sprache:"
+msgstr "Plugintaal:"
+
+msgid "Reality"
+msgstr "Reality"
+
+msgid "Regie: %s\nGenre: %s"
+msgstr "Regie: %s\nGenre: %s"
+
+msgid "Sammlung"
+msgstr "Collectie"
+
+msgid "Sammlungen"
+msgstr "Collecties"
+
+msgid "Sammlungen konnten nicht angezeigt werden."
+msgstr "Collecties konden niet worden getoond."
+
+msgid "Sammlungen konnten nicht gefiltert werden."
+msgstr "Collecties konden niet worden gefilterd."
+
+msgid "Sammlungen konnten nicht geladen werden."
+msgstr "Collecties konden niet worden geladen."
+
+msgid "Sammlungen konnten nicht geladen werden: %s"
+msgstr "Collecties konden niet worden geladen: %s"
+
+msgid "Sammlungen werden geladen ..."
+msgstr "Collecties laden ..."
+
+msgid "Sammlungen werden von Jellyfin geladen ..."
+msgstr "Collecties laden van Jellyfin ..."
+
+msgid "Sammlungszuordnung wird geprüft ..."
+msgstr "Collectietoewijzing controleren ..."
+
+msgid "Samstag"
+msgstr "Zaterdag"
+
+msgid "Science-Fiction"
+msgstr "Sciencefiction"
+
+msgid "Science-Fiction & Fantasy"
+msgstr "Sciencefiction en fantasy"
+
+msgid "Screen '%s' konnte nicht geöffnet werden: %s"
+msgstr "Scherm '%s' kon niet worden geopend: %s"
+
+msgid "Seifenoper"
+msgstr "Soapserie"
+
+msgid "September"
+msgstr "September"
+
+msgid "Serie"
+msgstr "Serie"
+
+msgid "Serie: %s%s\nJahr: %s\nGenre: %s"
+msgstr "Serie: %s%s\nJaar: %s\nGenre: %s"
+
+msgid "Serien"
+msgstr "Series"
+
+msgid "Serienliste konnte nicht angezeigt werden."
+msgstr "De serielijst kon niet worden getoond."
+
+msgid "Serienliste konnte nicht geladen werden: %s"
+msgstr "De serielijst kon niet worden geladen: %s"
+
+msgid "Serienliste wird geladen ..."
+msgstr "Serielijst laden ..."
+
+msgid "Serienliste wird von Jellyfin geladen ..."
+msgstr "Serielijst laden van Jellyfin ..."
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Server %s von %s\n%s"
+msgstr "Server %s van %s\n%s"
+
+msgid "Server %s wurde aktiviert."
+msgstr "Server %s is geactiveerd."
+
+msgid "Server bearbeiten/hinzufügen:"
+msgstr "Server bewerken/toevoegen:"
+
+msgid "Server oder Benutzer fehlt"
+msgstr "Server of gebruiker ontbreekt"
+
+msgid "Server wechseln"
+msgstr "Server wisselen"
+
+msgid "Serverplatz %s von %s\nStatus: %s\n\n1. Jellyfin Server\n%s\n\n2. Benutzername\n%s\n\n3. Passwort\n%s"
+msgstr "Serverplek %s van %s\nStatus: %s\n\n1. Jellyfin-server\n%s\n\n2. Gebruikersnaam\n%s\n\n3. Wachtwoord\n%s"
+
+msgid "Serverprofil konnte nicht aktiviert werden."
+msgstr "Het serverprofiel kon niet worden geactiveerd."
+
+msgid "Serververwaltung geschlossen. GRÜN = Einstellungen speichern"
+msgstr "Serverbeheer gesloten. GROEN = Instellingen opslaan"
+
+msgid "Serververwaltung konnte nicht geöffnet werden."
+msgstr "Serverbeheer kon niet worden geopend."
+
+msgid "Serververwaltung konnte nicht geöffnet werden: %s"
+msgstr "Serverbeheer kon niet worden geopend: %s"
+
+msgid "Sonntag"
+msgstr "Zondag"
+
+msgid "Sport"
+msgstr "Sport"
+
+msgid "Stabilität bevorzugen"
+msgstr "Stabiliteit verkiezen"
+
+msgid "Staffel"
+msgstr "Seizoen"
+
+msgid "Staffel %s"
+msgstr "Seizoen %s"
+
+msgid "Staffel %s / %s | Steuerkreuz = Navigieren / blättern | OK = Folgen anzeigen | EXIT = Zurück"
+msgstr "Seizoen %s / %s | Pijltjes = Navigeren / bladeren | OK = Afleveringen tonen | EXIT = Terug"
+
+msgid "Staffel %s | LINKS/RECHTS = Staffel wechseln | RUNTER = Zur Folgenliste"
+msgstr "Seizoen %s | LINKS/RECHTS = Seizoen wisselen | OMLAAG = Afleveringenlijst"
+
+msgid "Staffel-Details: %s%s\nJahr: %s"
+msgstr "Seizoensdetails: %s%s\nJaar: %s"
+
+msgid "Staffelauswahl"
+msgstr "Seizoenskeuze"
+
+msgid "Staffeln konnten nicht geladen werden: %s"
+msgstr "Seizoenen konden niet worden geladen: %s"
+
+msgid "Staffeln werden geladen ..."
+msgstr "Seizoenen laden ..."
+
+msgid "Staffelnummer ist ungültig"
+msgstr "Seizoensnummer is ongeldig"
+
+msgid "Standard-Audiosprache:"
+msgstr "Standaard audiotaal:"
+
+msgid "Startseitendaten werden geladen ..."
+msgstr "Startgegevens laden ..."
+
+msgid "Steuert, wie schnell Poster, Backdrops und Detailinformationen beim Navigieren aktualisiert werden. Kleinere Werte reagieren schneller, können aber die Box stärker belasten."
+msgstr "Bepaalt hoe snel posters, achtergronden en details tijdens het navigeren worden bijgewerkt. Kleinere waarden reageren sneller, maar belasten de box meer."
+
+msgid "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
+msgstr "De stream-URL kon niet worden gemaakt. Meld je eerst aan."
+
+msgid "Streamdaten werden geladen ..."
+msgstr "Streamgegevens laden ..."
+
+msgid "Streaming-Modus:"
+msgstr "Streamingmodus:"
+
+msgid "Suche"
+msgstr "Zoeken"
+
+msgid "Suche fehlgeschlagen: %s"
+msgstr "Zoeken mislukt: %s"
+
+msgid "Suche läuft ..."
+msgstr "Bezig met zoeken ..."
+
+msgid "TS (Standard / empfohlen)"
+msgstr "TS (Standaard / aanbevolen)"
+
+msgid "TV-Film"
+msgstr "Televisiefilm"
+
+msgid "Talk"
+msgstr "Talkshow"
+
+msgid "Tastaturfehler: %s"
+msgstr "Toetsenbordfout: %s"
+
+msgid "Thriller"
+msgstr "Thriller"
+
+msgid "Tippe ein Wort ein, um deine Jellyfin-Mediathek blitzschnell nach Filmen, Serien oder Sammlungen zu durchsuchen."
+msgstr "Typ een woord om snel in je Jellyfin-bibliotheek naar films, series of collecties te zoeken."
+
+msgid "Ton & Untertitel"
+msgstr "Audio en ondertiteling"
+
+msgid "Transcoding Video-Bitrate:"
+msgstr "Videobitsnelheid bij transcodering:"
+
+msgid "Transcoding-/Remux-Ausgabe:"
+msgstr "Uitvoer van transcodering/remux:"
+
+msgid "Unbekannte Menüaktion"
+msgstr "Onbekende menu-actie"
+
+msgid "Unbekannter Status"
+msgstr "Onbekende status"
+
+msgid "Unbekannter Treffertyp: %s"
+msgstr "Onbekend resultaattype: %s"
+
+msgid "Ungültige Login-Antwort"
+msgstr "Ongeldig aanmeldantwoord"
+
+msgid "Ungültiger Serverplatz."
+msgstr "Ongeldige serverplek."
+
+msgid "Untertitelspur"
+msgstr "Ondertitelspoor"
+
+msgid "Version %s"
+msgstr "Versie %s"
+
+msgid "WARNING (Nur Warnungen)"
+msgstr "WARNING (Alleen waarschuwingen)"
+
+msgid "Weiterschauen"
+msgstr "Verder kijken"
+
+msgid "Wenn vorhanden, versucht JellyDream einen Film oder eine Folge direkt mit dieser Audiosprache zu starten. Wird keine passende Spur gefunden, bleibt automatisch die Standardspur der Datei bzw. des Servers aktiv."
+msgstr "Als die beschikbaar is, start JellyDream een film of aflevering met deze audiotaal. Anders blijft het standaardspoor van het bestand of de server actief."
+
+msgid "Western"
+msgstr "Western"
+
+msgid "Wiedergabe konnte nicht gestartet werden."
+msgstr "Afspelen kon niet worden gestart."
+
+msgid "Wiedergabe konnte nicht gestartet werden: %s"
+msgstr "Afspelen kon niet worden gestart: %s"
+
+msgid "Willkommen bei JellyDream"
+msgstr "Welkom bij JellyDream"
+
+msgid "Zugriff auf Jellyfin wurde verweigert."
+msgstr "Toegang tot Jellyfin geweigerd."
+
+msgid "[Ton] %s"
+msgstr "[Audio] %s"
+
+msgid "[Untertitel] %s"
+msgstr "[Ondertiteling] %s"
+
+msgid "[Untertitel] Aus"
+msgstr "[Ondertiteling] Uit"
+
+msgid "nicht angemeldet"
+msgstr "niet aangemeld"
+
+msgid "nicht erreichbar"
+msgstr "niet bereikbaar"
+
+msgid "nicht gesetzt"
+msgstr "niet ingesteld"
+
+msgid "unbekannt"
+msgstr "onbekend"
+
+msgid "verbunden"
+msgstr "verbonden"
+
+msgid "von"
+msgstr "van"
+
+msgid "wird geprüft"
+msgstr "controleren"
+
+msgid "Öffnet die Serververwaltung. Dort können bis zu drei Jellyfin-Server eingerichtet, vorhandene Server bearbeitet oder bereits gespeicherte Serverprofile aktiviert werden. Passwörter werden nicht gespeichert."
+msgstr "Opent het serverbeheer. Je kunt tot drie Jellyfin-servers instellen, bestaande servers bewerken of een opgeslagen profiel activeren. Wachtwoorden worden niet opgeslagen."
+
+msgid "Damit die Änderung im Receiver-Hauptmenü wirksam wird, muss die Benutzeroberfläche (GUI) neu gestartet werden.\n\nJETZT neu starten?"
+msgstr "Om de wijziging in het hoofdmenu van de ontvanger toe te passen, moet de interface (GUI) opnieuw worden gestart.\n\nNU herstarten?"
+
+msgid "Damit die neue Anzahl der Image-Worker für Cover und Backdrops wirksam wird, muss die Benutzeroberfläche (GUI) neu gestartet werden.\n\nJETZT neu starten?"
+msgstr "Om het nieuwe aantal afbeeldingsworkers voor covers en achtergronden toe te passen, moet de interface (GUI) opnieuw worden gestart.\n\nNU herstarten?"
+
+msgid "Unbekannter Fehler bei der Anmeldung."
+msgstr "Onbekende fout bij het aanmelden."
+
+msgid "Von vorn"
+msgstr "Vanaf het begin"
+
+msgid "Von vorn oder fortsetzen?"
+msgstr "Vanaf het begin of hervatten?"
+
+msgid "Neuerscheinungen Filme"
+msgstr "Nieuwe films"
+
+msgid "Neuerscheinungen Serien"
+msgstr "Nieuwe series"
+
+msgid "LINKS/RECHTS = Serien durchblättern\nHOCH = Zum Weiterschauen / Hauptmenü   OK = Staffeln   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Door series bladeren\nOMHOOG = Verder kijken / hoofdmenu   OK = Seizoenen   BLAUW = Bibliotheek vernieuwen"
+
+msgid "Wiedergabestatus"
+msgstr "Afspeelstatus"
+
+msgid "Als gesehen markieren"
+msgstr "Markeer als gezien"
+
+msgid "Als ungesehen markieren"
+msgstr "Markeer als niet gezien"
+
+msgid "Aus Weiterschauen entfernen"
+msgstr "Verwijder uit Verder kijken"
+
+msgid "Der Status konnte nicht geändert werden."
+msgstr "De status kon niet worden gewijzigd."
+
+msgid "Eintrag wurde als gesehen markiert."
+msgstr "Het item is als gezien gemarkeerd."
+
+msgid "Eintrag wurde als ungesehen markiert."
+msgstr "Het item is als niet gezien gemarkeerd."
+
+msgid "Eintrag wurde aus Weiterschauen entfernt."
+msgstr "Het item is uit Verder kijken verwijderd."
+
+msgid "Status wird gespeichert ..."
+msgstr "Status wordt opgeslagen ..."
+
+msgid "GELB = Wiedergabestatus"
+msgstr "GEEL = Afspeelstatus"
+
+msgid "Zu Favoriten hinzufügen"
+msgstr "Toevoegen aan favorieten"
+
+msgid "Aus Favoriten entfernen"
+msgstr "Verwijderen uit favorieten"
+
+msgid "Eintrag wurde zu den Favoriten hinzugefügt."
+msgstr "Het item is aan favorieten toegevoegd."
+
+msgid "Eintrag wurde aus den Favoriten entfernt."
+msgstr "Het item is uit favorieten verwijderd."
+
+msgid "Favoriten"
+msgstr "Favorieten"
+
+msgid "Favorit"
+msgstr "Favoriet"
+
+msgid "Favoriten werden geladen ..."
+msgstr "Favorieten worden geladen ..."
+
+msgid "Favoriten konnten nicht geladen werden: %s"
+msgstr "Favorieten konden niet worden geladen: %s"
+
+msgid "Favoriten konnten nicht angezeigt werden."
+msgstr "Favorieten konden niet worden weergegeven."
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Favorit %s / %s | OK = Öffnen"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Favoriet %s / %s | OK = Openen"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Favoriten"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Geen favorieten"
+
+msgid "Kein gültiger Favorit an der aktuellen Position"
+msgstr "Geen geldige favoriet op de huidige positie"
+
+msgid "Fehler: Favoriten-ID fehlt"
+msgstr "Fout: favoriet-ID ontbreekt"
+
+msgid "Sortierung"
+msgstr "Sortering"
+
+msgid "Alphabetisch"
+msgstr "Alfabetisch"
+
+msgid "Zuletzt hinzugefügt"
+msgstr "Recent toegevoegd"
+
+msgid "GRÜN = Sortierung"
+msgstr "GROEN = Sortering"
+
+msgid "Staffelfortschritt: %s von %s"
+msgstr "Seizoensvoortgang: %s van %s"
+
+msgid "Staffelfortschritt: %s %%"
+msgstr "Seizoensvoortgang: %s %%"
+
+msgid "Ungesehene"
+msgstr "Ongezien"
+
+msgid "Gesehene"
+msgstr "Gezien"
+
+msgid "Ansicht"
+msgstr "Weergave"
+
+msgid "GRÜN = Ansicht"
+msgstr "GROEN = Weergave"
+
+msgid "LINKS/RECHTS = Filme oder Serien\nHOCH = Zurück | RUNTER = Poster | OK = Zuletzt hinzugefügt"
+msgstr "LINKS/RECHTS = Films of series\nOMHOOG = Terug | OMLAAG = Posters | OK = Recent toegevoegd"
+
+msgid "LINKS/RECHTS = Filme durchblättern\nHOCH = Neuerscheinungen Filme | OK = Film-Infos   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Films bladeren\nOMHOOG = Nieuwe films | OK = Filminfo   BLAUW = Bibliotheek vernieuwen"
+
+msgid "LINKS/RECHTS = Serien durchblättern\nHOCH = Neuerscheinungen Serien | OK = Staffeln   BLAU = Bibliothek aktualisieren"
+msgstr "LINKS/RECHTS = Series bladeren\nOMHOOG = Nieuwe series | OK = Seizoenen   BLAUW = Bibliotheek vernieuwen"
+
+msgid "Künstler"
+msgstr "Artiest"
+
+msgid "Gehörte"
+msgstr "Gehoord"
+
+msgid "Ungehörte"
+msgstr "Ongehoord"
+
+msgid "Musikliste wird von Jellyfin geladen ..."
+msgstr "Muziek wordt van Jellyfin geladen ..."
+
+msgid "Musikliste konnte nicht geladen werden: %s"
+msgstr "Muzieklijst kon niet worden geladen: %s"
+
+msgid "Musikliste konnte nicht angezeigt werden."
+msgstr "Muzieklijst kon niet worden getoond."
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Abspielen"
+msgstr "Genre wisselen: OMHOOG in de bovenste rij | Album %s / %s | OK = Afspelen"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Alben vorhanden"
+msgstr "Genre wisselen: OMHOOG in de bovenste rij | Geen albums"
+
+msgid "Album: %s\nKünstler: %s\nJahr: %s   Laufzeit: %s\nGenre: %s"
+msgstr "Album: %s\nArtiest: %s\nJaar: %s   Duur: %s\nGenre: %s"
+
+msgid "Bitte warten, die Musikliste wird noch geladen ..."
+msgstr "Even wachten, de muzieklijst wordt nog geladen ..."
+
+msgid "Kein gültiges Album an der aktuellen Position"
+msgstr "Geen geldig album op de huidige positie"
+
+msgid "Dieses Album enthält keine Titel."
+msgstr "Dit album bevat geen nummers."
+
+msgid "Musik wird geladen ..."
+msgstr "Muziek wordt geladen ..."
+
+msgid "Elektronik"
+msgstr "Elektronisch"
+
+msgid "Hip-Hop"
+msgstr "Hiphop"
+
+msgid "Klassik"
+msgstr "Klassiek"
+
+msgid "Metal"
+msgstr "Metal"
+
+msgid "Heavy Metal"
+msgstr "Heavy metal"
+
+msgid "Hard Rock"
+msgstr "Hardrock"
+
+msgid "Folk"
+msgstr "Folk"
+
+msgid "Blues"
+msgstr "Blues"
+
+msgid "Reggae"
+msgstr "Reggae"
+
+msgid "Soul"
+msgstr "Soul"
+
+msgid "R&B"
+msgstr "R&B"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "Punk"
+msgstr "Punk"
+
+msgid "Indie"
+msgstr "Indie"
+
+msgid "House"
+msgstr "House"
+
+msgid "Techno"
+msgstr "Techno"
+
+msgid "Ambient"
+msgstr "Ambient"
+
+msgid "Soundtrack"
+msgstr "Soundtrack"
+
+msgid "Alternative"
+msgstr "Alternatief"
+
+msgid "Dance"
+msgstr "Dance"
+
+msgid "Disco"
+msgstr "Disco"
+
+msgid "Funk"
+msgstr "Funk"
+
+msgid "Latin"
+msgstr "Latin"
+
+msgid "Weltmusik"
+msgstr "Wereldmuziek"
+
+msgid "Oper"
+msgstr "Opera"
+
+msgid "Rap"
+msgstr "Rap"
+
+msgid "Schlager"
+msgstr "Schlager"
+
+msgid "Volksmusik"
+msgstr "Volksmuziek"
+
+msgid "Gospel"
+msgstr "Gospel"
+
+msgid "Liedermacher"
+msgstr "Singer-songwriter"
+
+msgid "Instrumental"
+msgstr "Instrumentaal"
+
+msgid "Akustik"
+msgstr "Akoestisch"
+
+msgid "New Age"
+msgstr "New age"
+
+msgid "Experimentell"
+msgstr "Experimenteel"
+
+msgid "Industrial"
+msgstr "Industrial"
+
+msgid "Ska"
+msgstr "Ska"
+
+msgid "Grunge"
+msgstr "Grunge"
+
+msgid "Trance"
+msgstr "Trance"
+
+msgid "Dubstep"
+msgstr "Dubstep"
+
+msgid "Drum & Bass"
+msgstr "Drum & bass"
+
+msgid "EDM"
+msgstr "EDM"
+
+msgid "K-Pop"
+msgstr "K-pop"
+
+msgid "J-Pop"
+msgstr "J-pop"
+
+msgid "Progressive Rock"
+msgstr "Progressieve rock"
+
+msgid "Synthpop"
+msgstr "Synthpop"
+
+msgid "Easy Listening"
+msgstr "Easy listening"
+
+msgid "Kindermusik"
+msgstr "Kindermuziek"
+
+msgid "Feiertage"
+msgstr "Feestdagen"
+
+msgid "Rock"
+msgstr "Rock"
+
+msgid "Pop"
+msgstr "Pop"
+
+msgid "Jazz"
+msgstr "Jazz"
+
+msgid "Alle abspielen"
+msgstr "Alles afspelen"
+
+msgid "Zufällig"
+msgstr "Willekeurig"
+
+msgid "Wiedergabe"
+msgstr "Afspelen"
+
+msgid "Keine Titel vorhanden"
+msgstr "Geen nummers aanwezig"
+
+msgid "Kein Titel an der aktuellen Position"
+msgstr "Geen nummer op de huidige positie"
+
+msgid "Titel %s / %s | LINKS/RECHTS = Genre | OK = Abspielen | BLAU = Alle abspielen / Zufällig"
+msgstr "Nummer %s / %s | LINKS/RECHTS = Genre | OK = Afspelen | BLAUW = Alles afspelen / Willekeurig"
+
+msgid "LINKS/RECHTS = Genre | Keine Titel vorhanden"
+msgstr "LINKS/RECHTS = Genre | Geen nummers aanwezig"
+
+msgid "Titel: %s\nKünstler: %s\nAlbum: %s\nJahr: %s   Laufzeit: %s\nGenre: %s"
+msgstr "Titel: %s\nArtiest: %s\nAlbum: %s\nJaar: %s   Duur: %s\nGenre: %s"
+
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Album öffnen"
+msgstr "Genre wisselen: OMHOOG in de bovenste rij | Album %s / %s | OK = Album openen"
+
+msgid "Album wird geladen ..."
+msgstr "Album wordt geladen ..."
+
+msgid "Album konnte nicht geladen werden: %s"
+msgstr "Album kon niet worden geladen: %s"
+
+msgid "Album konnte nicht geladen werden."
+msgstr "Album kon niet worden geladen."
+
+msgid "Titel %s / %s | OK = Abspielen | BLAU = Alle abspielen / Zufällig"
+msgstr "Nummer %s / %s | OK = Afspelen | BLAUW = Alles afspelen / Willekeurig"
+
+msgid "Bitte warten, das Album wird noch geladen ..."
+msgstr "Even geduld, het album wordt nog geladen ..."
+
+msgid "OK = Alle abspielen"
+msgstr "OK = Alles afspelen"
+
+msgid "OK = Zufällig"
+msgstr "OK = Willekeurig"
+
+msgid "Titel %s / %s | OK = Abspielen"
+msgstr "Nummer %s / %s | OK = Afspelen"
+
+msgid "Als gehört markieren"
+msgstr "Markeer als beluisterd"
+
+msgid "Als ungehört markieren"
+msgstr "Markeer als niet beluisterd"
+
+msgid "Aus Weiterhören entfernen"
+msgstr "Verwijderen uit verder luisteren"
+
+msgid "Eintrag wurde als gehört markiert."
+msgstr "Item is als beluisterd gemarkeerd."
+
+msgid "Eintrag wurde als ungehört markiert."
+msgstr "Item is als niet beluisterd gemarkeerd."
+
+msgid "Eintrag wurde aus Weiterhören entfernt."
+msgstr "Item is uit verder luisteren verwijderd."
+
+msgid "Album: %s\nKünstler: %s"
+msgstr "Album: %s\nArtiest: %s"
+msgid "Nächste Folge automatisch abspielen:"
+msgstr "Volgende aflevering automatisch afspelen:"
+msgid "Spielt die nächste Folge ohne Nachfrage, sobald der Abspann bis zum Dateiende läuft oder die letzten 15 Sekunden erreicht sind. Bei 'Nein' bleibt die Frage."
+msgstr "Start de volgende aflevering zonder vraag zodra de aftiteling tot het einde van het bestand loopt of de laatste 15 seconden zijn bereikt. Nee houdt de vraag."
+msgid "Vorspann überspringen?"
+msgstr "Intro overslaan?"
+msgid "Der Abspann läuft.\n\nMöchtest du die nächste Folge abspielen?\n\n%s"
+msgstr "De aftiteling loopt.\n\nWil je de volgende aflevering afspelen?\n\n%s"
+msgid "Vorspann automatisch überspringen:"
+msgstr "Intro automatisch overslaan:"
+msgid "Überspringt den Vorspann ohne Nachfrage. Bei 'Nein' erscheint jedes Mal die Frage."
+msgstr "Slaat de intro over zonder vraag. Nee toont elke keer de vraag."
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Film %s / %s | OK = Abspielen | RUNTER = Buchstabe"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Film %s / %s | OK = Afspelen | OMLAAG = Letter"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Filme vorhanden | RUNTER = Buchstabe"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Geen films beschikbaar | OMLAAG = Letter"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Serie %s / %s | OK = Staffeln anzeigen | RUNTER = Buchstabe"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Serie %s / %s | OK = Seizoenen tonen | OMLAAG = Letter"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Serien in dieser Kategorie | RUNTER = Buchstabe"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Geen series in deze categorie | OMLAAG = Letter"
+msgid "Keine Sammlungen in dieser Kategorie. | RUNTER = Buchstabe"
+msgstr "Geen collecties in deze categorie. | OMLAAG = Letter"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Sammlung %s / %s | OK = Öffnen | RUNTER = Buchstabe"
+msgstr "Genre wijzigen: druk OMHOOG in de bovenste rij | Collectie %s / %s | OK = Openen | OMLAAG = Letter"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Album %s / %s | OK = Album öffnen | RUNTER = Buchstabe"
+msgstr "Genre wisselen: OMHOOG in de bovenste rij | Album %s / %s | OK = Album openen | OMLAAG = Letter"
+msgid "Genre wechseln: In der obersten Reihe HOCH drücken | Keine Alben vorhanden | RUNTER = Buchstabe"
+msgstr "Genre wisselen: OMHOOG in de bovenste rij | Geen albums | OMLAAG = Letter"
+msgid "Filter zurücksetzen"
+msgstr "Filter resetten"
+msgid "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
+msgstr "LINKS/RECHTS = Letter | OK = Filteren | OMHOOG = Terug"
+msgid "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."
+msgstr "Niets hier.\nEr zijn momenteel geen items beschikbaar."

@@ -1,0 +1,35 @@
+<screen name="JellyDreamMusicAlbumScreen" position="center,center" size="1800,980" title="JellyDream Album" flags="wfNoBorder" backgroundColor="#050505">
+
+	<widget name="spinner" position="940,500" size="40,40" alphatest="blend" zPosition="50" />
+
+	<widget name="spinner_text" position="660,550" size="600,40" font="Regular;26" halign="center" valign="center" transparent="1" foregroundColor="#ffffff" zPosition="50" />
+	
+	
+    <widget name="background" position="0,0" size="1800,980" zPosition="0" alphatest="off" scale="1" />
+
+    <widget name="background_shadow" position="0,0" size="1800,980" zPosition="1" alphatest="blend" scale="1" />
+
+    <widget name="title_icon" position="70,57" size="36,36" zPosition="3" alphatest="blend" scale="1" transparent="1" />
+    <widget name="title" position="116,45" size="760,60" font="Regular;44" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="viewfilter" position="890,54" size="360,42" font="Regular;28" valign="center" foregroundColor="#d8dde5" transparent="1" zPosition="2" />
+    <widget name="item_logo" position="1280,38" size="440,60" zPosition="4" alphatest="blend" scale="1" transparent="1" />
+    <widget name="album_cover" position="90,155" size="460,460" zPosition="3" alphatest="blend" scale="1" />
+    <widget name="genrebar" position="90,630" size="460,40" font="Regular;24" foregroundColor="#4aa3ff" transparent="1" zPosition="2" />
+    <widget name="movieinfo" position="90,675" size="460,190" font="Regular;20" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+
+    <widget name="shuffle_icon" position="590,207" size="28,28" zPosition="5" alphatest="blend" scale="1" transparent="1" />
+    <widget name="track1" position="590,160" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track2" position="590,224" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track3" position="590,288" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track4" position="590,352" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track5" position="590,416" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track6" position="590,480" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track7" position="590,544" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track8" position="590,608" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track9" position="590,672" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="track10" position="590,736" size="1140,64" font="Regular;26" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="imdb_logo" position="400,820" size="40,40" zPosition="4" transparent="1" alphatest="blend" scale="1" />
+    <widget name="imdb_rating" position="446,820" size="90,40" font="Regular;20" foregroundColor="#f5c518" transparent="1" valign="center" zPosition="4" />
+	<eLabel position="75,881" size="1650,1" backgroundColor="#152433" zPosition="2" />	
+    <widget name="status" position="90,895" size="1620,50" font="Regular;22" halign="center" foregroundColor="#d8dde5" transparent="1" zPosition="2" />
+</screen>

@@ -1,0 +1,36 @@
+<screen name="JellyDreamSearchScreen" position="center,center" size="2400,1300" title="JellyDream Suche" flags="wfNoBorder" backgroundColor="#050505">
+    <widget name="background" position="0,0" size="2400,1300" zPosition="0" alphatest="off" scale="1" />
+
+    <widget name="background_shadow" position="0,0" size="2400,1300" zPosition="1" alphatest="blend" scale="1" />
+
+    <widget name="title_icon" position="93,76" size="48,48" zPosition="3" alphatest="blend" scale="1" transparent="1" />
+    <widget name="title" position="155,60" size="1140,80" font="Regular;58" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="item_logo" position="1680,52" size="620,84" zPosition="4" alphatest="blend" scale="1" transparent="1" />
+    <widget name="hint" position="120,160" size="2186,66" font="Regular;37" foregroundColor="#f1c40f" halign="center" transparent="1" zPosition="2" />
+
+    <widget name="search_icon" position="1066,400" size="266,266" zPosition="2" alphatest="blend" scale="1" />
+
+    <widget name="grid_poster1" position="120,273" size="320,466" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge1" position="-80,-80" size="64,44" zPosition="6" font="Regular;26" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster2" position="493,273" size="320,466" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge2" position="-80,-80" size="64,44" zPosition="6" font="Regular;26" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster3" position="866,273" size="320,466" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge3" position="-80,-80" size="64,44" zPosition="6" font="Regular;26" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster4" position="1240,273" size="320,466" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge4" position="-80,-80" size="64,44" zPosition="6" font="Regular;26" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster5" position="1613,273" size="320,466" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge5" position="-80,-80" size="64,44" zPosition="6" font="Regular;26" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster6" position="1986,273" size="320,466" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge6" position="-80,-80" size="64,44" zPosition="6" font="Regular;26" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="grid_title1" position="80,760" size="400,86" zPosition="2" font="Regular;28" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title2" position="453,760" size="400,86" zPosition="2" font="Regular;28" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title3" position="826,760" size="400,86" zPosition="2" font="Regular;28" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title4" position="1200,760" size="400,86" zPosition="2" font="Regular;28" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title5" position="1573,760" size="400,86" zPosition="2" font="Regular;28" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title6" position="1946,760" size="400,86" zPosition="2" font="Regular;28" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+
+    <widget name="info" position="120,873" size="2186,240" font="Regular;28" foregroundColor="#ffffff" transparent="1" halign="center" alphatest="blend" zPosition="2" />
+    <eLabel position="100,1230" size="2200,2" backgroundColor="#152433" zPosition="3" />
+    <widget name="status" position="100,1242" size="2200,55" font="Regular;32" halign="center" transparent="1" alphatest="blend" zPosition="3" />
+</screen>

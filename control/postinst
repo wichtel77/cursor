@@ -1,0 +1,7 @@
+#!/bin/sh
+echo ""
+echo "JellyDream Modern successfully installed."
+echo ""
+echo "          Please restart GUI"
+echo ""
+exit 0

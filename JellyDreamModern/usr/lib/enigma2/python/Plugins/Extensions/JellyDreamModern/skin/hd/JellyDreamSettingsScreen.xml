@@ -1,0 +1,34 @@
+<screen name="JellyDreamSettingsScreen" position="center,center" size="1200,650" title="JellyDream Einstellungen" flags="wfNoBorder" backgroundColor="#050505">
+
+    <widget name="spinner" position="580,250" size="40,40" zPosition="10" transparent="1" alphatest="blend" scale="1" />
+
+    <widget name="spinner_text" position="300,360" size="600,40" font="Regular;20" foregroundColor="#ffffff" halign="center" valign="center" transparent="1" zPosition="10" />
+
+    <widget name="background" position="0,0" size="1200,650" zPosition="0" alphatest="off" scale="1" />
+
+    <widget name="background_shadow" position="0,0" size="1200,650" zPosition="1" alphatest="blend" scale="1" />
+
+	<widget name="version" position="870,30" size="280,45" font="Regular;20" halign="right" valign="center" foregroundColor="#d8dde5" transparent="1" zPosition="3" />
+    
+	<widget name="config_shield" position="46,106" size="1108,420" backgroundColor="#050508" alphaColor="#050508" zPosition="2" />
+
+    <widget name="title_icon" position="46,39" size="22,22" zPosition="4" alphatest="blend" scale="1" transparent="1" />
+    <widget name="title" position="76,30" size="760,40" font="Regular;29" foregroundColor="#ffffff" transparent="1" alphatest="blend" zPosition="3" />
+
+    <widget name="config" position="46,106" size="1108,340" itemHeight="50" font="Regular;20" scrollbarMode="showOnDemand" transparent="1" alphatest="blend" zPosition="3" />
+    <widget name="language_flag" position="-80,-80" size="40,27" zPosition="6" transparent="1" alphatest="blend" scale="1" />
+
+	<widget name="help_box" position="62,463" size="1090,90" zPosition="3" font="Regular;16" foregroundColor="#d8dde5" transparent="1" />
+
+    <widget name="settings_title" position="120,540" size="320,25" zPosition="3" font="Regular;16" foregroundColor="#d8dde5" transparent="1" />
+    <widget name="settings_box" position="120,565" size="320,45" zPosition="3" font="Regular;14" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="login_title" position="440,540" size="320,25" zPosition="3" font="Regular;16" foregroundColor="#d8dde5" transparent="1" />
+    <widget name="login_box" position="440,565" size="320,45" zPosition="3" font="Regular;14" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="info_title" position="760,540" size="320,25" zPosition="3" font="Regular;16" foregroundColor="#d8dde5" transparent="1" />
+    <widget name="info_box" position="760,565" size="320,45" zPosition="3" font="Regular;14" foregroundColor="#ffffff" transparent="1" />
+
+    <eLabel position="46,613" size="1108,1" backgroundColor="#152433" zPosition="3" />
+    <widget name="status" position="46,620" size="1108,25" font="Regular;15" halign="center" transparent="1" alphatest="blend" zPosition="3" />
+</screen>

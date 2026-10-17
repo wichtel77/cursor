@@ -1,0 +1,49 @@
+<screen name="JellyDreamEpisodeListScreen" position="center,center" size="1200,650" title="JellyDream Folgen" flags="wfNoBorder" backgroundColor="#050505">
+
+    <widget name="spinner" position="580,250" size="40,40" zPosition="10" transparent="1" alphatest="blend" scale="1" />
+
+    <widget name="spinner_text" position="300,360" size="600,40" font="Regular;20" foregroundColor="#ffffff" halign="center" valign="center" transparent="1" zPosition="10" />
+
+
+    <widget name="background" position="0,0" size="1200,650" zPosition="0" alphatest="off" scale="1" />
+
+    <widget name="background_shadow" position="0,0" size="1200,650" zPosition="1" alphatest="blend" scale="1" />
+
+    <widget name="title" position="60,30" size="733,40" font="Regular;29" foregroundColor="#ffffff" transparent="1" zPosition="2" />
+    <widget name="item_logo" position="60,30" size="400,40" zPosition="4" alphatest="blend" scale="1" transparent="1" />
+    <widget name="seasonbar" position="60,80" size="1080,33" font="Regular;18" foregroundColor="#f1c40f" transparent="1" zPosition="2" />
+
+    <widget name="grid_poster1" position="60,115" size="240,135" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge1" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster2" position="340,115" size="240,135" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge2" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster3" position="620,115" size="240,135" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge3" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster4" position="900,115" size="240,135" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge4" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="grid_title1" position="33,254" size="294,32" zPosition="2" font="Regular;14" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title2" position="313,254" size="294,32" zPosition="2" font="Regular;14" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title3" position="593,254" size="294,32" zPosition="2" font="Regular;14" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title4" position="873,254" size="294,32" zPosition="2" font="Regular;14" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+
+    <widget name="grid_poster5" position="60,290" size="240,135" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge5" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster6" position="340,290" size="240,135" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge6" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster7" position="620,290" size="240,135" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_badge7" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+    <widget name="grid_poster8" position="900,290" size="240,135" zPosition="2" alphatest="blend" scale="1" />
+    <widget name="grid_progress" position="-200,-200" size="240,4" zPosition="5" foregroundColor="#4aa3ff" backgroundColor="#2d343b" />
+    <widget name="grid_badge8" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="grid_title5" position="33,429" size="294,32" zPosition="2" font="Regular;14" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title6" position="313,429" size="294,32" zPosition="2" font="Regular;14" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title7" position="593,429" size="294,32" zPosition="2" font="Regular;14" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+    <widget name="grid_title8" position="873,429" size="294,32" zPosition="2" font="Regular;14" halign="center" foregroundColor="#ffffff" transparent="1" alphatest="blend" />
+
+    <widget name="episodeinfo" position="60,458" size="1080,145" font="Regular;14" foregroundColor="#ffffff" transparent="1" alphatest="blend" zPosition="2" />
+
+	<eLabel position="50,611" size="1100,1" zPosition="2" backgroundColor="#152433" />
+    <widget name="status" position="70,620" size="1033,32" font="Regular;15" halign="center" foregroundColor="#d8dde5" transparent="1" alphatest="blend" zPosition="2" />
+</screen>

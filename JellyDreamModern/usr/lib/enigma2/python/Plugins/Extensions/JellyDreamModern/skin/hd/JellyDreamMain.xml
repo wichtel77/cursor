@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<screen name="JellyDreamMain"
+        position="center,center"
+        size="1200,650"
+        title="JellyDreamModern"
+        flags="wfNoBorder"
+        backgroundColor="#050505"
+        allowScale="0">
+
+    <widget name="spinner"
+            position="587,303"
+            size="40,40"
+            zPosition="50"
+            alphatest="blend" />
+
+    <widget name="spinner_text"
+            position="400,337"
+            size="400,28"
+            zPosition="50"
+            font="Regular;17"
+            halign="center"
+            valign="center"
+            foregroundColor="#ffffff"
+            transparent="1" />
+
+    <widget name="background"
+            position="0,0"
+            size="1200,650"
+            zPosition="0"
+            alphatest="off"
+            scale="1" />
+
+    <widget name="background_shadow"
+            position="0,0"
+            size="1200,650"
+            zPosition="1"
+            alphatest="blend"
+            scale="1" />
+
+
+    <widget name="logo"
+            position="47,16"
+            size="150,60"
+            zPosition="2"
+            alphatest="blend"
+            scale="1"
+            transparent="1" />
+
+    <widget name="subtitle"
+            position="209,29"
+            size="600,33"
+            zPosition="2"
+            font="Regular;14"
+            foregroundColor="#c0e1fa"
+            transparent="1" />
+
+    <widget name="clock"
+            position="1000,15"
+            size="160,37"
+            zPosition="2"
+            font="Regular;28"
+            halign="right"
+            foregroundColor="#ffffff"
+            transparent="1" />
+
+    <widget name="date"
+            position="843,21"
+            size="153,33"
+            zPosition="2"
+            font="Regular;14"
+            halign="right"
+            foregroundColor="#d8dde5"
+            transparent="1" />
+
+    <!-- Obere Menü-Trennlinie -->
+    <eLabel position="43,87"
+            size="1113,1"
+            zPosition="2"
+            backgroundColor="#263746" />
+
+    <widget name="menu"
+            position="53,90"
+            size="1093,32"
+            zPosition="3"
+            font="Regular;17"
+            halign="center"
+            valign="center"
+            foregroundColor="#d8dde5"
+            transparent="1" />
+    <widget name="menu_gauge"
+            position="53,90"
+            size="1093,32"
+            zPosition="1"
+            font="Regular;17"
+            transparent="1" />
+
+    <!-- Untere Menü-Trennlinie -->
+    <eLabel position="43,123"
+            size="1113,1"
+            zPosition="2"
+            backgroundColor="#263746" />
+
+    <!-- Weiterschauen -->
+    <widget name="section1"
+            position="50,129"
+            size="333,27"
+            zPosition="2"
+            font="Regular;21"
+            foregroundColor="#ffffff"
+            transparent="1" />
+
+    <widget name="continue_poster1"
+            position="50,159"
+            size="207,116"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="continue_badge1" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="continue_bar1"
+            position="50,271"
+            size="207,4"
+            zPosition="3"
+            foregroundColor="#4aa3ff"
+            backgroundColor="#2d343b" />
+
+    <widget name="continue1"
+            position="50,282"
+            size="207,43"
+            zPosition="2"
+            font="Regular;13"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="continue_poster2"
+            position="277,159"
+            size="207,116"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="continue_badge2" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="continue_bar2"
+            position="277,271"
+            size="207,4"
+            zPosition="3"
+            foregroundColor="#4aa3ff"
+            backgroundColor="#2d343b" />
+
+    <widget name="continue2"
+            position="277,282"
+            size="207,43"
+            zPosition="2"
+            font="Regular;13"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="continue_poster3"
+            position="503,159"
+            size="207,116"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="continue_badge3" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="continue_bar3"
+            position="503,271"
+            size="207,4"
+            zPosition="3"
+            foregroundColor="#4aa3ff"
+            backgroundColor="#2d343b" />
+
+    <widget name="continue3"
+            position="503,282"
+            size="207,43"
+            zPosition="2"
+            font="Regular;13"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="continue_poster4"
+            position="730,159"
+            size="207,116"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="continue_badge4" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="continue_bar4"
+            position="730,271"
+            size="207,4"
+            zPosition="3"
+            foregroundColor="#4aa3ff"
+            backgroundColor="#2d343b" />
+
+    <widget name="continue4"
+            position="730,282"
+            size="207,43"
+            zPosition="2"
+            font="Regular;13"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="continue_poster5"
+            position="957,159"
+            size="207,116"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="continue_badge5" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="continue_bar5"
+            position="957,271"
+            size="207,4"
+            zPosition="3"
+            foregroundColor="#4aa3ff"
+            backgroundColor="#2d343b" />
+
+    <widget name="continue5"
+            position="957,282"
+            size="207,43"
+            zPosition="2"
+            font="Regular;13"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <!-- Neuerscheinungen -->
+    <widget name="section2"
+            position="50,323"
+            size="540,27"
+            zPosition="2"
+            font="Regular;21"
+            foregroundColor="#ffffff"
+            transparent="1" />
+
+    <widget name="section3"
+            position="622,323"
+            size="540,27"
+            zPosition="2"
+            font="Regular;21"
+            foregroundColor="#ffffff"
+            transparent="1" />
+
+    <!-- Poster: mittig und gleichmäßig verteilt -->
+    <widget name="poster1"
+            position="50,356"
+            size="147,203"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="poster_badge1" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="poster2"
+            position="241,356"
+            size="147,203"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="poster_badge2" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="poster3"
+            position="431,356"
+            size="147,203"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="poster_badge3" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="poster4"
+            position="622,356"
+            size="147,203"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="poster_badge4" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="poster5"
+            position="813,356"
+            size="147,203"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="poster_badge5" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <widget name="poster6"
+            position="1003,356"
+            size="147,203"
+            zPosition="2"
+            alphatest="blend"
+            scale="1" />
+    <widget name="poster_badge6" position="-80,-80" size="36,26" zPosition="6" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
+
+    <!-- Titel exakt mittig unter den Postern -->
+    <widget name="poster_title1"
+            position="50,563"
+            size="147,30"
+            zPosition="2"
+            font="Regular;13"
+            halign="center"
+            valign="center"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="poster_title2"
+            position="241,563"
+            size="147,30"
+            zPosition="2"
+            font="Regular;13"
+            halign="center"
+            valign="center"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="poster_title3"
+            position="431,563"
+            size="147,30"
+            zPosition="2"
+            font="Regular;13"
+            halign="center"
+            valign="center"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="poster_title4"
+            position="622,563"
+            size="147,30"
+            zPosition="2"
+            font="Regular;13"
+            halign="center"
+            valign="center"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="poster_title5"
+            position="813,563"
+            size="147,30"
+            zPosition="2"
+            font="Regular;13"
+            halign="center"
+            valign="center"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <widget name="poster_title6"
+            position="1003,563"
+            size="147,30"
+            zPosition="2"
+            font="Regular;13"
+            halign="center"
+            valign="center"
+            foregroundColor="#ffffff"
+            transparent="1"
+            alphatest="blend" />
+
+    <eLabel position="50,600"
+            size="1100,1"
+            zPosition="2"
+            backgroundColor="#152433" />
+
+    <widget name="status"
+            position="100,609"
+            size="1000,37"
+            zPosition="2"
+            font="Regular;15"
+            foregroundColor="#d8dde5"
+            halign="center"
+            valign="center"
+            transparent="1"
+            alphatest="blend" />
+
+</screen>

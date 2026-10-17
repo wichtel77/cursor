@@ -1,0 +1,21 @@
+<screen name="JellyDreamHomeMovieInfoScreen" position="center,center" size="1800,980" title="JellyDream Film Info" flags="wfNoBorder" backgroundColor="#050505">
+    <widget name="background" position="0,0" size="1800,980" zPosition="0" alphatest="off" scale="1" />
+
+    <widget name="background_shadow" position="0,0" size="1800,980" zPosition="1" alphatest="blend" scale="1" />
+
+    <widget name="title" position="105,45" size="1300,60" font="Regular;44" foregroundColor="#ffffff" transparent="1" alphatest="blend" zPosition="2" />
+    <widget name="item_logo" position="105,45" size="500,60" zPosition="4" alphatest="blend" scale="1" transparent="1" />
+
+    <widget name="poster" position="105,170" size="400,600" zPosition="2" alphatest="blend" scale="1" />
+
+    <widget name="meta" position="555,166" size="1100,120" font="Regular;24" foregroundColor="#a9c7de" transparent="1" alphatest="blend" zPosition="2" />
+    <widget name="imdb_logo" position="1517,156" size="53,53" zPosition="4" transparent="1" alphatest="blend" scale="1" />
+    <widget name="imdb_rating" position="1578,156" size="77,53" font="Regular;24" foregroundColor="#f5c518" transparent="1" valign="center" zPosition="4" />
+
+    <widget name="play_button" position="555,314" size="250,55" zPosition="2" font="Regular;26" halign="center" valign="center" foregroundColor="#050505" backgroundColor="#ffffff" />
+
+    <widget name="overview_title" position="555,410" size="400,35" font="Regular;28" foregroundColor="#ffffff" transparent="1" alphatest="blend" zPosition="2" />
+    <widget name="overview" position="555,465" size="1100,305" font="Regular;24" foregroundColor="#ffffff" transparent="1" alphatest="blend" zPosition="2" />
+	<eLabel position="75,881" size="1650,1" backgroundColor="#152433" zPosition="2" />	
+    <widget name="status" position="90,895" size="1620,50" font="Regular;22" halign="center" foregroundColor="#d8dde5" transparent="1" zPosition="2" />
+</screen>

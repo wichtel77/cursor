@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Preparing JellyDream Modern  installation..."
+
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/JellyDreamModern/__pycache__
+
+exit 0

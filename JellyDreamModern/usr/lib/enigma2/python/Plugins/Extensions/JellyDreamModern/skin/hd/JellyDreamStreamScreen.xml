@@ -1,0 +1,17 @@
+<screen name="JellyDreamStreamScreen" position="0,0" size="1200,650" title="JellyDream Stream" flags="wfNoBorder" backgroundColor="transparent">
+    <widget name="playback_cover" position="440,80" size="320,320" zPosition="1" alphatest="blend" scale="1" />
+    <widget name="infobar_background" position="15,510" size="1167,140" zPosition="1" backgroundColor="#10050505" cornerRadius="14" widgetBorderWidth="1" widgetBorderColor="#70515E6A"/>
+    <widget name="infobar_cover" position="35,528" size="60,86" zPosition="2" alphatest="blend" scale="1" />
+
+    <widget name="jelly_video_title" transparent="1" position="115,521" size="730,30" zPosition="2" font="Regular;20" foregroundColor="#ffffff" />
+    <widget name="codec_info" transparent="1" position="115,545" size="730,16" zPosition="2" font="Regular;12" foregroundColor="#a9c7de" />
+
+    <widget name="stream_debug" transparent="1" position="115,563" size="950,56" zPosition="2" font="Regular;14" foregroundColor="#f1c40f" />
+
+    <widget name="time_text" transparent="1" position="865,525" size="200,30" zPosition="2" font="Regular;16" halign="right" foregroundColor="#4aa3ff" />
+    <widget name="remaining_time_text" transparent="1" position="865,555" size="200,24" zPosition="2" font="Regular;14" halign="right" foregroundColor="#a9c7de" />
+    <widget name="clock" transparent="1" position="1065,520" size="100,32" zPosition="2" font="Regular;22" halign="right" foregroundColor="#ffffff" />
+    <widget name="date" transparent="1" position="1065,558" size="100,24" zPosition="2" font="Regular;12" halign="right" foregroundColor="#d8dde5" />
+
+    <widget name="progress" position="115,627" size="950,8" zPosition="2" foregroundColor="#4aa3ff" backgroundColor="#2d343b" />
+</screen>

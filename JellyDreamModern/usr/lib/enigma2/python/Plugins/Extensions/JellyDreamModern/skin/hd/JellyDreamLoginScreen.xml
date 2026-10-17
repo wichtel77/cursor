@@ -1,0 +1,17 @@
+<screen name="JellyDreamLoginScreen" position="center,center" size="1200,650" title="JellyDream Login" backgroundColor="#050505" flags="wfNoBorder">
+    <widget name="background" position="0,0" size="1200,650" zPosition="0" alphatest="off" scale="1" />
+
+    <widget name="background_shadow" position="0,0" size="1200,650" zPosition="1" alphatest="blend" scale="1" />
+
+    <widget name="title" transparent="1" position="60,30" size="833,40" font="Regular;29" foregroundColor="#ffffff" zPosition="2" />
+    <widget name="hint" transparent="1" position="63,96" size="900,60" font="Regular;16" foregroundColor="#a9c7de" zPosition="2" />
+
+    <eLabel position="63,173" size="746,1" backgroundColor="#203244" zPosition="2" />
+    <eLabel position="63,440" size="746,1" backgroundColor="#203244" zPosition="2" />
+    <eLabel position="63,173" size="1,267" backgroundColor="#203244" zPosition="2" />
+    <eLabel position="809,173" size="1,267" backgroundColor="#203244" zPosition="2" />
+    
+    <widget name="info" transparent="1" position="90,203" size="680,213" font="Regular;20" foregroundColor="#ffffff" zPosition="2" />
+
+    <widget name="status" position="80,586" size="1000,33" font="Regular;16" halign="center" foregroundColor="#d8dde5" transparent="1" zPosition="2" />
+</screen>
