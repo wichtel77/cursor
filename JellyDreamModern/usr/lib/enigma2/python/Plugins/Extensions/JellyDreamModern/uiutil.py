@@ -873,9 +873,9 @@ def jellydream_season_progress(item):
             user_data = {}
 
         try:
-            percent = float(user_data.get("PlayedPercentage") or 0)
+            reported = float(user_data.get("PlayedPercentage") or 0)
         except Exception:
-            percent = 0
+            reported = 0
 
         try:
             total = int(item.get("ChildCount") or 0)
@@ -893,19 +893,42 @@ def jellydream_season_progress(item):
         if unplayed < 0:
             unplayed = 0
 
+        has_unplayed = "UnplayedItemCount" in user_data
         played = None
+        percent = reported
 
-        if total > 0:
-            played = max(0, total - unplayed)
-
-            if percent <= 0 and played > 0:
-                percent = 100.0 * played / float(total)
-
-        if bool(user_data.get("Played")):
+        # Die Staffelliste liefert bei ChildCount oft die doppelte
+        # Folgenzahl. PlayedPercentage 0 heißt: nichts gesehen.
+        # Die Gesamtzahl ist dann die Zahl der ungesehenen Folgen.
+        if bool(user_data.get("Played")) or reported >= 99.5:
             percent = 100
 
-            if total > 0:
+            if has_unplayed and unplayed > 0 and reported <= 0:
+                total = unplayed
+                played = 0
+                percent = 0
+            elif total > 0:
                 played = total
+        elif reported <= 0:
+            percent = 0
+            played = 0
+
+            if has_unplayed and unplayed > 0:
+                total = unplayed
+        elif has_unplayed:
+            remaining = 1.0 - (reported / 100.0)
+
+            if unplayed <= 0 or remaining <= 0.001:
+                percent = 100
+                played = total if total > 0 else None
+            else:
+                total = int(round(unplayed / remaining))
+
+                if total < unplayed:
+                    total = unplayed
+
+                played = max(0, total - unplayed)
+                percent = reported
 
         if percent < 0:
             percent = 0

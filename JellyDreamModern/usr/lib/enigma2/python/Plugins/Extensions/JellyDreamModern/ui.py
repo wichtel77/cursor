@@ -2137,8 +2137,16 @@ def jellydream_set_season_progress(screen, key, poster_name, item):
     try:
         progress = jellydream_season_progress(item)
         percent = 0 if not progress else float(progress.get("percent") or 0)
+        played = 0 if not progress else int(progress.get("played") or 0)
+        total = 0 if not progress else int(progress.get("total") or 0)
 
-        if percent <= 0 or percent >= 99.5:
+        if (
+            played <= 0
+            or total <= 0
+            or played >= total
+            or percent <= 0
+            or percent >= 99.5
+        ):
             jellydream_hide_season_progress(screen, key)
             return
 

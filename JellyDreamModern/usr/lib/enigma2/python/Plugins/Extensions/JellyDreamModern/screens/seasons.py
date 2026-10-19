@@ -44,7 +44,8 @@ from ..library import (
 from ..ui import (
     JellyDreamGridScreen,
     jellydream_render_grid,
-    jellydream_reset_screen_background
+    jellydream_reset_screen_background,
+    jellydream_set_poster_badge
 )
 from .episodes import JellyDreamEpisodeListScreen
 
@@ -276,6 +277,17 @@ class JellyDreamSeasonListScreen(JellyDreamGridScreen):
                 if grid_title:
                     season_item["_jellydream_grid_title"] = grid_title
 
+                if 0 <= self.index < len(self.seasons):
+                    self.seasons[self.index] = season_item
+
+                slot = (self.index % self.GRID_COUNT) + 1
+                jellydream_set_poster_badge(
+                    self,
+                    "grid_badge%d" % slot,
+                    "grid_poster%d" % slot,
+                    season_item
+                )
+
             if jellydream_is_next_up_item(season_item):
                 episode_number = jellydream_int_or_default(
                     season_item.get("IndexNumber"),
@@ -355,6 +367,11 @@ class JellyDreamSeasonListScreen(JellyDreamGridScreen):
             ).strip()
 
             overview_text = jellydream_item_overview(season_item)
+
+            if not overview_text:
+                overview_text = jellydream_item_overview(
+                    self.series_details
+                )
 
             fsk_text = "   %s" % rating if rating else ""
             imdb_text = jellydream_set_imdb_badge(
