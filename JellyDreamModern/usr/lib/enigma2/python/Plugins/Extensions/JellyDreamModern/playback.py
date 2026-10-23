@@ -2899,12 +2899,13 @@ def jellydream_safe_play_async(session, title, item_id, runtime_seconds=0, retur
     return True
 
     
-def jellydream_publish_now_event(title, duration_seconds=0):
+def jellydream_publish_now_event(title, duration_seconds=0, position_seconds=0):
     """
     Enigma2 zeigt bei einem Stream ohne EPG den Sendungsnamen als N/A.
 
     servicemp3 sucht das Event über die 4097-Referenz ohne URL.
     Dort wird der Wiedergabetitel als aktuelle Sendung hinterlegt.
+    Die angezeigte Spanne ist die Restzeit ab der Startposition.
     """
     title = str(title or "").strip()
 
@@ -2922,9 +2923,12 @@ def jellydream_publish_now_event(title, duration_seconds=0):
 
         now = int(time())
         duration = int(duration_seconds or 0)
+        position = max(0, int(position_seconds or 0))
 
-        if duration < 60:
+        if duration <= 0:
             duration = 2 * 60 * 60
+        else:
+            duration = max(60, duration - position)
 
         event = (
             now - 30,
@@ -3122,7 +3126,8 @@ def jellydream_safe_play(
         ref.setName(service_name)
         jellydream_publish_now_event(
             event_name,
-            runtime_seconds
+            runtime_seconds,
+            start_position_seconds
         )
 
         old_ref = None
@@ -5849,7 +5854,8 @@ class JellyDreamAudioController:
                                     ""
                                 )
                                 or self.player.title,
-                                getattr(self.player, "runtime_seconds", 0)
+                                getattr(self.player, "runtime_seconds", 0),
+                                self.player.estimatedPositionSeconds()
                             )
 
                             jd_log(
@@ -7982,7 +7988,8 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
 
                 jellydream_publish_now_event(
                     event_name,
-                    getattr(self, "runtime_seconds", 0)
+                    getattr(self, "runtime_seconds", 0),
+                    getattr(self, "start_time", 0)
                 )
 
                 max_title_length = 80
