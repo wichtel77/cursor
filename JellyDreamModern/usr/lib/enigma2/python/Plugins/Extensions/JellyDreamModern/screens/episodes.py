@@ -15,6 +15,7 @@ from ..images import (
     set_jellydream_background
 )
 from ..uiutil import (
+    jellydream_episode_service_title,
     jellydream_handle_navigation,
     jellydream_int_or_default,
     jellydream_restart_single_timer,
@@ -558,10 +559,14 @@ class JellyDreamEpisodeListScreen(JellyDreamGridScreen):
 
         ep_title = ep.get("Name", "Folge")
 
-        title = "S%02dE%02d - %s" % (
-            s,
-            e,
-            ep_title
+        title = jellydream_episode_service_title(
+            series_name=(
+                ep.get("SeriesName")
+                or self.series_title
+            ),
+            season_number=s,
+            episode_number=e,
+            episode_name=ep_title
         )
         runtime = ticks_to_seconds(ep.get("RunTimeTicks"))
 

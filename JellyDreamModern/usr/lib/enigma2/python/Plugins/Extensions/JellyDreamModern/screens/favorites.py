@@ -5,6 +5,7 @@ from .. import _
 from ..log import jd_log
 from ..library import jellyfin_get_favorites
 from ..uiutil import (
+    jellydream_episode_service_title,
     jellydream_safe_current_item,
     jellydream_safe_open,
     jellydream_safe_set_status,
@@ -198,6 +199,12 @@ class JellyDreamFavoriteListScreen(JellyDreamMovieListScreen):
             return
 
         if item_type == "Episode":
+            title = jellydream_episode_service_title(
+                series_name=item.get("SeriesName"),
+                season_number=item.get("ParentIndexNumber"),
+                episode_number=item.get("IndexNumber"),
+                episode_name=title
+            )
             self.playItemAsync(
                 title=title,
                 item_id=item_id,

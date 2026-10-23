@@ -58,6 +58,7 @@ from ..images import (
 )
 from ..uiutil import (
     format_resume_text,
+    jellydream_episode_service_title,
     jellydream_safe_current_item,
     jellydream_safe_open,
     jellydream_safe_set_pixmap,
@@ -1580,6 +1581,13 @@ class JellyDreamMain(JellyDreamBaseScreen):
 
             item_id = str(item.get("Id", "") or item.get("id", "")).strip()
             title = item.get("Name", "Jellyfin Video")
+            if str(item.get("Type") or "") == "Episode":
+                title = jellydream_episode_service_title(
+                    series_name=item.get("SeriesName"),
+                    season_number=item.get("ParentIndexNumber"),
+                    episode_number=item.get("IndexNumber"),
+                    episode_name=title
+                )
 
             if not item_id:
                 jellydream_safe_set_status(

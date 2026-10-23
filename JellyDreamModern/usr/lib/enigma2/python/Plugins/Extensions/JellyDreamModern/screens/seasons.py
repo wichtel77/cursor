@@ -17,6 +17,7 @@ from ..images import (
     set_jellydream_background
 )
 from ..uiutil import (
+    jellydream_episode_service_title,
     jellydream_handle_navigation,
     jellydream_int_or_default,
     jellydream_restart_single_timer,
@@ -503,10 +504,7 @@ class JellyDreamSeasonListScreen(JellyDreamGridScreen):
         )
 
     def episodesClosed(self, *args):
-        if not jellydream_consume_season_list_stale(self.series_id):
-            self.updateGrid()
-            return
-
+        jellydream_consume_season_list_stale(self.series_id)
         self.loadSeasonsAsync()
 
     def okPressed(self):
@@ -539,10 +537,14 @@ class JellyDreamSeasonListScreen(JellyDreamGridScreen):
             episode_title = str(
                 selected_season.get("Name") or _("Folge")
             ).strip()
-            title = "S%02dE%02d - %s" % (
-                season_number,
-                episode_number,
-                episode_title
+            title = jellydream_episode_service_title(
+                series_name=(
+                    selected_season.get("SeriesName")
+                    or self.series_title
+                ),
+                season_number=season_number,
+                episode_number=episode_number,
+                episode_name=episode_title
             )
             runtime = ticks_to_seconds(
                 selected_season.get("RunTimeTicks")

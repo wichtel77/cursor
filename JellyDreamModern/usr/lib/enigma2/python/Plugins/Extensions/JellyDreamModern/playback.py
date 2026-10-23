@@ -81,6 +81,8 @@ from .images import (
     jellydream_valid_file
 )
 from .uiutil import (
+    jellydream_episode_service_title,
+    jellydream_item_enigma_names,
     jellydream_int_or_default,
     jellydream_music_queue_clear,
     jellydream_music_queue_has_items,
@@ -2337,23 +2339,27 @@ def jellydream_offer_next_episode(session, original_callback, return_screen, pla
             or ""
         ).strip()
 
-        next_title = (
-            "S%02dE%02d - %s"
-            % (
-                season_number,
-                episode_number,
-                episode_name
-            )
+        next_title = jellydream_episode_service_title(
+            series_name=series_name,
+            season_number=season_number,
+            episode_number=episode_number,
+            episode_name=episode_name
         )
 
         next_runtime = ticks_to_seconds(
             next_episode.get("RunTimeTicks")
         )
 
+        episode_line = jellydream_episode_service_title(
+            season_number=season_number,
+            episode_number=episode_number,
+            episode_name=episode_name
+        )
+
         if series_name:
             episode_display = "%s\n%s" % (
                 series_name,
-                next_title
+                episode_line
             )
         else:
             episode_display = next_title
@@ -2893,6 +2899,52 @@ def jellydream_safe_play_async(session, title, item_id, runtime_seconds=0, retur
     return True
 
     
+def jellydream_publish_now_event(title, duration_seconds=0):
+    """
+    Enigma2 zeigt bei einem Stream ohne EPG den Sendungsnamen als N/A.
+
+    servicemp3 sucht das Event über die 4097-Referenz ohne URL.
+    Dort wird der Wiedergabetitel als aktuelle Sendung hinterlegt.
+    """
+    title = str(title or "").strip()
+
+    if not title:
+        return
+
+    try:
+        from enigma import eEPGCache
+        from time import time
+
+        epg = eEPGCache.getInstance()
+
+        if not epg:
+            return
+
+        now = int(time())
+        duration = int(duration_seconds or 0)
+
+        if duration < 60:
+            duration = 2 * 60 * 60
+
+        event = (
+            now - 30,
+            duration,
+            title,
+            "",
+            "",
+            0,
+            now & 0xFFFF
+        )
+        ref = eServiceReference(4097, 0, "")
+        epg.importEvents(ref.toString(), (event,))
+
+    except Exception as error:
+        jd_log(
+            "Now event could not be published: %s" % error,
+            level="WARNING"
+        )
+
+
 def jellydream_safe_play(
     session,
     title,
@@ -3063,7 +3115,15 @@ def jellydream_safe_play(
             player_url
         )
 
-        ref.setName(title)
+        service_name, event_name = jellydream_item_enigma_names(
+            preloaded_stream_data,
+            title
+        )
+        ref.setName(service_name)
+        jellydream_publish_now_event(
+            event_name,
+            runtime_seconds
+        )
 
         old_ref = None
         try:
@@ -5774,7 +5834,23 @@ class JellyDreamAudioController:
                                 player_url
                             )
 
-                            ref.setName(self.player.title)
+                            ref.setName(
+                                getattr(
+                                    self.player,
+                                    "enigma_service_name",
+                                    ""
+                                )
+                                or self.player.title
+                            )
+                            jellydream_publish_now_event(
+                                getattr(
+                                    self.player,
+                                    "enigma_event_name",
+                                    ""
+                                )
+                                or self.player.title,
+                                getattr(self.player, "runtime_seconds", 0)
+                            )
 
                             jd_log(
                                 "Stream restart starts a new PlaybackInfo session: "
@@ -7534,6 +7610,12 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
         JellyDreamPlayerBaseScreen.__init__(self, session)
 
         self.title = str(title or "Jellyfin Video")
+        self.enigma_service_name, self.enigma_event_name = (
+            jellydream_item_enigma_names(
+                preloaded_stream_data,
+                self.title
+            )
+        )
         self.old_ref = old_ref
         self.return_screen = return_screen
         self.item_id = str(item_id or "").strip()
@@ -7884,6 +7966,24 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
                         )
 
                 self.title = current_title
+                service_name, event_name = jellydream_item_enigma_names(
+                    details,
+                    current_title
+                )
+                self.enigma_service_name = service_name
+                self.enigma_event_name = event_name
+
+                try:
+                    playing = self.session.nav.getCurrentlyPlayingServiceReference()
+                    if playing is not None:
+                        playing.setName(service_name)
+                except Exception:
+                    pass
+
+                jellydream_publish_now_event(
+                    event_name,
+                    getattr(self, "runtime_seconds", 0)
+                )
 
                 max_title_length = 80
 
@@ -9208,19 +9308,23 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
                 or ""
             ).strip()
 
-            next_title = (
-                "S%02dE%02d - %s"
-                % (
-                    season_number,
-                    episode_number,
-                    episode_name
-                )
+            next_title = jellydream_episode_service_title(
+                series_name=series_name,
+                season_number=season_number,
+                episode_number=episode_number,
+                episode_name=episode_name
+            )
+
+            episode_line = jellydream_episode_service_title(
+                season_number=season_number,
+                episode_number=episode_number,
+                episode_name=episode_name
             )
 
             if series_name:
                 episode_display = "%s\n%s" % (
                     series_name,
-                    next_title
+                    episode_line
                 )
             else:
                 episode_display = next_title

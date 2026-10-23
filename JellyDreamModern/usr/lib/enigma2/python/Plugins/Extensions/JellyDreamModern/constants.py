@@ -6,7 +6,7 @@ import threading
 from Components.SystemInfo import BoxInfo
 
 
-JELLYDREAM_VERSION = "1.0.0-r62"
+JELLYDREAM_VERSION = "1.0.0-r63"
 JELLYDREAM_USER_AGENT = "JellyDreamModern/%s" % JELLYDREAM_VERSION
 
 _JSON_LOCKS_GUARD = threading.Lock()

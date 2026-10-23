@@ -22,6 +22,75 @@ _ARROWS_VERTICAL = "%s %s" % (_ARROW_UP, _ARROW_DOWN)
 _ARROWS_DPAD = "%s %s" % (_ARROWS_HORIZONTAL, _ARROWS_VERTICAL)
 
 
+def jellydream_episode_service_title(
+    series_name="",
+    season_number=None,
+    episode_number=None,
+    episode_name=""
+):
+    """
+    Name, den Enigma2 für eine Folge anzeigt.
+
+    Format: Serienname - S01E13 - Episodentitel
+    """
+    series_name = str(series_name or "").strip()
+    episode_name = str(episode_name or "").strip() or _("Folge")
+    episode_code = ""
+
+    try:
+        if season_number is not None and episode_number is not None:
+            episode_code = "S%02dE%02d" % (
+                int(season_number),
+                int(episode_number)
+            )
+    except Exception:
+        episode_code = ""
+
+    if series_name and episode_code:
+        return "%s - %s - %s" % (
+            series_name,
+            episode_code,
+            episode_name
+        )
+
+    if episode_code:
+        return "%s - %s" % (episode_code, episode_name)
+
+    if series_name:
+        return "%s - %s" % (series_name, episode_name)
+
+    return episode_name
+
+
+def jellydream_item_enigma_names(item, fallback_title=""):
+    """
+    Aufteilung für die Enigma2-Infobar.
+
+    Sendername: Serienname
+    Sendung: S01E13 - Episodentitel
+    """
+    item = item if isinstance(item, dict) else {}
+    fallback_title = str(
+        fallback_title
+        or item.get("Name")
+        or ""
+    ).strip()
+    item_type = str(item.get("Type") or "").strip()
+
+    if item_type != "Episode":
+        return fallback_title, fallback_title
+
+    series_name = str(item.get("SeriesName") or "").strip()
+    episode_name = str(item.get("Name") or fallback_title).strip()
+    event_name = jellydream_episode_service_title(
+        season_number=item.get("ParentIndexNumber"),
+        episode_number=item.get("IndexNumber"),
+        episode_name=episode_name
+    )
+    service_name = series_name or event_name or fallback_title
+    return service_name, event_name or fallback_title
+
+
 def _jellydream_status_box(rgb):
     return "\\c00%s■%s" % (rgb, _STATUS_COLOR_RESET)
 
