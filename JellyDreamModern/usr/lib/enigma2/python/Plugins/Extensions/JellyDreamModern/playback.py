@@ -2977,6 +2977,54 @@ def jellydream_clear_now_event():
         )
 
 
+_jellydream_lcd4linux_streaming = None
+
+
+def jellydream_lcd4linux_use_media(enabled):
+    """
+    LCD4linux zeigt HTTP-Streams ohne Laufzeit in der TV-Ansicht.
+
+    Für die Wiedergabe wird der Medien-Modus gesetzt und danach wieder
+    auf den vorherigen Wert zurückgestellt.
+    """
+    global _jellydream_lcd4linux_streaming
+
+    try:
+        from Plugins.Extensions.LCD4linux.plugin import (
+            LCD4linux,
+            setisMediaPlayer
+        )
+    except Exception:
+        return
+
+    try:
+        if enabled:
+            if jellydream_lcd_playback_enabled():
+                return
+
+            if _jellydream_lcd4linux_streaming is None:
+                _jellydream_lcd4linux_streaming = str(
+                    LCD4linux.Streaming.value or "0"
+                )
+
+            LCD4linux.Streaming.value = "2"
+            setisMediaPlayer("mp3")
+            return
+
+        if _jellydream_lcd4linux_streaming is None:
+            return
+
+        LCD4linux.Streaming.value = _jellydream_lcd4linux_streaming
+        _jellydream_lcd4linux_streaming = None
+        setisMediaPlayer("")
+
+    except Exception as error:
+        jd_log(
+            "LCD4linux media mode could not be changed: %s" % error,
+            level="WARNING"
+        )
+
+
 def jellydream_safe_play(
     session,
     title,
@@ -3171,8 +3219,10 @@ def jellydream_safe_play(
             pass
 
         try:
+            jellydream_lcd4linux_use_media(True)
             session.nav.playService(ref)
         except Exception as e:
+            jellydream_lcd4linux_use_media(False)
             msg = _(
                 "Wiedergabe konnte nicht gestartet werden: %s"
             ) % e
@@ -3209,6 +3259,7 @@ def jellydream_safe_play(
         
         if not ok:
             jellydream_clear_now_event()
+            jellydream_lcd4linux_use_media(False)
             try:
                 if old_ref:
                     session.nav.playService(old_ref)
@@ -3221,6 +3272,7 @@ def jellydream_safe_play(
         return True, ""
     except Exception as e:
         jellydream_clear_now_event()
+        jellydream_lcd4linux_use_media(False)
         msg = _(
             "Kritischer Fehler beim Starten des Players: %s"
         ) % e
@@ -7131,6 +7183,7 @@ class JellyDreamPlaybackController:
         screen.stop_in_progress = True
         session = screen.session
         jellydream_clear_now_event()
+        jellydream_lcd4linux_use_media(False)
 
         playback_finished = bool(playback_finished)
 
@@ -7635,13 +7688,13 @@ class JellyDreamSystemLcdSummary(Screen):
     Display-Skin der Box, wenn die eigene LCD-Anzeige aus ist.
 
     Screen.__init__ setzt skinName auf den Klassennamen. Danach wird die
-    normale InfoBarSummary der Display-Skin verwendet, dieselbe Ansicht
-    wie im TV-Betrieb.
+    Medien-Ansicht der Display-Skin verwendet, dieselbe wie MediaPlayer
+    und Enhanced Movie Center.
     """
 
     def __init__(self, session, parent):
         Screen.__init__(self, session, parent)
-        self.skinName = "InfoBarSummary"
+        self.skinName = "InfoBarMoviePlayerSummary"
 
                 
 class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
