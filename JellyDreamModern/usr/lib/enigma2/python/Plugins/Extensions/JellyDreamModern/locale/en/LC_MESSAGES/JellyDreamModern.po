@@ -1610,3 +1610,9 @@ msgid "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
 msgstr "LEFT/RIGHT = Letter | OK = Filter | UP = Back"
 msgid "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."
 msgstr "Nothing here.\nThere are currently no items available."
+
+msgid "LCD-Anzeige:"
+msgstr "LCD display:"
+
+msgid "Zeigt während der Wiedergabe eine eigene Ansicht mit Titel, Fortschritt und Zeit. Bei 'Nein' verwendet das Display die normale Wiedergabeansicht mit Titel, Sendung und Fortschrittsbalken."
+msgstr "Shows a separate view with title, progress and time during playback. 'No' uses the normal playback display with title, event and progress bar."

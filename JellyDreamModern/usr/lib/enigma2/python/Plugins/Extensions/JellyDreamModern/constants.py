@@ -6,7 +6,7 @@ import threading
 from Components.SystemInfo import BoxInfo
 
 
-JELLYDREAM_VERSION = "1.0.0-r64"
+JELLYDREAM_VERSION = "1.0.0-r65"
 JELLYDREAM_USER_AGENT = "JellyDreamModern/%s" % JELLYDREAM_VERSION
 
 _JSON_LOCKS_GUARD = threading.Lock()
@@ -220,6 +220,7 @@ JELLYDREAM_CONFIG_DEFAULTS = {
     "update_refresh": "150",
 
     "dynamic_backdrops": "1",
+    "lcd_playback_display": "0",
     "image_worker_count": "2",
 
     "library_auto_update": "1",

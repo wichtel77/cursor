@@ -1610,3 +1610,9 @@ msgid "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
 msgstr "يسار/يمين = حرف | OK = تصفية | أعلى = رجوع"
 msgid "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."
 msgstr "لا يوجد شيء هنا.\nلا توجد عناصر متاحة حالياً."
+
+msgid "LCD-Anzeige:"
+msgstr "شاشة LCD:"
+
+msgid "Zeigt während der Wiedergabe eine eigene Ansicht mit Titel, Fortschritt und Zeit. Bei 'Nein' verwendet das Display die normale Wiedergabeansicht mit Titel, Sendung und Fortschrittsbalken."
+msgstr "يعرض أثناء التشغيل عنواناً وتقدماً ووقتاً في عرض خاص. عند اختيار «لا» يستخدم العرض العادي: العنوان والبرنامج وشريط التقدم."

@@ -1610,3 +1610,9 @@ msgid "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
 msgstr "ВЛЕВО/ВПРАВО = Буква | OK = Фильтр | ВВЕРХ = Назад"
 msgid "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."
 msgstr "Здесь ничего нет.\nСейчас нет доступных записей."
+
+msgid "LCD-Anzeige:"
+msgstr "LCD-дисплей:"
+
+msgid "Zeigt während der Wiedergabe eine eigene Ansicht mit Titel, Fortschritt und Zeit. Bei 'Nein' verwendet das Display die normale Wiedergabeansicht mit Titel, Sendung und Fortschrittsbalken."
+msgstr "Во время воспроизведения показывает отдельный экран с названием, прогрессом и временем. «Нет» использует обычный экран: название, передача и индикатор прогресса."

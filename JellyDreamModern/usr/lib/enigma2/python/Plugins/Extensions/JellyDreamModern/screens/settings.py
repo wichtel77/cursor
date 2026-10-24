@@ -92,6 +92,12 @@ class JellyDreamSettingsScreen(JellyDreamBaseScreen, ConfigListScreen):
                 "Das reduziert auf älteren oder langsameren OpenPLi-Boxen "
                 "CPU-, RAM-, Netzwerk- und Repaint-Belastung."
             ),
+            _("LCD-Anzeige:"): _(
+                "Zeigt während der Wiedergabe eine eigene Ansicht mit Titel, "
+                "Fortschritt und Zeit. Bei 'Nein' verwendet das Display die "
+                "normale Wiedergabeansicht mit Titel, Sendung und "
+                "Fortschrittsbalken."
+            ),
             _("AC3 direkt ausgeben:"): _("Legt fest, ob AC3-Tonspuren ohne Umwandlung direkt an den Receiver bzw. Fernseher gesendet werden dürfen. Wenn dein TV bei AC3 'Audioformat nicht unterstützt' meldet, stelle hier 'Nein' ein."),
             _("EAC3 direkt ausgeben:"): _("Legt fest, ob EAC3-/Dolby-Digital-Plus-Tonspuren direkt ausgegeben werden dürfen. Falls dein Gerät damit Probleme hat, stelle hier 'Nein' ein, damit JellyDream in ein kompatibleres Format umwandelt."),
             _("Dolby TrueHD / Atmos direkt ausgeben:"): _(
@@ -389,6 +395,16 @@ class JellyDreamSettingsScreen(JellyDreamBaseScreen, ConfigListScreen):
             ),
             choices=yes_no_choices
         )
+
+        self.config_lcd_playback_display = ConfigSelection(
+            default=jellydream_safe_config_selection_value(
+                current_cfg.get("lcd_playback_display"),
+                yes_no_choices,
+                "0",
+                "lcd_playback_display"
+            ),
+            choices=yes_no_choices
+        )
         
         self.config_image_worker_count = ConfigSelection(
             default=jellydream_safe_config_selection_value(
@@ -517,6 +533,7 @@ class JellyDreamSettingsScreen(JellyDreamBaseScreen, ConfigListScreen):
                 self.config_library_update_minute
             ),
             (_("Dynamische Hintergründe:"), self.config_dynamic_backdrops),
+            (_("LCD-Anzeige:"), self.config_lcd_playback_display),
             (_("Cover-/Info-Refresh-Verzögerung:"), self.config_update_refresh),
             (
                 _("Image-Worker für Cover und Backdrops:"),
@@ -1136,6 +1153,9 @@ class JellyDreamSettingsScreen(JellyDreamBaseScreen, ConfigListScreen):
             )
             full_cfg["dynamic_backdrops"] = str(
                 self.config_dynamic_backdrops.value
+            )
+            full_cfg["lcd_playback_display"] = str(
+                self.config_lcd_playback_display.value
             )            
             full_cfg["update_refresh"] = str(self.config_update_refresh.value)
 

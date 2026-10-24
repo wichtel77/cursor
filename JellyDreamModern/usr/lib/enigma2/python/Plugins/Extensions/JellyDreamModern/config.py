@@ -1288,6 +1288,18 @@ def jellydream_dynamic_backdrops_enabled():
         )
     ) == "1"
 
+
+def jellydream_lcd_playback_enabled():
+    """
+    True: Die Wiedergabe zeigt Titel, Fortschritt und Zeit auf dem LCD/VFD.
+    """
+    return str(
+        read_config().get(
+            "lcd_playback_display",
+            "0"
+        )
+    ) == "1"
+
     
 def jellydream_library_auto_update_enabled():
     return str(

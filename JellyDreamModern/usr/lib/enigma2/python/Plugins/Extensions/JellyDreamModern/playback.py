@@ -53,6 +53,7 @@ from .config import (
     jellydream_default_audio_language,
     jellydream_device_id,
     jellydream_get_service_reference,
+    jellydream_lcd_playback_enabled,
     jellydream_max_resolution,
     jellydream_next_episode_autoplay,
     jellydream_skip_intro_automatically,
@@ -2949,6 +2950,33 @@ def jellydream_publish_now_event(title, duration_seconds=0, position_seconds=0):
         )
 
 
+def jellydream_clear_now_event():
+    """
+    Entfernt die von JellyDream eingetragene Sendung wieder.
+
+    servicemp3 sucht Events für jeden Stream über die 4097-Referenz ohne
+    URL. Das ist das DVB-Tripel 0/0/0. Ein überlappender Ersatzeintrag
+    bleibt für andere Player sichtbar, deshalb wird dieser Platz geleert.
+    flushEPG() ohne Argumente würde den gesamten EPG löschen. Der Schlüssel
+    dafür ist -1/-1/-1, nicht 0/0/0.
+    """
+    try:
+        from enigma import eEPGCache
+
+        epg = eEPGCache.getInstance()
+
+        if not epg:
+            return
+
+        epg.flushEPG(0, 0, 0)
+
+    except Exception as error:
+        jd_log(
+            "Now event could not be cleared: %s" % error,
+            level="WARNING"
+        )
+
+
 def jellydream_safe_play(
     session,
     title,
@@ -3180,6 +3208,7 @@ def jellydream_safe_play(
         )
         
         if not ok:
+            jellydream_clear_now_event()
             try:
                 if old_ref:
                     session.nav.playService(old_ref)
@@ -3191,6 +3220,7 @@ def jellydream_safe_play(
 
         return True, ""
     except Exception as e:
+        jellydream_clear_now_event()
         msg = _(
             "Kritischer Fehler beim Starten des Players: %s"
         ) % e
@@ -7100,6 +7130,7 @@ class JellyDreamPlaybackController:
 
         screen.stop_in_progress = True
         session = screen.session
+        jellydream_clear_now_event()
 
         playback_finished = bool(playback_finished)
 
@@ -7455,14 +7486,17 @@ class JellyDreamStreamSummary(Screen):
 
         margin = max(1, int(width * 0.02))
         title_y = max(1, int(height * 0.02))
-        title_height = max(1, int(height * 0.50))
-        progress_y = int(height * 0.58)
-        progress_height = max(2, int(height * 0.09))
-        time_y = int(height * 0.73)
+        title_height = max(1, int(height * 0.34))
+        event_y = title_y + title_height
+        event_height = max(1, int(height * 0.26))
+        progress_y = event_y + event_height + max(2, int(height * 0.05))
+        progress_height = max(2, int(height * 0.06))
+        time_y = progress_y + progress_height + max(1, int(height * 0.02))
         time_height = max(1, height - time_y - 1)
 
-        title_font = max(8, int(height * 0.22))
-        time_font = max(6, int(height * 0.19))
+        title_font = max(6, int(height * 0.16))
+        event_font = max(6, int(height * 0.13))
+        time_font = max(6, int(height * 0.14))
 
         self.skin = """
         <screen name="JellyDreamStreamSummary"
@@ -7471,6 +7505,12 @@ class JellyDreamStreamSummary(Screen):
                     position="{margin},{title_y}"
                     size="{content_width},{title_height}"
                     font="Regular;{title_font}"
+                    foregroundColor="#FFD700"
+                    halign="center" valign="center" />
+            <widget name="event"
+                    position="{margin},{event_y}"
+                    size="{content_width},{event_height}"
+                    font="Regular;{event_font}"
                     halign="center" valign="center" />
             <widget name="progress"
                     position="{margin},{progress_y}"
@@ -7490,6 +7530,9 @@ class JellyDreamStreamSummary(Screen):
             title_y=title_y,
             title_height=title_height,
             title_font=title_font,
+            event_y=event_y,
+            event_height=event_height,
+            event_font=event_font,
             progress_y=progress_y,
             progress_height=progress_height,
             time_y=time_y,
@@ -7499,11 +7542,11 @@ class JellyDreamStreamSummary(Screen):
 
         Screen.__init__(self, session)
 
-        # Ab hier deinen vorhandenen Code beibehalten:
         self.player = parent
         self._lcd_active = False
 
         self["title"] = Label("")
+        self["event"] = Label("")
         self["progress"] = ProgressBar()
         self["time"] = Label("")
 
@@ -7534,6 +7577,19 @@ class JellyDreamStreamSummary(Screen):
             return
 
         try:
+            title = str(
+                getattr(self.player, "enigma_service_name", "")
+                or self.player.title
+                or ""
+            ).strip()
+            event = str(
+                getattr(self.player, "enigma_event_name", "")
+                or ""
+            ).strip()
+
+            if event == title:
+                event = ""
+
             position = max(
                 0,
                 int(self.player.estimatedPositionSeconds() or 0)
@@ -7552,7 +7608,8 @@ class JellyDreamStreamSummary(Screen):
             else:
                 percent = 0
 
-            self["title"].setText(self.player.title)
+            self["title"].setText(title)
+            self["event"].setText(event)
             self["progress"].setValue(percent)
             self["time"].setText(
                 "%s / %s" % (
@@ -7571,6 +7628,20 @@ class JellyDreamStreamSummary(Screen):
         finally:
             if self._lcd_active:
                 self._lcd_timer.start(1000, True)
+
+
+class JellyDreamSystemLcdSummary(Screen):
+    """
+    Display-Skin der Box, wenn die eigene LCD-Anzeige aus ist.
+
+    Screen.__init__ setzt skinName auf den Klassennamen. Danach wird die
+    normale InfoBarSummary der Display-Skin verwendet, dieselbe Ansicht
+    wie im TV-Betrieb.
+    """
+
+    def __init__(self, session, parent):
+        Screen.__init__(self, session, parent)
+        self.skinName = "InfoBarSummary"
 
                 
 class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
@@ -7809,7 +7880,9 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
             self.onLayoutFinish.append(self.jumpToResumePosition)
 
     def createSummary(self):
-        return JellyDreamStreamSummary
+        if jellydream_lcd_playback_enabled():
+            return JellyDreamStreamSummary
+        return JellyDreamSystemLcdSummary
         
     def startScreenLayout(self):
         self._connectTimers()
@@ -7986,11 +8059,12 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
                 except Exception:
                     pass
 
-                jellydream_publish_now_event(
-                    event_name,
-                    getattr(self, "runtime_seconds", 0),
-                    getattr(self, "start_time", 0)
-                )
+                if not getattr(self, "stop_in_progress", False):
+                    jellydream_publish_now_event(
+                        event_name,
+                        getattr(self, "runtime_seconds", 0),
+                        getattr(self, "start_time", 0)
+                    )
 
                 max_title_length = 80
 

@@ -1609,3 +1609,9 @@ msgid "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
 msgstr "LEWO/PRAWO = Litera | OK = Filtruj | GÓRA = Wstecz"
 msgid "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."
 msgstr "Nic tu nie ma.\nObecnie nie ma żadnych pozycji."
+
+msgid "LCD-Anzeige:"
+msgstr "Wyświetlacz LCD:"
+
+msgid "Zeigt während der Wiedergabe eine eigene Ansicht mit Titel, Fortschritt und Zeit. Bei 'Nein' verwendet das Display die normale Wiedergabeansicht mit Titel, Sendung und Fortschrittsbalken."
+msgstr "Podczas odtwarzania pokazuje własny widok z tytułem, postępem i czasem. Przy «Nie» wyświetlacz używa zwykłego widoku: tytuł, audycja i pasek postępu."

@@ -1610,3 +1610,9 @@ msgid "LINKS/RECHTS = Buchstabe | OK = filtern | HOCH = zurück"
 msgstr "SOL/SAĞ = Harf | OK = Filtrele | YUKARI = Geri"
 msgid "Nichts hier.\nEs sind aktuell keine Einträge verfügbar."
 msgstr "Burada bir şey yok.\nŞu anda kullanılabilir öğe yok."
+
+msgid "LCD-Anzeige:"
+msgstr "LCD ekranı:"
+
+msgid "Zeigt während der Wiedergabe eine eigene Ansicht mit Titel, Fortschritt und Zeit. Bei 'Nein' verwendet das Display die normale Wiedergabeansicht mit Titel, Sendung und Fortschrittsbalken."
+msgstr "Oynatma sırasında başlık, ilerleme ve saati ayrı bir görünümde gösterir. 'Hayır' normal görünümü kullanır: başlık, yayın ve ilerleme çubuğu."
