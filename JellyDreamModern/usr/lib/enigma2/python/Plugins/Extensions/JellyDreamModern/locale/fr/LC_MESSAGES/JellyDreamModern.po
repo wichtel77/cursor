@@ -19,6 +19,9 @@ msgstr "%s - Saison %s"
 msgid "%s Min"
 msgstr "%s min"
 
+msgid "%s-Liste konnte nicht geladen werden."
+msgstr "La liste %s n'a pas pu être chargée."
+
 msgid "%s: %s\n%s\nGenre: %s"
 msgstr "%s : %s\n%s\nGenre : %s"
 
@@ -82,6 +85,12 @@ msgstr "AC3"
 msgid "AC3 direkt ausgeben:"
 msgstr "Sortir l'AC3 en direct :"
 
+msgid "AUDIO: %s"
+msgstr "AUDIO : %s"
+
+msgid "AUFLÖSUNG: %s"
+msgstr "RÉSOLUTION : %s"
+
 msgid "Abenteuer"
 msgstr "Aventure"
 
@@ -133,11 +142,35 @@ msgstr "Le redémarrage audio n'a pas pu être appliqué : %s"
 msgid "Audio-Neustart konnte nicht vorbereitet werden."
 msgstr "Le redémarrage audio n'a pas pu être préparé."
 
+msgid "Benutzername oder Passwort falsch"
+msgstr "Nom d'utilisateur ou mot de passe incorrect"
+
+msgid "Bildquellen der Sammlungen konnten nicht geladen werden."
+msgstr "Les sources d'images des collections n'ont pas pu être chargées."
+
 msgid "Biografie"
 msgstr "Biographie"
 
+msgid "DEBUG: %s  |  Ausgabe: %s  |  Player: %s (%s)  |  Video: %s  |  Audio: %s"
+msgstr "DEBUG : %s  |  Sortie : %s  |  Lecteur : %s (%s)  |  Vidéo : %s  |  Audio : %s"
+
+msgid "DEBUG: Stream-Information nicht verfügbar"
+msgstr "DEBUG : Information de flux indisponible"
+
+msgid "DEBUG: Stream-Methode wird ermittelt ..."
+msgstr "DEBUG : Détermination de la méthode de flux ..."
+
 msgid "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
 msgstr "Le pool d'arrière-plan est saturé. Le chargement n'a pas pu démarrer."
+
+msgid "Der Jellyfin-Health-Check lieferte keine Benutzer-ID."
+msgstr "Le contrôle Jellyfin n'a renvoyé aucun identifiant utilisateur."
+
+msgid "Der Jellyfin-Health-Check lieferte keine gültigen Benutzerdaten."
+msgstr "Le contrôle Jellyfin n'a renvoyé aucune donnée utilisateur valide."
+
+msgid "Der gespeicherte Jellyfin-Token gehört zu einem anderen Benutzer."
+msgstr "Le jeton Jellyfin enregistré appartient à un autre utilisateur."
 
 msgid "Der neue Audio-Stream konnte nicht gestartet werden: %s"
 msgstr "Le nouveau flux audio n'a pas pu démarrer : %s"
@@ -145,11 +178,29 @@ msgstr "Le nouveau flux audio n'a pas pu démarrer : %s"
 msgid "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
 msgstr "Le redémarrage audio préparé n'a pas pu être transmis à l'interface."
 
+msgid "Detaildaten konnten nicht geladen werden."
+msgstr "Les détails n'ont pas pu être chargés."
+
+msgid "Detaildaten müssen asynchron geladen werden."
+msgstr "Les détails doivent être chargés de façon asynchrone."
+
+msgid "Die Anmeldung wurde vom Server verweigert"
+msgstr "Le serveur a refusé la connexion"
+
+msgid "Die Anmeldung wurde während der Wiedergabevorbereitung geändert."
+msgstr "La connexion a changé pendant la préparation de la lecture."
+
+msgid "Die Jellyfin-Anmeldung wurde während des Audio-Neustarts geändert."
+msgstr "La connexion Jellyfin a changé pendant le redémarrage audio."
+
 msgid "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "L'URL de flux Jellyfin n'a pas pu être créée."
 
 msgid "Die Untertitelspur konnte nicht aktiviert werden."
 msgstr "La piste de sous-titres n'a pas pu être activée."
+
+msgid "Die aktuelle Folge endet in wenigen Sekunden.\n\nMöchtest du danach die nächste Folge abspielen?\n\n%s"
+msgstr "L'épisode en cours se termine dans quelques secondes.\n\nVoulez-vous ensuite lire l'épisode suivant ?\n\n%s"
 
 msgid "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "La nouvelle URL de flux Jellyfin n'a pas pu être créée."
@@ -175,14 +226,29 @@ msgstr "Fantastique"
 msgid "Fehler: Item-ID fehlt."
 msgstr "Erreur : identifiant d'élément manquant."
 
+msgid "Fehler: Leere Item-ID"
+msgstr "Erreur : identifiant d'élément vide"
+
 msgid "Fehler: Sammlungs-ID fehlt"
 msgstr "Erreur : identifiant de collection manquant"
 
 msgid "Filme der Sammlung konnten nicht angezeigt werden."
 msgstr "Les films de la collection n'ont pas pu être affichés."
 
+msgid "Filme der Sammlung konnten nicht geladen werden."
+msgstr "Les films de la collection n'ont pas pu être chargés."
+
 msgid "Filme der Sammlung konnten nicht geladen werden: %s"
 msgstr "Les films de la collection n'ont pas pu être chargés : %s"
+
+msgid "Filminfo konnte nicht geladen werden: %s"
+msgstr "Les informations du film n'ont pas pu être chargées : %s"
+
+msgid "Filmliste konnte nicht geladen werden."
+msgstr "La liste des films n'a pas pu être chargée."
+
+msgid "Folgen konnten nicht geladen werden."
+msgstr "Les épisodes n'ont pas pu être chargés."
 
 msgid "Für Server %s ist keine vollständige Anmeldung gespeichert."
 msgstr "Aucune connexion complète n'est enregistrée pour le serveur %s."
@@ -196,8 +262,35 @@ msgstr "Histoire"
 msgid "Horror"
 msgstr "Horreur"
 
+msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
+msgstr "Jellyfin a refusé la demande de connexion (HTTP 400). Vérifiez le journal du serveur, l'identifiant de l'appareil et le plugin d'authentification."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine MediaSource-ID."
+msgstr "Jellyfin n'a fourni aucun identifiant MediaSource pour le redémarrage audio."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine PlaySessionId."
+msgstr "Jellyfin n'a fourni aucun PlaySessionId pour le redémarrage audio."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine verwendbare Medienquelle."
+msgstr "Jellyfin n'a fourni aucune source média utilisable pour le redémarrage audio."
+
+msgid "Jellyfin lieferte keine verwendbare Medienquelle."
+msgstr "Jellyfin n'a fourni aucune source média utilisable."
+
+msgid "Jellyfin-Anmeldung ist unvollständig."
+msgstr "La connexion Jellyfin est incomplète."
+
+msgid "Jellyfin-Anmeldung oder Item-ID fehlt."
+msgstr "La connexion Jellyfin ou l'identifiant de l'élément est manquant."
+
 msgid "Jellyfin-POST konnte nicht gestartet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
 msgstr "Le POST Jellyfin n'a pas pu démarrer, car le pool d'arrière-plan est saturé."
+
+msgid "Jellyfin-Serverfehler"
+msgstr "Erreur du serveur Jellyfin"
+
+msgid "Jellyfin-Verbindung konnte nicht geprüft werden."
+msgstr "La connexion Jellyfin n'a pas pu être vérifiée."
 
 msgid "Keine gültige Sammlung ausgewählt"
 msgstr "Aucune collection valide sélectionnée"
@@ -232,17 +325,26 @@ msgstr "Romance"
 msgid "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
 msgstr "Connexion réussie, mais le profil serveur n'a pas pu être enregistré"
 
+msgid "Login fehlgeschlagen"
+msgstr "Échec de la connexion"
+
 msgid "Login fehlgeschlagen: %s"
 msgstr "Échec de connexion : %s"
 
 msgid "Login ohne gültigen Token oder Benutzer-ID"
 msgstr "Connexion sans jeton valide ni identifiant utilisateur"
 
+msgid "Login-Endpunkt nicht gefunden"
+msgstr "Point de connexion introuvable"
+
 msgid "Musical"
 msgstr "Musical"
 
 msgid "Musik"
 msgstr "Musique"
+
+msgid "Musikliste konnte nicht geladen werden."
+msgstr "La liste de musique n'a pas pu être chargée."
 
 msgid "Mystery"
 msgstr "Mystère"
@@ -835,11 +937,17 @@ msgstr "Lecteur pour les flux Jellyfin :"
 msgid "Plugin Log-Level (Debugging):"
 msgstr "Niveau de journal du plugin (debug) :"
 
+msgid "RUNTER = Buchstabe"
+msgstr "BAS = Lettre"
+
 msgid "Reality"
 msgstr "Téléréalité"
 
 msgid "Regie: %s\nGenre: %s"
 msgstr "Réalisation : %s\nGenre : %s"
+
+msgid "SPRACHE: %s"
+msgstr "LANGUE : %s"
 
 msgid "Sammlung"
 msgstr "Collection"
@@ -864,6 +972,9 @@ msgstr "Chargement des collections ..."
 
 msgid "Sammlungen werden von Jellyfin geladen ..."
 msgstr "Chargement des collections depuis Jellyfin ..."
+
+msgid "Sammlungs-ID fehlt."
+msgstr "L'identifiant de la collection est manquant."
 
 msgid "Sammlungszuordnung wird geprüft ..."
 msgstr "Vérification de l'association de collection ..."
@@ -895,8 +1006,14 @@ msgstr "Série : %s%s\nAnnée : %s\nGenre : %s"
 msgid "Serien"
 msgstr "Séries"
 
+msgid "Serien-ID fehlt."
+msgstr "L'identifiant de la série est manquant."
+
 msgid "Serienliste konnte nicht angezeigt werden."
 msgstr "La liste des séries n'a pas pu être affichée."
+
+msgid "Serienliste konnte nicht geladen werden."
+msgstr "La liste des séries n'a pas pu être chargée."
 
 msgid "Serienliste konnte nicht geladen werden: %s"
 msgstr "La liste des séries n'a pas pu être chargée : %s"
@@ -964,6 +1081,9 @@ msgstr "Aucune description n'est enregistrée pour cette saison."
 msgid "Staffel %s / %s | Steuerkreuz = Navigieren / blättern | OK = Folgen anzeigen | EXIT = Zurück"
 msgstr "Saison %s / %s | Croix = Naviguer / pages | OK = Afficher les épisodes | EXIT = Retour"
 
+msgid "Staffeln konnten nicht geladen werden."
+msgstr "Les saisons n'ont pas pu être chargées."
+
 msgid "Staffeln konnten nicht geladen werden: %s"
 msgstr "Impossible de charger les saisons : %s"
 
@@ -993,6 +1113,9 @@ msgstr "Contrôle la vitesse d'actualisation des jaquettes, fonds et détails. P
 
 msgid "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
 msgstr "L'URL du flux n'a pas pu être créée. Veuillez d'abord vous connecter."
+
+msgid "Streamdaten konnten nicht geladen werden."
+msgstr "Les données du flux n'ont pas pu être chargées."
 
 msgid "Streamdaten werden geladen ..."
 msgstr "Chargement des données de flux ..."
@@ -1036,6 +1159,15 @@ msgstr "Débit vidéo de transcodage :"
 msgid "Transcoding-/Remux-Ausgabe:"
 msgstr "Sortie transcodage/remux :"
 
+msgid "Treffer"
+msgstr "Résultat"
+
+msgid "UNTERTITEL: %s"
+msgstr "SOUS-TITRES : %s"
+
+msgid "UNTERTITEL: AN"
+msgstr "SOUS-TITRES : OUI"
+
 msgid "Unbekannte Menüaktion"
 msgstr "Action de menu inconnue"
 
@@ -1045,14 +1177,32 @@ msgstr "État inconnu"
 msgid "Unbekannter Treffertyp: %s"
 msgstr "Type de résultat inconnu : %s"
 
+msgid "Ungültige Antwort vom Jellyfin-Server."
+msgstr "Réponse invalide du serveur Jellyfin."
+
+msgid "Ungültige Detailantwort vom Jellyfin-Server."
+msgstr "Réponse de détails invalide du serveur Jellyfin."
+
+msgid "Ungültige Elementliste vom Jellyfin-Server."
+msgstr "Liste d'éléments invalide du serveur Jellyfin."
+
 msgid "Ungültige Login-Antwort"
 msgstr "Réponse de connexion invalide"
+
+msgid "Ungültige PlaybackInfo-Antwort von Jellyfin."
+msgstr "Réponse PlaybackInfo invalide de Jellyfin."
 
 msgid "Ungültiger Serverplatz."
 msgstr "Emplacement de serveur invalide."
 
 msgid "Untertitelspur"
 msgstr "Piste de sous-titres"
+
+msgid "VIDEO: %s"
+msgstr "VIDÉO : %s"
+
+msgid "VIDEO: %s (%s)"
+msgstr "VIDÉO : %s (%s)"
 
 msgid "Version %s"
 msgstr "Version %s"
@@ -1075,8 +1225,20 @@ msgstr "La lecture n'a pas pu démarrer."
 msgid "Wiedergabe konnte nicht gestartet werden: %s"
 msgstr "La lecture n'a pas pu démarrer : %s"
 
+msgid "Wiedergabe konnte nicht vorbereitet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "La lecture n'a pas pu être préparée, car le pool de workers est saturé."
+
+msgid "Wiedergabeinformationen für die neue Audiospur konnten nicht geladen werden."
+msgstr "Les informations de lecture de la nouvelle piste audio n'ont pas pu être chargées."
+
+msgid "Wiedergabeinformationen konnten nicht geladen werden."
+msgstr "Les informations de lecture n'ont pas pu être chargées."
+
 msgid "Willkommen bei JellyDream"
 msgstr "Bienvenue dans JellyDream"
+
+msgid "Zeitüberschreitung bei der HTTPS-Verbindung zum Jellyfin-Server."
+msgstr "Délai dépassé pour la connexion HTTPS au serveur Jellyfin."
 
 msgid "Zugriff auf Jellyfin wurde verweigert."
 msgstr "L'accès à Jellyfin a été refusé."

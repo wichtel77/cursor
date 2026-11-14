@@ -64,7 +64,7 @@ class JellyDreamFavoriteListScreen(JellyDreamMovieListScreen):
                 raise_on_error=True
             ),
             finished_callback=self.moviesLoaded,
-            message="Favorites are loading ..."
+            message=_("Favoriten werden geladen ...")
         )
 
     def moviesLoaded(self, movies, error_message=""):

@@ -295,10 +295,15 @@ class JellyDreamSearchScreen(JellyDreamGridScreen):
 
     def itemTypeName(self, item):
         item_type = item.get("Type") or ""
-        if item_type == "Movie": return "Film"
-        if item_type == "Series": return "Serie"
-        if item_type == "BoxSet": return _("Sammlung")
-        return "Treffer"
+        if item_type == "Movie":
+            return _("Film")
+        if item_type == "Series":
+            return _("Serie")
+        if item_type == "Episode":
+            return _("Folge")
+        if item_type == "BoxSet":
+            return _("Sammlung")
+        return _("Treffer")
 
     def updateInfo(self):
         try:
@@ -327,12 +332,12 @@ class JellyDreamSearchScreen(JellyDreamGridScreen):
                     details
                 )
 
-            title = item.get("Name", "Ohne Titel")
+            title = item.get("Name") or _("Ohne Titel")
             year = item.get("ProductionYear") or "-"
             genres = jellydream_item_genre_line(item)
 
             minutes = ticks_to_minutes(item.get("RunTimeTicks"))
-            runtime_text = f"{minutes} Min" if minutes else ""
+            runtime_text = (_("%s Min") % minutes) if minutes else ""
 
             rating = str(item.get("OfficialRating") or "").strip()
 
@@ -344,12 +349,11 @@ class JellyDreamSearchScreen(JellyDreamGridScreen):
                 meta_text += "   " + (_("Laufzeit: %s") % runtime_text)
 
             if rating:
-                meta_text += f"   {rating}"
+                meta_text += "   %s" % rating
 
             info_text = (
-                f"{label_type}: {title}\n"
-                f"{meta_text}\n"
-                f"Genre: {genres}"
+                _("%s: %s\n%s\nGenre: %s")
+                % (label_type, title, meta_text, genres)
             )
             
             overview = jellydream_item_overview(item)

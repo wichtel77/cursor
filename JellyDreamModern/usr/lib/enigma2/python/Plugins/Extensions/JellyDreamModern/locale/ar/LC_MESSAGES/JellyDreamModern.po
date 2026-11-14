@@ -19,6 +19,9 @@ msgstr "%s - الموسم %s"
 msgid "%s Min"
 msgstr "%s د"
 
+msgid "%s-Liste konnte nicht geladen werden."
+msgstr "تعذر تحميل قائمة %s."
+
 msgid "%s: %s\n%s\nGenre: %s"
 msgstr "%s: %s\n%s\nالنوع: %s"
 
@@ -82,6 +85,12 @@ msgstr "AC3"
 msgid "AC3 direkt ausgeben:"
 msgstr "إخراج AC3 مباشرة:"
 
+msgid "AUDIO: %s"
+msgstr "صوت: %s"
+
+msgid "AUFLÖSUNG: %s"
+msgstr "الدقة: %s"
+
 msgid "Abenteuer"
 msgstr "مغامرة"
 
@@ -133,11 +142,35 @@ msgstr "تعذر تطبيق إعادة تشغيل الصوت: %s"
 msgid "Audio-Neustart konnte nicht vorbereitet werden."
 msgstr "تعذر تجهيز إعادة تشغيل الصوت."
 
+msgid "Benutzername oder Passwort falsch"
+msgstr "اسم المستخدم أو كلمة المرور غير صحيحة"
+
+msgid "Bildquellen der Sammlungen konnten nicht geladen werden."
+msgstr "تعذر تحميل مصادر صور المجموعات."
+
 msgid "Biografie"
 msgstr "سيرة"
 
+msgid "DEBUG: %s  |  Ausgabe: %s  |  Player: %s (%s)  |  Video: %s  |  Audio: %s"
+msgstr "DEBUG: %s  |  الإخراج: %s  |  المشغّل: %s (%s)  |  فيديو: %s  |  صوت: %s"
+
+msgid "DEBUG: Stream-Information nicht verfügbar"
+msgstr "DEBUG: معلومات البث غير متاحة"
+
+msgid "DEBUG: Stream-Methode wird ermittelt ..."
+msgstr "DEBUG: جارٍ تحديد طريقة البث ..."
+
 msgid "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
 msgstr "تجمع المهام الخلفية مشغول. تعذر بدء التحميل."
+
+msgid "Der Jellyfin-Health-Check lieferte keine Benutzer-ID."
+msgstr "لم يُرجع فحص Jellyfin معرّف مستخدم."
+
+msgid "Der Jellyfin-Health-Check lieferte keine gültigen Benutzerdaten."
+msgstr "لم يُرجع فحص Jellyfin بيانات مستخدم صالحة."
+
+msgid "Der gespeicherte Jellyfin-Token gehört zu einem anderen Benutzer."
+msgstr "رمز Jellyfin المحفوظ يخص مستخدمًا آخر."
 
 msgid "Der neue Audio-Stream konnte nicht gestartet werden: %s"
 msgstr "تعذر بدء البث الصوتي الجديد: %s"
@@ -145,11 +178,29 @@ msgstr "تعذر بدء البث الصوتي الجديد: %s"
 msgid "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
 msgstr "تعذر تمرير إعادة تشغيل الصوت المجهّزة إلى الواجهة."
 
+msgid "Detaildaten konnten nicht geladen werden."
+msgstr "تعذر تحميل التفاصيل."
+
+msgid "Detaildaten müssen asynchron geladen werden."
+msgstr "يجب تحميل التفاصيل بشكل غير متزامن."
+
+msgid "Die Anmeldung wurde vom Server verweigert"
+msgstr "رفض الخادم تسجيل الدخول"
+
+msgid "Die Anmeldung wurde während der Wiedergabevorbereitung geändert."
+msgstr "تغيّر تسجيل الدخول أثناء تجهيز التشغيل."
+
+msgid "Die Jellyfin-Anmeldung wurde während des Audio-Neustarts geändert."
+msgstr "تغيّر تسجيل الدخول إلى Jellyfin أثناء إعادة تشغيل الصوت."
+
 msgid "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "تعذر إنشاء عنوان بث Jellyfin."
 
 msgid "Die Untertitelspur konnte nicht aktiviert werden."
 msgstr "تعذر تفعيل مسار الترجمة."
+
+msgid "Die aktuelle Folge endet in wenigen Sekunden.\n\nMöchtest du danach die nächste Folge abspielen?\n\n%s"
+msgstr "تنتهي الحلقة الحالية خلال ثوانٍ.\n\nهل تريد تشغيل الحلقة التالية بعدها؟\n\n%s"
 
 msgid "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "تعذر إنشاء عنوان بث Jellyfin الجديد."
@@ -175,14 +226,29 @@ msgstr "خيال"
 msgid "Fehler: Item-ID fehlt."
 msgstr "خطأ: معرّف العنصر مفقود."
 
+msgid "Fehler: Leere Item-ID"
+msgstr "خطأ: معرّف عنصر فارغ"
+
 msgid "Fehler: Sammlungs-ID fehlt"
 msgstr "خطأ: معرّف المجموعة مفقود"
 
 msgid "Filme der Sammlung konnten nicht angezeigt werden."
 msgstr "تعذر عرض أفلام المجموعة."
 
+msgid "Filme der Sammlung konnten nicht geladen werden."
+msgstr "تعذر تحميل أفلام المجموعة."
+
 msgid "Filme der Sammlung konnten nicht geladen werden: %s"
 msgstr "تعذر تحميل أفلام المجموعة: %s"
+
+msgid "Filminfo konnte nicht geladen werden: %s"
+msgstr "تعذر تحميل معلومات الفيلم: %s"
+
+msgid "Filmliste konnte nicht geladen werden."
+msgstr "تعذر تحميل قائمة الأفلام."
+
+msgid "Folgen konnten nicht geladen werden."
+msgstr "تعذر تحميل الحلقات."
 
 msgid "Für Server %s ist keine vollständige Anmeldung gespeichert."
 msgstr "لا يوجد تسجيل دخول كامل محفوظ للخادم %s."
@@ -196,8 +262,35 @@ msgstr "تاريخ"
 msgid "Horror"
 msgstr "رعب"
 
+msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
+msgstr "رفض Jellyfin طلب تسجيل الدخول (HTTP 400). تحقق من سجل الخادم ومعرّف الجهاز وإضافة المصادقة."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine MediaSource-ID."
+msgstr "لم يقدّم Jellyfin معرّف MediaSource عند إعادة تشغيل الصوت."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine PlaySessionId."
+msgstr "لم يقدّم Jellyfin معرّف PlaySessionId عند إعادة تشغيل الصوت."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine verwendbare Medienquelle."
+msgstr "لم يقدّم Jellyfin مصدرًا قابلًا للاستخدام عند إعادة تشغيل الصوت."
+
+msgid "Jellyfin lieferte keine verwendbare Medienquelle."
+msgstr "لم يقدّم Jellyfin مصدر وسائط قابلًا للاستخدام."
+
+msgid "Jellyfin-Anmeldung ist unvollständig."
+msgstr "تسجيل الدخول إلى Jellyfin غير مكتمل."
+
+msgid "Jellyfin-Anmeldung oder Item-ID fehlt."
+msgstr "تسجيل الدخول إلى Jellyfin أو معرّف العنصر مفقود."
+
 msgid "Jellyfin-POST konnte nicht gestartet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
 msgstr "تعذر بدء طلب Jellyfin لأن تجمع المهام الخلفية مشغول."
+
+msgid "Jellyfin-Serverfehler"
+msgstr "خطأ في خادم Jellyfin"
+
+msgid "Jellyfin-Verbindung konnte nicht geprüft werden."
+msgstr "تعذر التحقق من اتصال Jellyfin."
 
 msgid "Keine gültige Sammlung ausgewählt"
 msgstr "لم يتم اختيار مجموعة صالحة"
@@ -232,17 +325,26 @@ msgstr "رومانسي"
 msgid "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
 msgstr "نجح تسجيل الدخول، لكن تعذر حفظ ملف الخادم"
 
+msgid "Login fehlgeschlagen"
+msgstr "فشل تسجيل الدخول"
+
 msgid "Login fehlgeschlagen: %s"
 msgstr "فشل تسجيل الدخول: %s"
 
 msgid "Login ohne gültigen Token oder Benutzer-ID"
 msgstr "تسجيل دخول بدون رمز صالح أو معرّف مستخدم"
 
+msgid "Login-Endpunkt nicht gefunden"
+msgstr "نقطة تسجيل الدخول غير موجودة"
+
 msgid "Musical"
 msgstr "موسيقي"
 
 msgid "Musik"
 msgstr "موسيقى"
+
+msgid "Musikliste konnte nicht geladen werden."
+msgstr "تعذر تحميل قائمة الموسيقى."
 
 msgid "Mystery"
 msgstr "غموض"
@@ -835,11 +937,17 @@ msgstr "مشغّل بث Jellyfin:"
 msgid "Plugin Log-Level (Debugging):"
 msgstr "مستوى سجل الإضافة (تشخيص):"
 
+msgid "RUNTER = Buchstabe"
+msgstr "أسفل = حرف"
+
 msgid "Reality"
 msgstr "واقعي"
 
 msgid "Regie: %s\nGenre: %s"
 msgstr "الإخراج: %s\nالنوع: %s"
+
+msgid "SPRACHE: %s"
+msgstr "اللغة: %s"
 
 msgid "Sammlung"
 msgstr "مجموعة"
@@ -864,6 +972,9 @@ msgstr "جاري تحميل المجموعات ..."
 
 msgid "Sammlungen werden von Jellyfin geladen ..."
 msgstr "جاري تحميل المجموعات من Jellyfin ..."
+
+msgid "Sammlungs-ID fehlt."
+msgstr "معرّف المجموعة مفقود."
 
 msgid "Sammlungszuordnung wird geprüft ..."
 msgstr "جاري فحص ارتباط المجموعة ..."
@@ -895,8 +1006,14 @@ msgstr "مسلسل: %s%s\nالسنة: %s\nالنوع: %s"
 msgid "Serien"
 msgstr "مسلسلات"
 
+msgid "Serien-ID fehlt."
+msgstr "معرّف المسلسل مفقود."
+
 msgid "Serienliste konnte nicht angezeigt werden."
 msgstr "تعذر عرض قائمة المسلسلات."
+
+msgid "Serienliste konnte nicht geladen werden."
+msgstr "تعذر تحميل قائمة المسلسلات."
 
 msgid "Serienliste konnte nicht geladen werden: %s"
 msgstr "تعذر تحميل قائمة المسلسلات: %s"
@@ -964,6 +1081,9 @@ msgstr "لا يوجد وصف محفوظ لهذا الموسم."
 msgid "Staffel %s / %s | Steuerkreuz = Navigieren / blättern | OK = Folgen anzeigen | EXIT = Zurück"
 msgstr "الموسم %s / %s | الأسهم = تنقل | OK = عرض الحلقات | EXIT = رجوع"
 
+msgid "Staffeln konnten nicht geladen werden."
+msgstr "تعذر تحميل المواسم."
+
 msgid "Staffeln konnten nicht geladen werden: %s"
 msgstr "تعذر تحميل المواسم: %s"
 
@@ -993,6 +1113,9 @@ msgstr "يحدد سرعة تحديث الملصقات والخلفيات وال�
 
 msgid "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
 msgstr "تعذر إنشاء عنوان البث. يرجى تسجيل الدخول أولاً."
+
+msgid "Streamdaten konnten nicht geladen werden."
+msgstr "تعذر تحميل بيانات البث."
 
 msgid "Streamdaten werden geladen ..."
 msgstr "جاري تحميل بيانات البث ..."
@@ -1036,6 +1159,15 @@ msgstr "معدل بت الفيديو للتحويل:"
 msgid "Transcoding-/Remux-Ausgabe:"
 msgstr "إخراج التحويل/إعادة التغليف:"
 
+msgid "Treffer"
+msgstr "نتيجة"
+
+msgid "UNTERTITEL: %s"
+msgstr "الترجمة: %s"
+
+msgid "UNTERTITEL: AN"
+msgstr "الترجمة: تشغيل"
+
 msgid "Unbekannte Menüaktion"
 msgstr "إجراء قائمة غير معروف"
 
@@ -1045,14 +1177,32 @@ msgstr "حالة غير معروفة"
 msgid "Unbekannter Treffertyp: %s"
 msgstr "نوع نتيجة غير معروف: %s"
 
+msgid "Ungültige Antwort vom Jellyfin-Server."
+msgstr "استجابة غير صالحة من خادم Jellyfin."
+
+msgid "Ungültige Detailantwort vom Jellyfin-Server."
+msgstr "استجابة تفاصيل غير صالحة من خادم Jellyfin."
+
+msgid "Ungültige Elementliste vom Jellyfin-Server."
+msgstr "قائمة عناصر غير صالحة من خادم Jellyfin."
+
 msgid "Ungültige Login-Antwort"
 msgstr "استجابة تسجيل دخول غير صالحة"
+
+msgid "Ungültige PlaybackInfo-Antwort von Jellyfin."
+msgstr "استجابة PlaybackInfo غير صالحة من Jellyfin."
 
 msgid "Ungültiger Serverplatz."
 msgstr "خانة خادم غير صالحة."
 
 msgid "Untertitelspur"
 msgstr "مسار الترجمة"
+
+msgid "VIDEO: %s"
+msgstr "فيديو: %s"
+
+msgid "VIDEO: %s (%s)"
+msgstr "فيديو: %s (%s)"
 
 msgid "Version %s"
 msgstr "الإصدار %s"
@@ -1075,8 +1225,20 @@ msgstr "تعذر بدء التشغيل."
 msgid "Wiedergabe konnte nicht gestartet werden: %s"
 msgstr "تعذر بدء التشغيل: %s"
 
+msgid "Wiedergabe konnte nicht vorbereitet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "تعذر تجهيز التشغيل لأن مجموعة المهام الخلفية مشغولة."
+
+msgid "Wiedergabeinformationen für die neue Audiospur konnten nicht geladen werden."
+msgstr "تعذر تحميل معلومات التشغيل للمسار الصوتي الجديد."
+
+msgid "Wiedergabeinformationen konnten nicht geladen werden."
+msgstr "تعذر تحميل معلومات التشغيل."
+
 msgid "Willkommen bei JellyDream"
 msgstr "مرحباً بك في JellyDream"
+
+msgid "Zeitüberschreitung bei der HTTPS-Verbindung zum Jellyfin-Server."
+msgstr "انتهت مهلة اتصال HTTPS بخادم Jellyfin."
 
 msgid "Zugriff auf Jellyfin wurde verweigert."
 msgstr "رُفض الوصول إلى Jellyfin."

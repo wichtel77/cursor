@@ -214,7 +214,7 @@ class JellyDreamMusicListScreen(JellyDreamGridScreen):
                 raise_on_error=True
             ),
             finished_callback=self.musicLoaded,
-            message="Music list is loading ..."
+            message=_("Musikliste wird von Jellyfin geladen ...")
         )
 
     def musicLoaded(self, albums, error_message=""):
@@ -511,7 +511,7 @@ class JellyDreamMusicAlbumScreen(JellyDreamGridScreen):
                 raise_on_error=True
             ),
             finished_callback=self.tracksLoaded,
-            message="Album tracks are loading ..."
+            message=_("Musik wird geladen ...")
         )
 
     def tracksLoaded(self, tracks, error_message=""):

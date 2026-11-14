@@ -130,8 +130,8 @@ class JellyDreamHomeMovieInfoScreen(JellyDreamBaseScreen):
     def detailsLoaded(self, result, error_message=""):
         if error_message:
             self["meta"].setText(
-                "Filminfo konnte nicht geladen werden: %s"
-                % error_message
+                _("Filminfo konnte nicht geladen werden: %s")
+                % _(error_message)
             )
             jellydream_set_imdb_badge(self, None)
             jellydream_set_favorite_heart(self, "poster_heart", "poster", None)

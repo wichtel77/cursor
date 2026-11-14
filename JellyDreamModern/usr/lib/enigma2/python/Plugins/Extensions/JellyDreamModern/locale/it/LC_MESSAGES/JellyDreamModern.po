@@ -25,6 +25,9 @@ msgstr "%s min"
 msgid "%s | GRÜN = Speichern"
 msgstr "%s | VERDE = Salva"
 
+msgid "%s-Liste konnte nicht geladen werden."
+msgstr "Impossibile caricare l'elenco %s."
+
 msgid "%s: %s\n%s\nGenre: %s"
 msgstr "%s: %s\n%s\nGenere: %s"
 
@@ -87,6 +90,12 @@ msgstr "AC3"
 
 msgid "AC3 direkt ausgeben:"
 msgstr "Invia AC3 direttamente:"
+
+msgid "AUDIO: %s"
+msgstr "AUDIO: %s"
+
+msgid "AUFLÖSUNG: %s"
+msgstr "RISOLUZIONE: %s"
 
 msgid "Abenteuer"
 msgstr "Avventura"
@@ -184,6 +193,9 @@ msgstr "Automatico (lingua del receiver, altrimenti English)"
 msgid "Benutzer: %s\nStatus: %s"
 msgstr "Utente: %s\nStato: %s"
 
+msgid "Benutzername oder Passwort falsch"
+msgstr "Nome utente o password errati"
+
 msgid "Beschreibung"
 msgstr "Descrizione"
 
@@ -219,6 +231,9 @@ msgstr "Un aggiornamento della libreria è già in corso."
 
 msgid "Bibliothekscache konnte nicht gespeichert werden"
 msgstr "Impossibile salvare la cache della libreria"
+
+msgid "Bildquellen der Sammlungen konnten nicht geladen werden."
+msgstr "Impossibile caricare le sorgenti immagini delle raccolte."
 
 msgid "Biografie"
 msgstr "Biografia"
@@ -265,6 +280,15 @@ msgstr "Ritardo di aggiornamento copertine/info:"
 msgid "DEBUG (Alles loggen)"
 msgstr "DEBUG (Registra tutto)"
 
+msgid "DEBUG: %s  |  Ausgabe: %s  |  Player: %s (%s)  |  Video: %s  |  Audio: %s"
+msgstr "DEBUG: %s  |  Uscita: %s  |  Lettore: %s (%s)  |  Video: %s  |  Audio: %s"
+
+msgid "DEBUG: Stream-Information nicht verfügbar"
+msgstr "DEBUG: Informazioni stream non disponibili"
+
+msgid "DEBUG: Stream-Methode wird ermittelt ..."
+msgstr "DEBUG: Determinazione del metodo di stream ..."
+
 msgid "DTS direkt ausgeben:"
 msgstr "Invia DTS direttamente:"
 
@@ -289,6 +313,12 @@ msgstr "Caricamento informazioni della libreria ..."
 msgid "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
 msgstr "Il pool di worker in background è occupato. Impossibile avviare il caricamento."
 
+msgid "Der Jellyfin-Health-Check lieferte keine Benutzer-ID."
+msgstr "Il controllo Jellyfin non ha restituito un ID utente."
+
+msgid "Der Jellyfin-Health-Check lieferte keine gültigen Benutzerdaten."
+msgstr "Il controllo Jellyfin non ha restituito dati utente validi."
+
 msgid "Der Jellyfin-Server antwortet nicht rechtzeitig."
 msgstr "Il server Jellyfin non risponde in tempo."
 
@@ -298,11 +328,20 @@ msgstr "Il server Jellyfin ha chiuso la connessione in modo imprevisto."
 msgid "Der Servername konnte nicht aufgelöst werden. Bitte die Jellyfin-Adresse und die DNS-Einstellungen prüfen."
 msgstr "Impossibile risolvere il nome del server. Controlla l'indirizzo Jellyfin e le impostazioni DNS."
 
+msgid "Der gespeicherte Jellyfin-Token gehört zu einem anderen Benutzer."
+msgstr "Il token Jellyfin salvato appartiene a un altro utente."
+
 msgid "Der neue Audio-Stream konnte nicht gestartet werden: %s"
 msgstr "Impossibile avviare il nuovo flusso audio: %s"
 
 msgid "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
 msgstr "Impossibile passare il riavvio audio preparato all'interfaccia."
+
+msgid "Detaildaten konnten nicht geladen werden."
+msgstr "Impossibile caricare i dettagli."
+
+msgid "Detaildaten müssen asynchron geladen werden."
+msgstr "I dettagli devono essere caricati in modo asincrono."
 
 msgid "Dezember"
 msgstr "Dicembre"
@@ -310,8 +349,17 @@ msgstr "Dicembre"
 msgid "Die Aktualisierung lieferte kein gültiges Ergebnis."
 msgstr "L'aggiornamento non ha restituito un risultato valido."
 
+msgid "Die Anmeldung wurde vom Server verweigert"
+msgstr "Il server ha rifiutato l'accesso"
+
+msgid "Die Anmeldung wurde während der Wiedergabevorbereitung geändert."
+msgstr "L'accesso è cambiato durante la preparazione della riproduzione."
+
 msgid "Die HTTPS-Verbindung konnte nicht aufgebaut werden. Bitte prüfen, ob HTTP und HTTPS korrekt konfiguriert sind."
 msgstr "Impossibile stabilire la connessione HTTPS. Controlla la configurazione HTTP e HTTPS."
+
+msgid "Die Jellyfin-Anmeldung wurde während des Audio-Neustarts geändert."
+msgstr "L'accesso Jellyfin è cambiato durante il riavvio audio."
 
 msgid "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "Impossibile creare l'URL dello stream Jellyfin."
@@ -321,6 +369,9 @@ msgstr "Impossibile attivare la traccia dei sottotitoli."
 
 msgid "Die Verbindung zum Jellyfin-Server wurde abgelehnt oder unterbrochen."
 msgstr "La connessione al server Jellyfin è stata rifiutata o interrotta."
+
+msgid "Die aktuelle Folge endet in wenigen Sekunden.\n\nMöchtest du danach die nächste Folge abspielen?\n\n%s"
+msgstr "L'episodio attuale termina tra pochi secondi.\n\nVuoi riprodurre dopo l'episodio successivo?\n\n%s"
 
 msgid "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "Impossibile creare il nuovo URL dello stream Jellyfin."
@@ -430,6 +481,9 @@ msgstr "Errore: ID mancante"
 msgid "Fehler: Item-ID fehlt."
 msgstr "Errore: ID elemento mancante."
 
+msgid "Fehler: Leere Item-ID"
+msgstr "Errore: ID elemento vuoto"
+
 msgid "Fehler: Resume-ID fehlt"
 msgstr "Errore: ID di ripresa mancante"
 
@@ -469,6 +523,9 @@ msgstr "Cerca film / serie"
 msgid "Filme der Sammlung konnten nicht angezeigt werden."
 msgstr "Impossibile mostrare i film della raccolta."
 
+msgid "Filme der Sammlung konnten nicht geladen werden."
+msgstr "Impossibile caricare i film della raccolta."
+
 msgid "Filme der Sammlung konnten nicht geladen werden: %s"
 msgstr "Impossibile caricare i film della raccolta: %s"
 
@@ -481,11 +538,17 @@ msgstr "Film: %s   Raccolte: %s\nSerie: %s   Episodi: %s"
 msgid "Filme: -\nSerien: -\nEpisoden: -\nSammlungen: -"
 msgstr "Film: -\nSerie: -\nEpisodi: -\nRaccolte: -"
 
+msgid "Filminfo konnte nicht geladen werden: %s"
+msgstr "Impossibile caricare le informazioni del film: %s"
+
 msgid "Filminformationen werden geladen ..."
 msgstr "Caricamento dettagli del film ..."
 
 msgid "Filmliste konnte nicht angezeigt werden."
 msgstr "Impossibile mostrare l'elenco dei film."
+
+msgid "Filmliste konnte nicht geladen werden."
+msgstr "Impossibile caricare l'elenco dei film."
 
 msgid "Filmliste konnte nicht geladen werden: %s"
 msgstr "Impossibile caricare l'elenco dei film: %s"
@@ -507,6 +570,9 @@ msgstr "Episodio: S%02dE%02d - %s\n%s"
 
 msgid "Folgen der Staffel %s werden geladen ..."
 msgstr "Caricamento episodi della stagione %s ..."
+
+msgid "Folgen konnten nicht geladen werden."
+msgstr "Impossibile caricare gli episodi."
 
 msgid "Folgen konnten nicht geladen werden: %s"
 msgstr "Impossibile caricare gli episodi: %s"
@@ -598,11 +664,32 @@ msgstr "Server Jellyfin %s di %s"
 msgid "Jellyfin Server Adresse"
 msgstr "Indirizzo del server Jellyfin"
 
+msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
+msgstr "Jellyfin ha rifiutato la richiesta di accesso (HTTP 400). Controlla il registro del server, l'ID dispositivo e il plugin di autenticazione."
+
 msgid "Jellyfin hat diese Anfrage nicht autorisiert (HTTP 401). Die gespeicherte Sitzung wurde nicht automatisch gelöscht."
 msgstr "Jellyfin non ha autorizzato questa richiesta (HTTP 401). La sessione salvata non è stata eliminata automaticamente."
 
+msgid "Jellyfin lieferte beim Audio-Neustart keine MediaSource-ID."
+msgstr "Jellyfin non ha fornito un ID MediaSource per il riavvio audio."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine PlaySessionId."
+msgstr "Jellyfin non ha fornito un PlaySessionId per il riavvio audio."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine verwendbare Medienquelle."
+msgstr "Jellyfin non ha fornito una sorgente utilizzabile per il riavvio audio."
+
+msgid "Jellyfin lieferte keine verwendbare Medienquelle."
+msgstr "Jellyfin non ha fornito una sorgente multimediale utilizzabile."
+
 msgid "Jellyfin-Anfrage fehlgeschlagen (HTTP %s)."
 msgstr "Richiesta Jellyfin non riuscita (HTTP %s)."
+
+msgid "Jellyfin-Anmeldung ist unvollständig."
+msgstr "L'accesso a Jellyfin è incompleto."
+
+msgid "Jellyfin-Anmeldung oder Item-ID fehlt."
+msgstr "Accesso Jellyfin o ID elemento mancante."
 
 msgid "Jellyfin-Endpunkt wurde nicht gefunden."
 msgstr "Endpoint Jellyfin non trovato."
@@ -616,8 +703,14 @@ msgstr "Il server Jellyfin non risponde in tempo."
 msgid "Jellyfin-Server ist nicht erreichbar."
 msgstr "Il server Jellyfin non è raggiungibile."
 
+msgid "Jellyfin-Serverfehler"
+msgstr "Errore del server Jellyfin"
+
 msgid "Jellyfin-Serverfehler (HTTP %s)."
 msgstr "Errore del server Jellyfin (HTTP %s)."
+
+msgid "Jellyfin-Verbindung konnte nicht geprüft werden."
+msgstr "Impossibile verificare la connessione Jellyfin."
 
 msgid "Jellyfin-Verbindung wird geprüft ..."
 msgstr "Verifica della connessione Jellyfin ..."
@@ -796,11 +889,17 @@ msgstr "Accedi"
 msgid "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
 msgstr "Accesso riuscito, ma il profilo del server non è stato salvato"
 
+msgid "Login fehlgeschlagen"
+msgstr "Accesso non riuscito"
+
 msgid "Login fehlgeschlagen: %s"
 msgstr "Accesso non riuscito: %s"
 
 msgid "Login ohne gültigen Token oder Benutzer-ID"
 msgstr "Accesso senza un token o un ID utente validi"
+
+msgid "Login-Endpunkt nicht gefunden"
+msgstr "Endpoint di accesso non trovato"
 
 msgid "MP2 (maximale Kompatibilität)"
 msgstr "MP2 (massima compatibilità)"
@@ -828,6 +927,9 @@ msgstr "Musical"
 
 msgid "Musik"
 msgstr "Musica"
+
+msgid "Musikliste konnte nicht geladen werden."
+msgstr "Impossibile caricare l'elenco musicale."
 
 msgid "Mystery"
 msgstr "Mistero"
@@ -907,11 +1009,17 @@ msgstr "Livello di log del plugin (debug):"
 msgid "Plugin-Sprache:"
 msgstr "Lingua del plugin:"
 
+msgid "RUNTER = Buchstabe"
+msgstr "GIÙ = Lettera"
+
 msgid "Reality"
 msgstr "Reality"
 
 msgid "Regie: %s\nGenre: %s"
 msgstr "Regia: %s\nGenere: %s"
+
+msgid "SPRACHE: %s"
+msgstr "LINGUA: %s"
 
 msgid "Sammlung"
 msgstr "Raccolta"
@@ -936,6 +1044,9 @@ msgstr "Caricamento raccolte ..."
 
 msgid "Sammlungen werden von Jellyfin geladen ..."
 msgstr "Caricamento raccolte da Jellyfin ..."
+
+msgid "Sammlungs-ID fehlt."
+msgstr "ID raccolta mancante."
 
 msgid "Sammlungszuordnung wird geprüft ..."
 msgstr "Verifica dell'assegnazione alla raccolta ..."
@@ -967,8 +1078,14 @@ msgstr "Serie: %s%s\nAnno: %s\nGenere: %s"
 msgid "Serien"
 msgstr "Serie"
 
+msgid "Serien-ID fehlt."
+msgstr "ID serie mancante."
+
 msgid "Serienliste konnte nicht angezeigt werden."
 msgstr "Impossibile mostrare l'elenco delle serie."
+
+msgid "Serienliste konnte nicht geladen werden."
+msgstr "Impossibile caricare l'elenco delle serie."
 
 msgid "Serienliste konnte nicht geladen werden: %s"
 msgstr "Impossibile caricare l'elenco delle serie: %s"
@@ -1039,6 +1156,9 @@ msgstr "Dettagli stagione: %s%s\nAnno: %s"
 msgid "Staffelauswahl"
 msgstr "Scelta stagione"
 
+msgid "Staffeln konnten nicht geladen werden."
+msgstr "Impossibile caricare le stagioni."
+
 msgid "Staffeln konnten nicht geladen werden: %s"
 msgstr "Impossibile caricare le stagioni: %s"
 
@@ -1059,6 +1179,9 @@ msgstr "Controlla quanto in fretta si aggiornano poster, sfondi e dettagli duran
 
 msgid "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
 msgstr "Impossibile creare l'URL dello stream. Accedi prima."
+
+msgid "Streamdaten konnten nicht geladen werden."
+msgstr "Impossibile caricare i dati dello stream."
 
 msgid "Streamdaten werden geladen ..."
 msgstr "Caricamento dati dello stream ..."
@@ -1102,6 +1225,15 @@ msgstr "Bitrate video di transcodifica:"
 msgid "Transcoding-/Remux-Ausgabe:"
 msgstr "Uscita di transcodifica/remux:"
 
+msgid "Treffer"
+msgstr "Risultato"
+
+msgid "UNTERTITEL: %s"
+msgstr "SOTTOTITOLI: %s"
+
+msgid "UNTERTITEL: AN"
+msgstr "SOTTOTITOLI: SÌ"
+
 msgid "Unbekannte Menüaktion"
 msgstr "Azione di menu sconosciuta"
 
@@ -1111,14 +1243,32 @@ msgstr "Stato sconosciuto"
 msgid "Unbekannter Treffertyp: %s"
 msgstr "Tipo di risultato sconosciuto: %s"
 
+msgid "Ungültige Antwort vom Jellyfin-Server."
+msgstr "Risposta non valida dal server Jellyfin."
+
+msgid "Ungültige Detailantwort vom Jellyfin-Server."
+msgstr "Risposta dei dettagli non valida dal server Jellyfin."
+
+msgid "Ungültige Elementliste vom Jellyfin-Server."
+msgstr "Elenco elementi non valido dal server Jellyfin."
+
 msgid "Ungültige Login-Antwort"
 msgstr "Risposta di accesso non valida"
+
+msgid "Ungültige PlaybackInfo-Antwort von Jellyfin."
+msgstr "Risposta PlaybackInfo non valida da Jellyfin."
 
 msgid "Ungültiger Serverplatz."
 msgstr "Slot server non valido."
 
 msgid "Untertitelspur"
 msgstr "Traccia sottotitoli"
+
+msgid "VIDEO: %s"
+msgstr "VIDEO: %s"
+
+msgid "VIDEO: %s (%s)"
+msgstr "VIDEO: %s (%s)"
 
 msgid "Version %s"
 msgstr "Versione %s"
@@ -1141,8 +1291,20 @@ msgstr "Impossibile avviare la riproduzione."
 msgid "Wiedergabe konnte nicht gestartet werden: %s"
 msgstr "Impossibile avviare la riproduzione: %s"
 
+msgid "Wiedergabe konnte nicht vorbereitet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "Impossibile preparare la riproduzione perché il pool di worker è occupato."
+
+msgid "Wiedergabeinformationen für die neue Audiospur konnten nicht geladen werden."
+msgstr "Impossibile caricare le informazioni di riproduzione della nuova traccia audio."
+
+msgid "Wiedergabeinformationen konnten nicht geladen werden."
+msgstr "Impossibile caricare le informazioni di riproduzione."
+
 msgid "Willkommen bei JellyDream"
 msgstr "Benvenuto in JellyDream"
+
+msgid "Zeitüberschreitung bei der HTTPS-Verbindung zum Jellyfin-Server."
+msgstr "Timeout della connessione HTTPS al server Jellyfin."
 
 msgid "Zugriff auf Jellyfin wurde verweigert."
 msgstr "Accesso a Jellyfin negato."

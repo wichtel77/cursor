@@ -55,11 +55,11 @@ class JellyDreamSeasonListScreen(JellyDreamGridScreen):
     SCREEN_NAME = "JellyDreamSeasonListScreen"
     GRID_COUNT = 6
 
-    def __init__(self, session, series_id="", series_title="Serie"):
+    def __init__(self, session, series_id="", series_title=""):
         JellyDreamGridScreen.__init__(self, session)
 
         self.series_id = series_id
-        self.series_title = series_title
+        self.series_title = series_title or _("Serie")
         self.seasons = []
         self.series_details = {}
 

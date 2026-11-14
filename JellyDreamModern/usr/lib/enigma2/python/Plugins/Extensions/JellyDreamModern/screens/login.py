@@ -346,7 +346,7 @@ class JellyDreamLoginScreen(JellyDreamBaseScreen):
 
         if error_message:
             self["status"].setText(
-                _("Login fehlgeschlagen: %s") % error_message
+                _("Login fehlgeschlagen: %s") % _(error_message)
             )
             return
 
@@ -365,5 +365,5 @@ class JellyDreamLoginScreen(JellyDreamBaseScreen):
             self.close(True)
         else:
             self["status"].setText(
-                _("Login fehlgeschlagen: %s") % message
+                _("Login fehlgeschlagen: %s") % _(message)
             )

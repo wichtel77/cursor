@@ -45,12 +45,12 @@ class JellyDreamEpisodeListScreen(JellyDreamGridScreen):
     SCREEN_NAME = "JellyDreamEpisodeListScreen"
     GRID_COUNT = ITEMS_PER_PAGE_EPISODES
 
-    def __init__(self, session, series_id="", series_title="Serie", chosen_season=1):
+    def __init__(self, session, series_id="", series_title="", chosen_season=1):
         JellyDreamGridScreen.__init__(self, session)
         self.detail_cache = _GLOBAL_DETAILS_CACHE
 
         self.series_id = series_id
-        self.series_title = series_title or "Serie"
+        self.series_title = series_title or _("Serie")
         self.seasons = []
 
         self.season = chosen_season
@@ -557,7 +557,7 @@ class JellyDreamEpisodeListScreen(JellyDreamGridScreen):
             self.index + 1
         )
 
-        ep_title = ep.get("Name", "Folge")
+        ep_title = ep.get("Name") or _("Folge")
 
         title = jellydream_episode_service_title(
             series_name=(

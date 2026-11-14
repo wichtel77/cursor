@@ -651,7 +651,7 @@ def jellydream_stream_debug_text(stream_url, service_reference=SERVICE_REFERENCE
         stream_url = str(stream_url or "").strip()
 
         if not stream_url:
-            return "DEBUG: Stream-Methode wird ermittelt ..."
+            return _("DEBUG: Stream-Methode wird ermittelt ...")
 
         parsed_url = urllib.parse.urlparse(stream_url)
         query = urllib.parse.parse_qs(parsed_url.query)
@@ -719,7 +719,9 @@ def jellydream_stream_debug_text(stream_url, service_reference=SERVICE_REFERENCE
             audio_text = audio_codec or "Transcode"
 
         return (
-            "DEBUG: %s  |  Ausgabe: %s  |  Player: %s (%s)  |  Video: %s  |  Audio: %s"
+            _(
+                "DEBUG: %s  |  Ausgabe: %s  |  Player: %s (%s)  |  Video: %s  |  Audio: %s"
+            )
             % (
                 method,
                 output_format,
@@ -735,7 +737,7 @@ def jellydream_stream_debug_text(stream_url, service_reference=SERVICE_REFERENCE
             "Debug infobar could not be built: %s" % e,
             level="DEBUG"
         )
-        return "DEBUG: Stream-Information nicht verfügbar"
+        return _("DEBUG: Stream-Information nicht verfügbar")
 
 
 def jellyfin_find_audio_stream_index_by_language(item_id, preferred_language, preloaded_details=None):
@@ -2331,7 +2333,7 @@ def jellydream_offer_next_episode(session, original_callback, return_screen, pla
         )
 
         episode_name = str(
-            next_episode.get("Name") or "Folge"
+            next_episode.get("Name") or _("Folge")
         ).strip()
 
         series_name = str(
@@ -2667,7 +2669,7 @@ def jellydream_safe_play_async(session, title, item_id, runtime_seconds=0, retur
         dispatched = jellydream_dispatch_to_gui(
             lambda cb=finished_callback,
             success=bool(ok),
-            message=str(error_message or ""): cb(
+            message=_(str(error_message or "")): cb(
                 success,
                 message
             )
@@ -2684,7 +2686,7 @@ def jellydream_safe_play_async(session, title, item_id, runtime_seconds=0, retur
     if not item_id:
         notify_finished(
             False,
-            "Fehler: Leere Item-ID"
+            _("Fehler: Leere Item-ID")
         )
         return False
 
@@ -2801,8 +2803,10 @@ def jellydream_safe_play_async(session, title, item_id, runtime_seconds=0, retur
                     ):
                         notify_finished(
                             False,
-                            "Die Anmeldung wurde während der "
-                            "Wiedergabevorbereitung geändert."
+                            _(
+                                "Die Anmeldung wurde während der "
+                                "Wiedergabevorbereitung geändert."
+                            )
                         )
 
                         jd_log(
@@ -2871,7 +2875,7 @@ def jellydream_safe_play_async(session, title, item_id, runtime_seconds=0, retur
 
             notify_finished(
                 False,
-                "Streamdaten konnten nicht geladen werden."
+                _("Streamdaten konnten nicht geladen werden.")
             )
 
     started = jellydream_submit_playback(
@@ -2879,7 +2883,7 @@ def jellydream_safe_play_async(session, title, item_id, runtime_seconds=0, retur
     )
 
     if not started:
-        error_message = (
+        error_message = _(
             "Wiedergabe konnte nicht vorbereitet werden, "
             "weil der Hintergrund-Worker-Pool ausgelastet ist."
         )
@@ -5664,11 +5668,10 @@ class JellyDreamAudioController:
             def finish_with_error(error_message):
                 self._audio_restart_in_progress = False
 
-                error_message = str(
-                    error_message
-                    or _(
-                        "Audio-Neustart konnte nicht vorbereitet werden."
-                    )
+                error_message = _(
+                    str(error_message or "").strip()
+                ) or _(
+                    "Audio-Neustart konnte nicht vorbereitet werden."
                 )
 
                 jd_log(
@@ -5798,8 +5801,10 @@ class JellyDreamAudioController:
                                 auth_snapshot
                             ):
                                 finish_with_error(
-                                    "Die Jellyfin-Anmeldung wurde während "
-                                    "des Audio-Neustarts geändert."
+                                    _(
+                                        "Die Jellyfin-Anmeldung wurde während "
+                                        "des Audio-Neustarts geändert."
+                                    )
                                 )
                                 return
 
@@ -6139,8 +6144,10 @@ class JellyDreamAudioController:
 
                     jellydream_dispatch_to_gui(
                         lambda: finish_with_error(
-                            "Wiedergabeinformationen für die neue "
-                            "Audiospur konnten nicht geladen werden."
+                            _(
+                                "Wiedergabeinformationen für die neue "
+                                "Audiospur konnten nicht geladen werden."
+                            )
                         )
                     )
 
@@ -8493,21 +8500,23 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
 
             if self.v_codec:
                 if self.res:
-                    info_parts.append(f"VIDEO: {self.v_codec} ({self.res})")
+                    info_parts.append(
+                        _("VIDEO: %s (%s)") % (self.v_codec, self.res)
+                    )
                 else:
-                    info_parts.append(f"VIDEO: {self.v_codec}")
+                    info_parts.append(_("VIDEO: %s") % self.v_codec)
             elif self.res:
                 info_parts.append(
-                    "AUFLÖSUNG: %s" % self.res
+                    _("AUFLÖSUNG: %s") % self.res
                 )
 
             audio_text = self.audioController.getAudioCodecDisplayText()
             if audio_text:
-                info_parts.append(f"AUDIO: {audio_text}")
+                info_parts.append(_("AUDIO: %s") % audio_text)
 
             current_language = self.audioController.getPreferredAudioLanguageDisplay()
             if current_language:
-                info_parts.append(f"SPRACHE: {current_language}")
+                info_parts.append(_("SPRACHE: %s") % current_language)
 
             subtitle_index = getattr(
                 self.audioController,
@@ -8555,12 +8564,12 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
 
                 if subtitle_language:
                     info_parts.append(
-                        "UNTERTITEL: %s"
+                        _("UNTERTITEL: %s")
                         % subtitle_language
                     )
                 else:
                     info_parts.append(
-                        "UNTERTITEL: AN"
+                        _("UNTERTITEL: AN")
                     )
             self["codec_info"].setText("   |   ".join(info_parts) if info_parts else "")
         except Exception as e:
@@ -9293,7 +9302,7 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
                             % (
                                 self._next_episode_candidate.get("Name")
                                 or self._next_episode_candidate.get("Id")
-                                or "Folge"
+                                or "episode"
                             ),
                             level="DEBUG"
                         )
@@ -9433,7 +9442,7 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
             )
 
             episode_name = str(
-                next_episode.get("Name") or "Folge"
+                next_episode.get("Name") or _("Folge")
             ).strip()
 
             series_name = str(
@@ -9472,12 +9481,11 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
                     "%s"
                 ) % episode_display
             else:
-                question_text = (
+                question_text = _(
                     "Die aktuelle Folge endet in wenigen Sekunden.\n\n"
                     "Möchtest du danach die nächste Folge abspielen?\n\n"
                     "%s"
-                    % episode_display
-                )
+                ) % episode_display
 
             jd_log(
                 "Showing next-episode prompt at %ss remaining"                % remaining_seconds,

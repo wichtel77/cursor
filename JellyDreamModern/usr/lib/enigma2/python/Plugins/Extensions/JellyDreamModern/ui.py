@@ -565,7 +565,7 @@ class JellyDreamBaseScreen(Screen):
 
                         finished_callback(
                             result_data,
-                            error_message
+                            _(error_message) if error_message else ""
                         )
 
                     except Exception as e:
@@ -2563,7 +2563,7 @@ def jellydream_render_grid(screen_instance, items_list, current_index, items_per
 
             item = items_list[current_pos]
 
-            item_name = "Eintrag"
+            item_name = _("Eintrag")
             item_id = ""
             image_item_id = ""
             image_type = "Primary"
@@ -2691,7 +2691,7 @@ def jellydream_render_grid(screen_instance, items_list, current_index, items_per
                     image_item_id = item_id
 
             else:
-                item_name = f"Staffel {item}"
+                item_name = _("Staffel %s") % item
                 item_id = getattr(screen_instance, "series_id", "")
                 image_item_id = item_id
 
@@ -2704,7 +2704,7 @@ def jellydream_render_grid(screen_instance, items_list, current_index, items_per
                 )
 
             if not item_name:
-                item_name = "Eintrag"
+                item_name = _("Eintrag")
 
             if items_per_page == 3 and isinstance(item, dict):
                 s = jellydream_int_or_default(

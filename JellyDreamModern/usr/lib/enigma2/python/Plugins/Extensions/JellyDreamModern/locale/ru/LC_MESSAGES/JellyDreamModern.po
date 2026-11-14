@@ -19,6 +19,9 @@ msgstr "%s - сезон %s"
 msgid "%s Min"
 msgstr "%s мин"
 
+msgid "%s-Liste konnte nicht geladen werden."
+msgstr "Не удалось загрузить список %s."
+
 msgid "%s: %s\n%s\nGenre: %s"
 msgstr "%s: %s\n%s\nЖанр: %s"
 
@@ -82,6 +85,12 @@ msgstr "AC3"
 msgid "AC3 direkt ausgeben:"
 msgstr "Выводить AC3 напрямую:"
 
+msgid "AUDIO: %s"
+msgstr "АУДИО: %s"
+
+msgid "AUFLÖSUNG: %s"
+msgstr "РАЗРЕШЕНИЕ: %s"
+
 msgid "Abenteuer"
 msgstr "приключения"
 
@@ -133,11 +142,35 @@ msgstr "Перезапуск звука не удалось применить: 
 msgid "Audio-Neustart konnte nicht vorbereitet werden."
 msgstr "Не удалось подготовить перезапуск звука."
 
+msgid "Benutzername oder Passwort falsch"
+msgstr "Неверное имя пользователя или пароль"
+
+msgid "Bildquellen der Sammlungen konnten nicht geladen werden."
+msgstr "Не удалось загрузить источники изображений коллекций."
+
 msgid "Biografie"
 msgstr "биография"
 
+msgid "DEBUG: %s  |  Ausgabe: %s  |  Player: %s (%s)  |  Video: %s  |  Audio: %s"
+msgstr "DEBUG: %s  |  Вывод: %s  |  Плеер: %s (%s)  |  Видео: %s  |  Аудио: %s"
+
+msgid "DEBUG: Stream-Information nicht verfügbar"
+msgstr "DEBUG: Нет сведений о потоке"
+
+msgid "DEBUG: Stream-Methode wird ermittelt ..."
+msgstr "DEBUG: Определение метода потока ..."
+
 msgid "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
 msgstr "Пул фоновых задач занят. Загрузку не удалось начать."
+
+msgid "Der Jellyfin-Health-Check lieferte keine Benutzer-ID."
+msgstr "Проверка Jellyfin не вернула ID пользователя."
+
+msgid "Der Jellyfin-Health-Check lieferte keine gültigen Benutzerdaten."
+msgstr "Проверка Jellyfin не вернула корректные данные пользователя."
+
+msgid "Der gespeicherte Jellyfin-Token gehört zu einem anderen Benutzer."
+msgstr "Сохранённый токен Jellyfin принадлежит другому пользователю."
 
 msgid "Der neue Audio-Stream konnte nicht gestartet werden: %s"
 msgstr "Новый аудиопоток не удалось запустить: %s"
@@ -145,11 +178,29 @@ msgstr "Новый аудиопоток не удалось запустить: 
 msgid "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
 msgstr "Подготовленный перезапуск звука не удалось передать в интерфейс."
 
+msgid "Detaildaten konnten nicht geladen werden."
+msgstr "Не удалось загрузить подробности."
+
+msgid "Detaildaten müssen asynchron geladen werden."
+msgstr "Подробности нужно загружать асинхронно."
+
+msgid "Die Anmeldung wurde vom Server verweigert"
+msgstr "Сервер отклонил вход"
+
+msgid "Die Anmeldung wurde während der Wiedergabevorbereitung geändert."
+msgstr "Вход изменился во время подготовки воспроизведения."
+
+msgid "Die Jellyfin-Anmeldung wurde während des Audio-Neustarts geändert."
+msgstr "Вход в Jellyfin изменился во время перезапуска звука."
+
 msgid "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "Не удалось создать URL потока Jellyfin."
 
 msgid "Die Untertitelspur konnte nicht aktiviert werden."
 msgstr "Не удалось включить дорожку субтитров."
+
+msgid "Die aktuelle Folge endet in wenigen Sekunden.\n\nMöchtest du danach die nächste Folge abspielen?\n\n%s"
+msgstr "Текущая серия закончится через несколько секунд.\n\nВоспроизвести следующую серию?\n\n%s"
 
 msgid "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "Не удалось создать новый URL потока Jellyfin."
@@ -175,14 +226,29 @@ msgstr "фэнтези"
 msgid "Fehler: Item-ID fehlt."
 msgstr "Ошибка: нет ID элемента."
 
+msgid "Fehler: Leere Item-ID"
+msgstr "Ошибка: пустой ID элемента"
+
 msgid "Fehler: Sammlungs-ID fehlt"
 msgstr "Ошибка: нет ID коллекции"
 
 msgid "Filme der Sammlung konnten nicht angezeigt werden."
 msgstr "Фильмы коллекции не удалось показать."
 
+msgid "Filme der Sammlung konnten nicht geladen werden."
+msgstr "Не удалось загрузить фильмы коллекции."
+
 msgid "Filme der Sammlung konnten nicht geladen werden: %s"
 msgstr "Фильмы коллекции не удалось загрузить: %s"
+
+msgid "Filminfo konnte nicht geladen werden: %s"
+msgstr "Не удалось загрузить сведения о фильме: %s"
+
+msgid "Filmliste konnte nicht geladen werden."
+msgstr "Не удалось загрузить список фильмов."
+
+msgid "Folgen konnten nicht geladen werden."
+msgstr "Не удалось загрузить серии."
 
 msgid "Für Server %s ist keine vollständige Anmeldung gespeichert."
 msgstr "Для сервера %s нет сохранённого полного входа."
@@ -196,8 +262,35 @@ msgstr "история"
 msgid "Horror"
 msgstr "ужасы"
 
+msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
+msgstr "Jellyfin отклонил запрос входа (HTTP 400). Проверьте журнал сервера, ID устройства и плагин аутентификации."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine MediaSource-ID."
+msgstr "Jellyfin не предоставил ID MediaSource при перезапуске звука."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine PlaySessionId."
+msgstr "Jellyfin не предоставил PlaySessionId при перезапуске звука."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine verwendbare Medienquelle."
+msgstr "Jellyfin не предоставил пригодный источник при перезапуске звука."
+
+msgid "Jellyfin lieferte keine verwendbare Medienquelle."
+msgstr "Jellyfin не предоставил пригодный источник медиа."
+
+msgid "Jellyfin-Anmeldung ist unvollständig."
+msgstr "Вход в Jellyfin не завершён."
+
+msgid "Jellyfin-Anmeldung oder Item-ID fehlt."
+msgstr "Отсутствует вход в Jellyfin или ID элемента."
+
 msgid "Jellyfin-POST konnte nicht gestartet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
 msgstr "POST к Jellyfin не удалось начать: пул фоновых задач занят."
+
+msgid "Jellyfin-Serverfehler"
+msgstr "Ошибка сервера Jellyfin"
+
+msgid "Jellyfin-Verbindung konnte nicht geprüft werden."
+msgstr "Не удалось проверить соединение с Jellyfin."
 
 msgid "Keine gültige Sammlung ausgewählt"
 msgstr "Не выбрана допустимая коллекция"
@@ -232,17 +325,26 @@ msgstr "мелодрама"
 msgid "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
 msgstr "Вход выполнен, но профиль сервера не удалось сохранить"
 
+msgid "Login fehlgeschlagen"
+msgstr "Не удалось войти"
+
 msgid "Login fehlgeschlagen: %s"
 msgstr "Вход не удался: %s"
 
 msgid "Login ohne gültigen Token oder Benutzer-ID"
 msgstr "Вход без действительного токена или ID пользователя"
 
+msgid "Login-Endpunkt nicht gefunden"
+msgstr "Конечная точка входа не найдена"
+
 msgid "Musical"
 msgstr "мюзикл"
 
 msgid "Musik"
 msgstr "музыка"
+
+msgid "Musikliste konnte nicht geladen werden."
+msgstr "Не удалось загрузить список музыки."
 
 msgid "Mystery"
 msgstr "детектив"
@@ -835,11 +937,17 @@ msgstr "Плеер для потоков Jellyfin:"
 msgid "Plugin Log-Level (Debugging):"
 msgstr "Уровень журнала плагина (отладка):"
 
+msgid "RUNTER = Buchstabe"
+msgstr "ВНИЗ = Буква"
+
 msgid "Reality"
 msgstr "реалити"
 
 msgid "Regie: %s\nGenre: %s"
 msgstr "Режиссёр: %s\nЖанр: %s"
+
+msgid "SPRACHE: %s"
+msgstr "ЯЗЫК: %s"
 
 msgid "Sammlung"
 msgstr "Коллекция"
@@ -864,6 +972,9 @@ msgstr "Загрузка коллекций ..."
 
 msgid "Sammlungen werden von Jellyfin geladen ..."
 msgstr "Загрузка коллекций с Jellyfin ..."
+
+msgid "Sammlungs-ID fehlt."
+msgstr "Отсутствует ID коллекции."
 
 msgid "Sammlungszuordnung wird geprüft ..."
 msgstr "Проверка принадлежности к коллекции ..."
@@ -895,8 +1006,14 @@ msgstr "Сериал: %s%s\nГод: %s\nЖанр: %s"
 msgid "Serien"
 msgstr "Сериалы"
 
+msgid "Serien-ID fehlt."
+msgstr "Отсутствует ID сериала."
+
 msgid "Serienliste konnte nicht angezeigt werden."
 msgstr "Список сериалов не удалось показать."
+
+msgid "Serienliste konnte nicht geladen werden."
+msgstr "Не удалось загрузить список сериалов."
 
 msgid "Serienliste konnte nicht geladen werden: %s"
 msgstr "Список сериалов не удалось загрузить: %s"
@@ -964,6 +1081,9 @@ msgstr "Для этого сезона нет сохранённого опис�
 msgid "Staffel %s / %s | Steuerkreuz = Navigieren / blättern | OK = Folgen anzeigen | EXIT = Zurück"
 msgstr "Сезон %s / %s | Крест = навигация | OK = серии | EXIT = Назад"
 
+msgid "Staffeln konnten nicht geladen werden."
+msgstr "Не удалось загрузить сезоны."
+
 msgid "Staffeln konnten nicht geladen werden: %s"
 msgstr "Не удалось загрузить сезоны: %s"
 
@@ -993,6 +1113,9 @@ msgstr "Как быстро обновлять постеры, фоны и св�
 
 msgid "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
 msgstr "Не удалось создать URL потока. Сначала войдите."
+
+msgid "Streamdaten konnten nicht geladen werden."
+msgstr "Не удалось загрузить данные потока."
 
 msgid "Streamdaten werden geladen ..."
 msgstr "Загрузка данных потока ..."
@@ -1036,6 +1159,15 @@ msgstr "Битрейт видео при транскодинге:"
 msgid "Transcoding-/Remux-Ausgabe:"
 msgstr "Выход транскодинга/ремукса:"
 
+msgid "Treffer"
+msgstr "Результат"
+
+msgid "UNTERTITEL: %s"
+msgstr "СУБТИТРЫ: %s"
+
+msgid "UNTERTITEL: AN"
+msgstr "СУБТИТРЫ: ВКЛ"
+
 msgid "Unbekannte Menüaktion"
 msgstr "Неизвестное действие меню"
 
@@ -1045,14 +1177,32 @@ msgstr "Неизвестный статус"
 msgid "Unbekannter Treffertyp: %s"
 msgstr "Неизвестный тип результата: %s"
 
+msgid "Ungültige Antwort vom Jellyfin-Server."
+msgstr "Некорректный ответ сервера Jellyfin."
+
+msgid "Ungültige Detailantwort vom Jellyfin-Server."
+msgstr "Некорректный ответ с подробностями от сервера Jellyfin."
+
+msgid "Ungültige Elementliste vom Jellyfin-Server."
+msgstr "Некорректный список элементов от сервера Jellyfin."
+
 msgid "Ungültige Login-Antwort"
 msgstr "Некорректный ответ входа"
+
+msgid "Ungültige PlaybackInfo-Antwort von Jellyfin."
+msgstr "Некорректный ответ PlaybackInfo от Jellyfin."
 
 msgid "Ungültiger Serverplatz."
 msgstr "Некорректный слот сервера."
 
 msgid "Untertitelspur"
 msgstr "Дорожка субтитров"
+
+msgid "VIDEO: %s"
+msgstr "ВИДЕО: %s"
+
+msgid "VIDEO: %s (%s)"
+msgstr "ВИДЕО: %s (%s)"
 
 msgid "Version %s"
 msgstr "Версия %s"
@@ -1075,8 +1225,20 @@ msgstr "Не удалось начать воспроизведение."
 msgid "Wiedergabe konnte nicht gestartet werden: %s"
 msgstr "Воспроизведение не удалось запустить: %s"
 
+msgid "Wiedergabe konnte nicht vorbereitet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "Не удалось подготовить воспроизведение: пул фоновых задач занят."
+
+msgid "Wiedergabeinformationen für die neue Audiospur konnten nicht geladen werden."
+msgstr "Не удалось загрузить сведения о воспроизведении новой звуковой дорожки."
+
+msgid "Wiedergabeinformationen konnten nicht geladen werden."
+msgstr "Не удалось загрузить сведения о воспроизведении."
+
 msgid "Willkommen bei JellyDream"
 msgstr "Добро пожаловать в JellyDream"
+
+msgid "Zeitüberschreitung bei der HTTPS-Verbindung zum Jellyfin-Server."
+msgstr "Истекло время HTTPS-соединения с сервером Jellyfin."
 
 msgid "Zugriff auf Jellyfin wurde verweigert."
 msgstr "Доступ к Jellyfin запрещён."

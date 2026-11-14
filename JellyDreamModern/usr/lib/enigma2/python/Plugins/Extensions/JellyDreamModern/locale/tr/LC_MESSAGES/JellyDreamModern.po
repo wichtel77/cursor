@@ -19,6 +19,9 @@ msgstr "%s - Sezon %s"
 msgid "%s Min"
 msgstr "%s dk"
 
+msgid "%s-Liste konnte nicht geladen werden."
+msgstr "%s listesi yüklenemedi."
+
 msgid "%s: %s\n%s\nGenre: %s"
 msgstr "%s: %s\n%s\nTür: %s"
 
@@ -82,6 +85,12 @@ msgstr "AC3"
 msgid "AC3 direkt ausgeben:"
 msgstr "AC3'ü doğrudan çıkar:"
 
+msgid "AUDIO: %s"
+msgstr "SES: %s"
+
+msgid "AUFLÖSUNG: %s"
+msgstr "ÇÖZÜNÜRLÜK: %s"
+
 msgid "Abenteuer"
 msgstr "Macera"
 
@@ -133,11 +142,35 @@ msgstr "Ses yeniden başlatması uygulanamadı: %s"
 msgid "Audio-Neustart konnte nicht vorbereitet werden."
 msgstr "Ses yeniden başlatması hazırlanamadı."
 
+msgid "Benutzername oder Passwort falsch"
+msgstr "Kullanıcı adı veya parola yanlış"
+
+msgid "Bildquellen der Sammlungen konnten nicht geladen werden."
+msgstr "Koleksiyon görsel kaynakları yüklenemedi."
+
 msgid "Biografie"
 msgstr "Biyografi"
 
+msgid "DEBUG: %s  |  Ausgabe: %s  |  Player: %s (%s)  |  Video: %s  |  Audio: %s"
+msgstr "DEBUG: %s  |  Çıkış: %s  |  Oynatıcı: %s (%s)  |  Video: %s  |  Ses: %s"
+
+msgid "DEBUG: Stream-Information nicht verfügbar"
+msgstr "DEBUG: Akış bilgisi yok"
+
+msgid "DEBUG: Stream-Methode wird ermittelt ..."
+msgstr "DEBUG: Akış yöntemi belirleniyor ..."
+
 msgid "Der Hintergrund-Worker-Pool ist ausgelastet. Der Ladevorgang konnte nicht gestartet werden."
 msgstr "Arka plan işçileri meşgul. Yükleme başlatılamadı."
+
+msgid "Der Jellyfin-Health-Check lieferte keine Benutzer-ID."
+msgstr "Jellyfin sağlık kontrolü kullanıcı kimliği döndürmedi."
+
+msgid "Der Jellyfin-Health-Check lieferte keine gültigen Benutzerdaten."
+msgstr "Jellyfin sağlık kontrolü geçerli kullanıcı verisi döndürmedi."
+
+msgid "Der gespeicherte Jellyfin-Token gehört zu einem anderen Benutzer."
+msgstr "Kayıtlı Jellyfin belirteci başka bir kullanıcıya ait."
 
 msgid "Der neue Audio-Stream konnte nicht gestartet werden: %s"
 msgstr "Yeni ses akışı başlatılamadı: %s"
@@ -145,11 +178,29 @@ msgstr "Yeni ses akışı başlatılamadı: %s"
 msgid "Der vorbereitete Audio-Neustart konnte nicht an die Benutzeroberfläche übergeben werden."
 msgstr "Hazırlanan ses yeniden başlatması arayüze aktarılamadı."
 
+msgid "Detaildaten konnten nicht geladen werden."
+msgstr "Ayrıntılar yüklenemedi."
+
+msgid "Detaildaten müssen asynchron geladen werden."
+msgstr "Ayrıntılar eşzamansız yüklenmelidir."
+
+msgid "Die Anmeldung wurde vom Server verweigert"
+msgstr "Sunucu oturum açmayı reddetti"
+
+msgid "Die Anmeldung wurde während der Wiedergabevorbereitung geändert."
+msgstr "Oynatma hazırlanırken oturum değişti."
+
+msgid "Die Jellyfin-Anmeldung wurde während des Audio-Neustarts geändert."
+msgstr "Ses yeniden başlatılırken Jellyfin oturumu değişti."
+
 msgid "Die Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "Jellyfin yayın adresi oluşturulamadı."
 
 msgid "Die Untertitelspur konnte nicht aktiviert werden."
 msgstr "Altyazı parçası etkinleştirilemedi."
+
+msgid "Die aktuelle Folge endet in wenigen Sekunden.\n\nMöchtest du danach die nächste Folge abspielen?\n\n%s"
+msgstr "Geçerli bölüm birkaç saniye içinde bitiyor.\n\nArdından sonraki bölüm oynatılsın mı?\n\n%s"
 
 msgid "Die neue Jellyfin-Stream-URL konnte nicht erzeugt werden."
 msgstr "Yeni Jellyfin yayın adresi oluşturulamadı."
@@ -175,14 +226,29 @@ msgstr "Fantastik"
 msgid "Fehler: Item-ID fehlt."
 msgstr "Hata: öğe kimliği yok."
 
+msgid "Fehler: Leere Item-ID"
+msgstr "Hata: boş öğe kimliği"
+
 msgid "Fehler: Sammlungs-ID fehlt"
 msgstr "Hata: koleksiyon kimliği yok"
 
 msgid "Filme der Sammlung konnten nicht angezeigt werden."
 msgstr "Koleksiyon filmleri gösterilemedi."
 
+msgid "Filme der Sammlung konnten nicht geladen werden."
+msgstr "Koleksiyondaki filmler yüklenemedi."
+
 msgid "Filme der Sammlung konnten nicht geladen werden: %s"
 msgstr "Koleksiyon filmleri yüklenemedi: %s"
+
+msgid "Filminfo konnte nicht geladen werden: %s"
+msgstr "Film bilgisi yüklenemedi: %s"
+
+msgid "Filmliste konnte nicht geladen werden."
+msgstr "Film listesi yüklenemedi."
+
+msgid "Folgen konnten nicht geladen werden."
+msgstr "Bölümler yüklenemedi."
 
 msgid "Für Server %s ist keine vollständige Anmeldung gespeichert."
 msgstr "Sunucu %s için tam oturum kaydı yok."
@@ -196,8 +262,35 @@ msgstr "Tarih"
 msgid "Horror"
 msgstr "Korku"
 
+msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
+msgstr "Jellyfin oturum açma isteğini reddetti (HTTP 400). Sunucu günlüğünü, cihaz kimliğini ve kimlik doğrulama eklentisini kontrol edin."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine MediaSource-ID."
+msgstr "Ses yeniden başlatmasında Jellyfin MediaSource kimliği vermedi."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine PlaySessionId."
+msgstr "Ses yeniden başlatmasında Jellyfin PlaySessionId vermedi."
+
+msgid "Jellyfin lieferte beim Audio-Neustart keine verwendbare Medienquelle."
+msgstr "Ses yeniden başlatmasında Jellyfin kullanılabilir kaynak vermedi."
+
+msgid "Jellyfin lieferte keine verwendbare Medienquelle."
+msgstr "Jellyfin kullanılabilir bir medya kaynağı vermedi."
+
+msgid "Jellyfin-Anmeldung ist unvollständig."
+msgstr "Jellyfin oturumu eksik."
+
+msgid "Jellyfin-Anmeldung oder Item-ID fehlt."
+msgstr "Jellyfin oturumu veya öğe kimliği eksik."
+
 msgid "Jellyfin-POST konnte nicht gestartet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
 msgstr "Arka plan işçileri meşgul olduğu için Jellyfin POST başlatılamadı."
+
+msgid "Jellyfin-Serverfehler"
+msgstr "Jellyfin sunucu hatası"
+
+msgid "Jellyfin-Verbindung konnte nicht geprüft werden."
+msgstr "Jellyfin bağlantısı kontrol edilemedi."
 
 msgid "Keine gültige Sammlung ausgewählt"
 msgstr "Geçerli bir koleksiyon seçilmedi"
@@ -232,17 +325,26 @@ msgstr "Romantik"
 msgid "Login erfolgreich, aber das Serverprofil konnte nicht gespeichert werden"
 msgstr "Oturum açıldı, ancak sunucu profili kaydedilemedi"
 
+msgid "Login fehlgeschlagen"
+msgstr "Oturum açılamadı"
+
 msgid "Login fehlgeschlagen: %s"
 msgstr "Oturum açma başarısız: %s"
 
 msgid "Login ohne gültigen Token oder Benutzer-ID"
 msgstr "Geçerli belirteç veya kullanıcı kimliği olmadan oturum"
 
+msgid "Login-Endpunkt nicht gefunden"
+msgstr "Oturum açma uç noktası bulunamadı"
+
 msgid "Musical"
 msgstr "Müzikal"
 
 msgid "Musik"
 msgstr "Müzik"
+
+msgid "Musikliste konnte nicht geladen werden."
+msgstr "Müzik listesi yüklenemedi."
 
 msgid "Mystery"
 msgstr "Gizem"
@@ -835,11 +937,17 @@ msgstr "Jellyfin akış oynatıcısı:"
 msgid "Plugin Log-Level (Debugging):"
 msgstr "Eklenti günlük düzeyi (hata ayıklama):"
 
+msgid "RUNTER = Buchstabe"
+msgstr "AŞAĞI = Harf"
+
 msgid "Reality"
 msgstr "Reality"
 
 msgid "Regie: %s\nGenre: %s"
 msgstr "Yönetmen: %s\nTür: %s"
+
+msgid "SPRACHE: %s"
+msgstr "DİL: %s"
 
 msgid "Sammlung"
 msgstr "Koleksiyon"
@@ -864,6 +972,9 @@ msgstr "Koleksiyonlar yükleniyor ..."
 
 msgid "Sammlungen werden von Jellyfin geladen ..."
 msgstr "Koleksiyonlar Jellyfin'den yükleniyor ..."
+
+msgid "Sammlungs-ID fehlt."
+msgstr "Koleksiyon kimliği eksik."
 
 msgid "Sammlungszuordnung wird geprüft ..."
 msgstr "Koleksiyon ataması kontrol ediliyor ..."
@@ -895,8 +1006,14 @@ msgstr "Dizi: %s%s\nYıl: %s\nTür: %s"
 msgid "Serien"
 msgstr "Diziler"
 
+msgid "Serien-ID fehlt."
+msgstr "Dizi kimliği eksik."
+
 msgid "Serienliste konnte nicht angezeigt werden."
 msgstr "Dizi listesi gösterilemedi."
+
+msgid "Serienliste konnte nicht geladen werden."
+msgstr "Dizi listesi yüklenemedi."
 
 msgid "Serienliste konnte nicht geladen werden: %s"
 msgstr "Dizi listesi yüklenemedi: %s"
@@ -964,6 +1081,9 @@ msgstr "Bu sezon için kayıtlı bir açıklama yok."
 msgid "Staffel %s / %s | Steuerkreuz = Navigieren / blättern | OK = Folgen anzeigen | EXIT = Zurück"
 msgstr "Sezon %s / %s | Yön tuşları = Gezin / sayfa | OK = Bölümleri göster | EXIT = Geri"
 
+msgid "Staffeln konnten nicht geladen werden."
+msgstr "Sezonlar yüklenemedi."
+
 msgid "Staffeln konnten nicht geladen werden: %s"
 msgstr "Sezonlar yüklenemedi: %s"
 
@@ -993,6 +1113,9 @@ msgstr "Gezinirken poster, arka plan ve ayrıntıların ne kadar hızlı yenilen
 
 msgid "Stream-URL konnte nicht erzeugt werden. Bitte zuerst einloggen."
 msgstr "Yayın adresi oluşturulamadı. Lütfen önce oturum açın."
+
+msgid "Streamdaten konnten nicht geladen werden."
+msgstr "Akış verileri yüklenemedi."
 
 msgid "Streamdaten werden geladen ..."
 msgstr "Akış verileri yükleniyor ..."
@@ -1036,6 +1159,15 @@ msgstr "Transkod video bit hızı:"
 msgid "Transcoding-/Remux-Ausgabe:"
 msgstr "Transkod/remux çıktısı:"
 
+msgid "Treffer"
+msgstr "Sonuç"
+
+msgid "UNTERTITEL: %s"
+msgstr "ALTYAZI: %s"
+
+msgid "UNTERTITEL: AN"
+msgstr "ALTYAZI: AÇIK"
+
 msgid "Unbekannte Menüaktion"
 msgstr "Bilinmeyen menü eylemi"
 
@@ -1045,14 +1177,32 @@ msgstr "Bilinmeyen durum"
 msgid "Unbekannter Treffertyp: %s"
 msgstr "Bilinmeyen sonuç türü: %s"
 
+msgid "Ungültige Antwort vom Jellyfin-Server."
+msgstr "Jellyfin sunucusundan geçersiz yanıt."
+
+msgid "Ungültige Detailantwort vom Jellyfin-Server."
+msgstr "Jellyfin sunucusundan geçersiz ayrıntı yanıtı."
+
+msgid "Ungültige Elementliste vom Jellyfin-Server."
+msgstr "Jellyfin sunucusundan geçersiz öğe listesi."
+
 msgid "Ungültige Login-Antwort"
 msgstr "Geçersiz oturum yanıtı"
+
+msgid "Ungültige PlaybackInfo-Antwort von Jellyfin."
+msgstr "Jellyfin'den geçersiz PlaybackInfo yanıtı."
 
 msgid "Ungültiger Serverplatz."
 msgstr "Geçersiz sunucu yuvası."
 
 msgid "Untertitelspur"
 msgstr "Altyazı parçası"
+
+msgid "VIDEO: %s"
+msgstr "VİDEO: %s"
+
+msgid "VIDEO: %s (%s)"
+msgstr "VİDEO: %s (%s)"
 
 msgid "Version %s"
 msgstr "Sürüm %s"
@@ -1075,8 +1225,20 @@ msgstr "Oynatma başlatılamadı."
 msgid "Wiedergabe konnte nicht gestartet werden: %s"
 msgstr "Oynatma başlatılamadı: %s"
 
+msgid "Wiedergabe konnte nicht vorbereitet werden, weil der Hintergrund-Worker-Pool ausgelastet ist."
+msgstr "Oynatma hazırlanamadı çünkü arka plan işçileri meşgul."
+
+msgid "Wiedergabeinformationen für die neue Audiospur konnten nicht geladen werden."
+msgstr "Yeni ses parçası için oynatma bilgileri yüklenemedi."
+
+msgid "Wiedergabeinformationen konnten nicht geladen werden."
+msgstr "Oynatma bilgileri yüklenemedi."
+
 msgid "Willkommen bei JellyDream"
 msgstr "JellyDream'e hoş geldiniz"
+
+msgid "Zeitüberschreitung bei der HTTPS-Verbindung zum Jellyfin-Server."
+msgstr "Jellyfin sunucusuna HTTPS bağlantısı zaman aşımına uğradı."
 
 msgid "Zugriff auf Jellyfin wurde verweigert."
 msgstr "Jellyfin erişimi reddedildi."

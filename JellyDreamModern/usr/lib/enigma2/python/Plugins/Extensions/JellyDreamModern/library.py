@@ -1941,7 +1941,7 @@ def jellyfin_fetch_items_ex(item_type, limit=5000, raise_on_error=False):
 
         if raise_on_error:
             raise JellyfinRequestError(
-                "%s-Liste konnte nicht geladen werden."
+                _("%s-Liste konnte nicht geladen werden.")
                 % item_type,
                 technical_error=str(e)
             )
@@ -2355,7 +2355,7 @@ def jellyfin_get_home_latest(limit=6):
                 home_item["Name"] = (
                     series_name
                     or raw_item.get("Name")
-                    or "Serie"
+                    or _("Serie")
                 )
                 home_item["name"] = home_item["Name"]
                 home_item["Type"] = "Series"
