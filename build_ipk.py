@@ -7,7 +7,11 @@ The filename follows
 enigma2-plugin-extensions-jellydreammodern_<version>_all.ipk.
 """
 
+import gettext
 import io
+import shutil
+import struct
+import subprocess
 import tarfile
 import time
 from pathlib import Path
@@ -33,6 +37,195 @@ DIST_DIR = REPO_ROOT / "dist"
 SKIP_DIR_NAMES = {"__pycache__", ".cursor", ".git"}
 SKIP_SUFFIXES = {".pyc", ".pyo"}
 CONTROL_SCRIPTS = ("preinst", "postinst", "prerm", "postrm")
+CATALOG_DOMAIN = "JellyDreamModern"
+MIN_CATALOG_ENTRIES = 390
+_PO_ESCAPES = {
+    "n": "\n",
+    "t": "\t",
+    "r": "\r",
+    "\\": "\\",
+    '"': '"',
+}
+
+
+def unescape_po_string(value):
+    """Undo PO quotes without unicode_escape, which corrupts UTF-8."""
+    output = []
+    index = 0
+    while index < len(value):
+        character = value[index]
+        if character != "\\":
+            output.append(character)
+            index += 1
+            continue
+        if index + 1 >= len(value):
+            raise ValueError("PO string ends with a backslash")
+        escaped = value[index + 1]
+        if escaped in _PO_ESCAPES:
+            output.append(_PO_ESCAPES[escaped])
+            index += 2
+            continue
+        if escaped in "01234567":
+            digits = escaped
+            index += 2
+            while index < len(value) and len(digits) < 3 and value[index] in "01234567":
+                digits += value[index]
+                index += 1
+            output.append(chr(int(digits, 8)))
+            continue
+        raise ValueError("Unsupported PO escape \\%s" % escaped)
+    return "".join(output)
+
+
+def quoted_po_text(line):
+    start = line.find('"')
+    end = line.rfind('"')
+    if start < 0 or end <= start:
+        raise ValueError("PO line has no quoted string: %s" % line)
+    return line[start + 1:end]
+
+
+def parse_po(text):
+    messages = {}
+    msgid = None
+    msgstr = None
+    field = None
+
+    def finish():
+        nonlocal msgid, msgstr, field
+        if msgid is not None:
+            if msgstr is None:
+                raise ValueError("msgid without msgstr")
+            messages[msgid] = msgstr
+        msgid = None
+        msgstr = None
+        field = None
+
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            finish()
+            continue
+        if line.startswith("#"):
+            continue
+        if line.startswith("msgid "):
+            if field == "msgstr":
+                finish()
+            field = "msgid"
+            msgid = unescape_po_string(quoted_po_text(line[len("msgid "):]))
+            msgstr = None
+            continue
+        if line.startswith("msgstr "):
+            field = "msgstr"
+            msgstr = unescape_po_string(quoted_po_text(line[len("msgstr "):]))
+            continue
+        if line.startswith('"') and field == "msgid":
+            msgid += unescape_po_string(quoted_po_text(line))
+            continue
+        if line.startswith('"') and field == "msgstr":
+            msgstr += unescape_po_string(quoted_po_text(line))
+            continue
+        raise ValueError("Unrecognized PO line: %s" % raw_line)
+
+    finish()
+    header = messages.get("")
+    if not header or "charset=UTF-8" not in header:
+        raise ValueError("PO catalog has no UTF-8 header entry")
+    if len(messages) - 1 < MIN_CATALOG_ENTRIES:
+        raise ValueError(
+            "PO catalog has %s entries, expected at least %s"
+            % (len(messages) - 1, MIN_CATALOG_ENTRIES)
+        )
+    return messages
+
+
+def write_mo(messages, path):
+    """Write a GNU MO catalog whose first entry is the empty header."""
+    items = sorted(
+        ((key.encode("utf-8"), value.encode("utf-8")) for key, value in messages.items()),
+        key=lambda item: item[0],
+    )
+    count = len(items)
+    header_size = 28
+    key_table = header_size
+    value_table = key_table + count * 8
+    cursor = value_table + count * 8
+    key_index = []
+    value_index = []
+    key_blobs = []
+    value_blobs = []
+    for key, value in items:
+        key_index.append((len(key), cursor))
+        key_blobs.append(key + b"\x00")
+        cursor += len(key) + 1
+    for key, value in items:
+        value_index.append((len(value), cursor))
+        value_blobs.append(value + b"\x00")
+        cursor += len(value) + 1
+
+    output = bytearray()
+    output += struct.pack(
+        "<7I",
+        0x950412DE,
+        0,
+        count,
+        key_table,
+        value_table,
+        0,
+        0,
+    )
+    for length, offset in key_index:
+        output += struct.pack("<II", length, offset)
+    for length, offset in value_index:
+        output += struct.pack("<II", length, offset)
+    for blob in key_blobs:
+        output += blob
+    for blob in value_blobs:
+        output += blob
+    if not key_blobs or key_blobs[0] != b"\x00":
+        raise ValueError("MO catalog does not start with the empty msgid")
+    path.write_bytes(output)
+
+
+def compile_po_file(po_path, mo_path):
+    msgfmt = shutil.which("msgfmt")
+    if msgfmt:
+        subprocess.check_call(
+            [msgfmt, "-c", "-o", str(mo_path), str(po_path)],
+        )
+        return
+    write_mo(parse_po(po_path.read_text(encoding="utf-8")), mo_path)
+
+
+def verify_catalog(locale_dir, language):
+    translation = gettext.translation(
+        CATALOG_DOMAIN,
+        localedir=str(locale_dir),
+        languages=[language],
+        fallback=False,
+    )
+    content_type = translation.info().get("content-type", "")
+    if "charset=UTF-8" not in content_type:
+        raise SystemExit("%s catalog has no UTF-8 charset: %s" % (language, content_type))
+    entry_count = len(translation._catalog)
+    if entry_count < MIN_CATALOG_ENTRIES:
+        raise SystemExit(
+            "%s catalog has %s entries, expected at least %s"
+            % (language, entry_count, MIN_CATALOG_ENTRIES)
+        )
+    if language == "en" and translation.gettext("Filme") != "Movies":
+        raise SystemExit("English catalog did not translate Filme")
+
+
+def compile_catalogs():
+    locale_dir = PLUGIN_DIR / "locale"
+    po_files = sorted(locale_dir.glob("*/LC_MESSAGES/%s.po" % CATALOG_DOMAIN))
+    if len(po_files) != 10:
+        raise SystemExit("Expected 10 PO catalogs, found %s" % len(po_files))
+    for po_path in po_files:
+        mo_path = po_path.with_suffix(".mo")
+        compile_po_file(po_path, mo_path)
+        verify_catalog(locale_dir, po_path.parents[1].name)
 
 
 def read_control_version():
@@ -149,6 +342,7 @@ def write_ar(path, members):
 
 
 def main():
+    compile_catalogs()
     control_version = read_control_version()
     constants_version = read_constants_version()
     if control_version != constants_version:
