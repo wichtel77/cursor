@@ -14,6 +14,10 @@ Nur wenn der Benutzer einen Commit will. Ohne diesen Auftrag Version, IPK und Re
    - Dateiname: `dist/enigma2-plugin-extensions-jellydreammodern_1.0.0-rN_all.ipk`
    - Datenpfad im Paket: `/usr/lib/enigma2/python/Plugins/Extensions/JellyDreamModern`
    - Die IPK nicht mit committen (`dist/` ist ignoriert).
+   - In `dist/` nur die drei neuesten IPKs behalten. Ältere `enigma2-plugin-extensions-jellydreammodern_1.0.0-rN_all.ipk` löschen.
 3. Versionsänderung committen, `main` nach `origin` pushen.
 4. Release veröffentlichen, Tag und Titel sind die Versionsnummer:
    `gh release create 1.0.0-rN dist/enigma2-plugin-extensions-jellydreammodern_1.0.0-rN_all.ipk --title "1.0.0-rN" --notes "<Commit-Nachricht>"`
+5. Auf GitHub nur die drei neuesten Releases behalten. Ältere Releases mit ihrem Tag löschen:
+   `gh release delete <tag> --yes --cleanup-tag`
+   Den lokalen Tag ebenfalls entfernen, damit er nicht wieder hochgeladen wird.
