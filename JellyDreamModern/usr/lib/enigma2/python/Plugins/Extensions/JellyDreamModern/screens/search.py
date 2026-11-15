@@ -501,7 +501,7 @@ class JellyDreamSearchScreen(JellyDreamGridScreen):
 
         item_type = item.get("Type")
         item_id = str(item.get("Id", "")).strip()
-        title = item.get("Name", "Jellyfin Eintrag")
+        title = item.get("Name") or _("Jellyfin Eintrag")
 
         if not item_id:
             jellydream_safe_set_status(self, _("Fehler: Treffer-ID fehlt"), level="WARNING")

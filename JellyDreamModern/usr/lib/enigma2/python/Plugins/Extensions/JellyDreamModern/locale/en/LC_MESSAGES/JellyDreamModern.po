@@ -262,6 +262,18 @@ msgstr "History"
 msgid "Horror"
 msgstr "Horror"
 
+msgid "Jellyfin Eintrag"
+msgstr "Jellyfin item"
+
+msgid "Jellyfin Film"
+msgstr "Jellyfin movie"
+
+msgid "Jellyfin Serie"
+msgstr "Jellyfin series"
+
+msgid "Jellyfin Video"
+msgstr "Jellyfin video"
+
 msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
 msgstr "Jellyfin rejected the login request (HTTP 400). Check the server log, device ID and authentication plugin."
 

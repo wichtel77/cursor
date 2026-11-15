@@ -434,7 +434,7 @@ class JellyDreamMovieListScreen(JellyDreamGridScreen):
             return
 
         item_id = str(movie.get("Id", "")).strip()
-        title = movie.get("Name", "Jellyfin Film")
+        title = movie.get("Name") or _("Jellyfin Film")
 
         if not item_id:
             jellydream_safe_set_status(self, _("Fehler: Film-ID fehlt"), level="WARNING")

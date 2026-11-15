@@ -285,7 +285,7 @@ class JellyDreamHomeMovieInfoScreen(JellyDreamBaseScreen):
 
     def okPressed(self):
         try:
-            title = getattr(self, "title_text", "Jellyfin Film")
+            title = getattr(self, "title_text", "") or _("Jellyfin Film")
             item_id = getattr(self, "item_id", "")
 
             if not item_id and hasattr(self, "movie_id"):

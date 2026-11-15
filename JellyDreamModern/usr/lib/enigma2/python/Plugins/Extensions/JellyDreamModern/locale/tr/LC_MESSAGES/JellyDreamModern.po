@@ -262,6 +262,18 @@ msgstr "Tarih"
 msgid "Horror"
 msgstr "Korku"
 
+msgid "Jellyfin Eintrag"
+msgstr "Jellyfin öğesi"
+
+msgid "Jellyfin Film"
+msgstr "Jellyfin filmi"
+
+msgid "Jellyfin Serie"
+msgstr "Jellyfin dizisi"
+
+msgid "Jellyfin Video"
+msgstr "Jellyfin videosu"
+
 msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
 msgstr "Jellyfin oturum açma isteğini reddetti (HTTP 400). Sunucu günlüğünü, cihaz kimliğini ve kimlik doğrulama eklentisini kontrol edin."
 

@@ -445,7 +445,7 @@ class JellyDreamSeriesListScreen(JellyDreamGridScreen):
             return
 
         item_id = str(show.get("Id", "")).strip()
-        title = show.get("Name", "Jellyfin Serie")
+        title = show.get("Name") or _("Jellyfin Serie")
 
         if not item_id:
             jellydream_safe_set_status(self, _("Fehler: Serien-ID fehlt"), level="WARNING")

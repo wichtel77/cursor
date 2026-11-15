@@ -262,6 +262,18 @@ msgstr "تاريخ"
 msgid "Horror"
 msgstr "رعب"
 
+msgid "Jellyfin Eintrag"
+msgstr "عنصر Jellyfin"
+
+msgid "Jellyfin Film"
+msgstr "فيلم Jellyfin"
+
+msgid "Jellyfin Serie"
+msgstr "مسلسل Jellyfin"
+
+msgid "Jellyfin Video"
+msgstr "فيديو Jellyfin"
+
 msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
 msgstr "رفض Jellyfin طلب تسجيل الدخول (HTTP 400). تحقق من سجل الخادم ومعرّف الجهاز وإضافة المصادقة."
 

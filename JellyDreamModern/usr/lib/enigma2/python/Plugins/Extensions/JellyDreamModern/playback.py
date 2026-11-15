@@ -2611,7 +2611,7 @@ def jellydream_play_next_music_track(session, original_callback, return_screen):
         jellydream_music_queue_clear()
         return
 
-    title = str(track.get("Name") or "").strip() or "Music"
+    title = str(track.get("Name") or "").strip() or _("Musik")
     runtime_seconds = ticks_to_seconds(track.get("RunTimeTicks"))
 
     def next_track_finished(ok, error_message=""):
@@ -3043,7 +3043,7 @@ def jellydream_safe_play(
     prebuilt_stream_url=""
 ):
     try:
-        title = str(title or "Jellyfin Video")
+        title = str(title or _("Jellyfin Video"))
         item_id = str(item_id or "").strip()
 
         preloaded_stream_data = (
@@ -7746,7 +7746,7 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
                 play_session_id=""):
         JellyDreamPlayerBaseScreen.__init__(self, session)
 
-        self.title = str(title or "Jellyfin Video")
+        self.title = str(title or _("Jellyfin Video"))
         self.enigma_service_name, self.enigma_event_name = (
             jellydream_item_enigma_names(
                 preloaded_stream_data,
@@ -8044,7 +8044,7 @@ class JellyDreamStreamScreen(JellyDreamPlayerBaseScreen):
                 real_name = str(
                     details.get("Name")
                     or self.title
-                    or "Jellyfin Video"
+                    or _("Jellyfin Video")
                 ).strip()
 
                 item_type = str(

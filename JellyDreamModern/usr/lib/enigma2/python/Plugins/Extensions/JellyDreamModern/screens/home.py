@@ -1580,7 +1580,7 @@ class JellyDreamMain(JellyDreamBaseScreen):
                 return
 
             item_id = str(item.get("Id", "") or item.get("id", "")).strip()
-            title = item.get("Name", "Jellyfin Video")
+            title = item.get("Name") or _("Jellyfin Video")
             if str(item.get("Type") or "") == "Episode":
                 title = jellydream_episode_service_title(
                     series_name=item.get("SeriesName"),
@@ -1638,12 +1638,12 @@ class JellyDreamMain(JellyDreamBaseScreen):
                 return
 
             if isinstance(item, (list, tuple)):
-                title = item[0] if len(item) > 0 else "Jellyfin Eintrag"
+                title = item[0] if len(item) > 0 else _("Jellyfin Eintrag")
                 item_id = item[1] if len(item) > 1 else ""
                 item_type = item[2] if len(item) > 2 else "Movie"
                 item_data = {}
             else:
-                title = item.get("Name", "Jellyfin Eintrag")
+                title = item.get("Name") or _("Jellyfin Eintrag")
                 item_id = item.get("Id", "")
                 item_type = item.get("Type", "Movie")
                 item_data = item

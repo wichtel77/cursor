@@ -655,14 +655,26 @@ msgstr "Użytkownik Jellyfin"
 msgid "Jellyfin Client für Enigma2"
 msgstr "Klient Jellyfin dla Enigma2"
 
+msgid "Jellyfin Eintrag"
+msgstr "Pozycja Jellyfin"
+
+msgid "Jellyfin Film"
+msgstr "Film Jellyfin"
+
 msgid "Jellyfin Passwort (wird verdeckt gespeichert)"
 msgstr "Hasło Jellyfin (zapisywane jako ukryte)"
+
+msgid "Jellyfin Serie"
+msgstr "Serial Jellyfin"
 
 msgid "Jellyfin Server %s von %s"
 msgstr "Serwer Jellyfin %s z %s"
 
 msgid "Jellyfin Server Adresse"
 msgstr "Adres serwera Jellyfin"
+
+msgid "Jellyfin Video"
+msgstr "Wideo Jellyfin"
 
 msgid "Jellyfin hat die Login-Anfrage abgelehnt (HTTP 400). Bitte Serverprotokoll, Geräte-ID und Authentifizierungs-Plugin prüfen."
 msgstr "Jellyfin odrzucił żądanie logowania (HTTP 400). Sprawdź dziennik serwera, ID urządzenia i wtyczkę uwierzytelniania."
