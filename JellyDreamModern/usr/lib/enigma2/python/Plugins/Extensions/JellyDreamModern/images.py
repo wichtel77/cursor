@@ -90,6 +90,19 @@ _ASYNC_IMAGE_JOB_CALLBACKS = {}
     
 def jellydream_get_system_spinner_directory(choice=""):
     try:
+        plugin_spinner = os.path.join(
+            jd_constants.PLUGIN_DIR,
+            "images",
+            "spinner"
+        )
+        plugin_frame = os.path.join(plugin_spinner, "wait1.png")
+        if jellydream_valid_file(plugin_frame, 1):
+            jd_log(
+                "Plugin spinner found: %s" % plugin_spinner,
+                level="DEBUG"
+            )
+            return plugin_spinner
+
         spinner_choice = os.path.basename(
             str(choice or "").strip()
         )

@@ -11,7 +11,8 @@
             position="587,303"
             size="40,40"
             zPosition="50"
-            alphatest="blend" />
+            alphatest="blend"
+            scale="1" />
 
     <widget name="spinner_text"
             position="400,337"

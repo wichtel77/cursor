@@ -118,6 +118,15 @@ def jellydream_load_external_skin(screen_name):
                 skin_directory = os.path.join(plugin_root, "skin/hd/")
 
         jd_constants.CURRENT_SKIN_DIRECTORY = skin_directory
+        jd_log(
+            "Skin %s uses %s at desktop width %s"
+            % (
+                screen_name,
+                os.path.basename(skin_directory.rstrip("/\\")),
+                width_px
+            ),
+            level="DEBUG"
+        )
 
         skin_xml_file = os.path.join(skin_directory, f"{screen_name}.xml")
         if os.path.exists(skin_xml_file):

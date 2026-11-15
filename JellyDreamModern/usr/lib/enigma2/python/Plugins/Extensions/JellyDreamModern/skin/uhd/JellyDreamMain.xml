@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <screen name="JellyDreamMain" position="center,center" size="2400,1350" title="JellyDreamModern" flags="wfNoBorder" backgroundColor="#050505" allowScale="0">
 
-    <widget name="spinner" position="1173,607" size="53,53" zPosition="50" alphatest="blend" />
+    <widget name="spinner" position="1173,607" size="53,53" zPosition="50" alphatest="blend" scale="1" />
 
     <widget name="spinner_text" position="800,673" size="800,56" zPosition="50" font="Regular;33" halign="center" valign="center" foregroundColor="#ffffff" transparent="1" />
 
