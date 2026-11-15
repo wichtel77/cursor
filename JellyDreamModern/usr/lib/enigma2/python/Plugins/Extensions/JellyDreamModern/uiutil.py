@@ -1120,7 +1120,7 @@ def jellydream_safe_config_selection_value(
         jd_log(
             "Setting value could not be validated%s: %s"
             % (
-                " für '%s'" % setting_name
+                " for '%s'" % setting_name
                 if setting_name else "",
                 e
             ),

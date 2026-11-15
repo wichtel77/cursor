@@ -323,7 +323,7 @@ def jellyfin_report_progress(
                             title or item_id,
                             result.get("status") or 0,
                             result.get("error")
-                            or "Unbekannter Jellyfin-Fehler"
+                            or "Unknown Jellyfin error"
                         ),
                         level="WARNING"
                     )
@@ -985,7 +985,7 @@ def jellyfin_get_playback_info(item_id, start_position_seconds=0, preferred_medi
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "Wiedergabeinformationen"
+                    "playback info"
                 )
             return {}
 
@@ -5957,7 +5957,7 @@ class JellyDreamAudioController:
                                     (
                                         effective_subtitle_stream_index
                                         if effective_subtitle_stream_index >= 0
-                                        else "aus"
+                                        else "off"
                                     )
                                 ),
                                 level="INFO"

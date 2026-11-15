@@ -175,7 +175,7 @@ def jellydream_translate_network_error(
     return _(text)
 
     
-def jellyfin_raise_request_error(result, context="Daten"):
+def jellyfin_raise_request_error(result, context="request"):
     """
     Wandelt ein Ergebnis von jellyfin_api_*_ex() in eine verständliche
     Exception um. Diese Exception wird von runAsyncLoad() an den
@@ -241,11 +241,11 @@ def jellyfin_raise_request_error(result, context="Daten"):
         message = _("Jellyfin-Server ist nicht erreichbar.")
 
     jd_log(
-        "%s failed: %s | technical: %s"
+        "%s failed: HTTP %s | %s"
         % (
             context,
-            message,
-            technical_error or "Unbekannter Netzwerkfehler"
+            status or 0,
+            technical_error or "Unknown network error"
         ),
         level="WARNING"
     )
@@ -1122,7 +1122,7 @@ def jellyfin_assert_server_online(timeout=TIMEOUT_SHORT):
     if not result.get("ok"):
         jellyfin_raise_request_error(
             result,
-            "Jellyfin-Health-Check"
+            "Jellyfin health check"
         )
 
     data = result.get("data")
@@ -1568,7 +1568,7 @@ def jellyfin_login(
                     server_url,
                     last_status,
                     technical_login_error
-                    or "Keine Servermeldung"
+                    or "No server message"
                 ),
                 level="WARNING"
             )

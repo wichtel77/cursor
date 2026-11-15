@@ -525,7 +525,7 @@ def jellydream_deduplicate_items(
             jd_log(
                 "Duplicate GetItems results removed%s: server=%s, unique=%s, removed=%s"
                 % (
-                    " für %s" % context
+                    " for %s" % context
                     if context
                     else "",
                     len(items),
@@ -538,7 +538,7 @@ def jellydream_deduplicate_items(
             jd_log(
                 "GetItems set checked%s: %s entries, no duplicate ids"
                 % (
-                    " für %s" % context
+                    " for %s" % context
                     if context
                     else "",
                     len(unique_items)
@@ -552,7 +552,7 @@ def jellydream_deduplicate_items(
         jd_log(
             "GetItems deduplication failed%s: %s"
             % (
-                " für %s" % context
+                " for %s" % context
                 if context
                 else "",
                 e
@@ -758,7 +758,7 @@ def jellyfin_get_series_seasons(series_id, raise_on_error=False):
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "Staffelliste"
+                    "season list"
                 )
             return []
 
@@ -1806,7 +1806,7 @@ def jellyfin_get_item_details(item_id, raise_on_error=False, auth_snapshot=None)
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "Detaildaten"
+                    "item details"
                 )
 
             return {}
@@ -1886,13 +1886,13 @@ def jellyfin_fetch_items_ex(item_type, limit=5000, raise_on_error=False):
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "%s-Liste" % item_type
+                    "%s list" % item_type
                 )
 
             jd_log(
                 "Library query for '%s' failed: %s"                % (
                     item_type,
-                    result.get("error") or "Unbekannter Fehler"
+                    result.get("error") or "Unknown error"
                 ),
                 level="WARNING"
             )
@@ -2301,7 +2301,7 @@ def jellyfin_get_home_latest(limit=6):
                 "Latest items could not be loaded: %s"
                 % (
                     result.get("error")
-                    or "Unbekannter Jellyfin-Fehler"
+                    or "Unknown Jellyfin error"
                 ),
                 level="ERROR"
             )
@@ -2773,7 +2773,7 @@ def jellyfin_get_favorites(limit=2000, raise_on_error=False):
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "Favoriten"
+                    "favorites"
                 )
 
             jd_log(
@@ -2939,7 +2939,7 @@ def jellyfin_get_resume_items(limit=5):
                 % (
                     result.get("status") or 0,
                     result.get("error")
-                    or "Unbekannter Jellyfin-Fehler"
+                    or "Unknown Jellyfin error"
                 ),
                 level="ERROR"
             )
@@ -2968,7 +2968,7 @@ def jellyfin_get_resume_items(limit=5):
         return jellydream_apply_favorite_flags(
             jellydream_deduplicate_items(
                 items,
-                context="Weiterschauen"
+                context="resume"
             )
         )
 
@@ -3420,7 +3420,7 @@ def jellyfin_get_music(limit=2000, raise_on_error=False, sort_mode=None):
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "Musikliste"
+                    "music list"
                 )
             return []
 
@@ -3698,7 +3698,7 @@ def jellydream_enrich_boxset_image_sources(
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "Bildquellen der Sammlungen"
+                    "collection image sources"
                 )
 
             jd_log(
@@ -3706,7 +3706,7 @@ def jellydream_enrich_boxset_image_sources(
                 % (
                     result.get("status") or 0,
                     result.get("error")
-                    or "Unbekannter Jellyfin-Fehler"
+                    or "Unknown Jellyfin error"
                 ),
                 level="WARNING"
             )
@@ -3963,7 +3963,7 @@ def jellyfin_search_items(term, limit=80):
                 return jellydream_apply_favorite_flags(
                     jellydream_deduplicate_items(
                         normalized_items,
-                        context="Jellyfin-Suche '%s'" % term
+                        context="Jellyfin search '%s'" % term
                     )
                 )
                 
@@ -4038,7 +4038,7 @@ def jellyfin_search_items_fallback(term, limit=80):
     return jellydream_apply_favorite_flags(
         jellydream_deduplicate_items(
             result,
-            context="lokaler Such-Fallback '%s'" % term
+            context="local search fallback '%s'" % term
         )
     )
 
@@ -4752,7 +4752,7 @@ def jellyfin_get_episodes(series_id, season=1, raise_on_error=False):
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "Folgenliste der Staffel %s" % season
+                    "episode list for season %s" % season
                 )
             return []
 
@@ -4863,7 +4863,7 @@ def jellyfin_get_boxset_items(boxset_id, raise_on_error=False):
             if raise_on_error:
                 jellyfin_raise_request_error(
                     result,
-                    "Filme der Sammlung"
+                    "collection movies"
                 )
             return []
 
@@ -4889,7 +4889,7 @@ def jellyfin_get_boxset_items(boxset_id, raise_on_error=False):
 
         items = jellydream_deduplicate_items(
             items,
-            context="Sammlung %s" % boxset_id
+            context="collection %s" % boxset_id
         )
 
         jellydream_cache_set(
